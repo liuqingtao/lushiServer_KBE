@@ -1,0 +1,22 @@
+<root>
+    <CARD_LIST>
+        ARRAY <of> UINT64 </of>
+    </CARD_LIST>
+    <AVATAR_INFOS>
+      FIXED_DICT
+      <Properties>
+        <name>
+          <Type>	UNICODE	</Type>
+        </name>
+        <roleType>
+          <Type>	UINT8	</Type>
+        </roleType>
+        <cardList>
+          <Type>	CARD_LIST	</Type>
+        </cardList>
+      </Properties>
+    </AVATAR_INFOS>
+    <AVATAR_INFOS_LIST>
+        ARRAY <of> AVATAR_INFOS </of>
+    </AVATAR_INFOS_LIST>
+</root>

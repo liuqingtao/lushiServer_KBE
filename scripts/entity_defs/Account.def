@@ -1,0 +1,65 @@
+<root>
+	<Properties>
+		<Name>
+			<Type> UNICODE </Type>
+			<Flags> Base_AND_CLIENT </Flags>
+			<Persistent> true </Persistent>
+		</Name>
+		<Gold>
+			<Type> INT32 </Type>
+			<Flags> Base_AND_CLIENT </Flags>
+			<Persistent> true </Persistent>
+		</Gold>
+		<Kabao>
+			<Type> INT32 </Type>
+			<Flags> Base_AND_CLIENT </Flags>
+			<Persistent> true </Persistent>
+		</Kabao>
+		<CardList>
+			<Type> CARD_LIST </Type>
+			<Flags> Base_AND_CLIENT </Flags>
+			<Persistent> true </Persistent>
+		</CardList>
+		<AvatarList>
+			<Type> AVATAR_INFOS_LIST </Type>
+			<Flags> Base_AND_CLIENT </Flags>
+			<Persistent> true </Persistent>
+		</AvatarList>
+	</Properties>
+
+	<ClientMethods>
+		<onOpenPack>
+			<Arg> CARD_LIST </Arg>
+		</onOpenPack>
+	</ClientMethods>
+
+	<BaseMethods>
+
+		<reqChangeName>
+			<Arg> UNICODE </Arg>
+			<Exposed/>
+		</reqChangeName>
+		<reqBuyKabao>
+			<Arg> INT32 </Arg>
+			<Exposed/>
+		</reqBuyKabao>
+		<reqOpenKabao>
+			<Exposed/>
+		</reqOpenKabao>
+		<reqChangeAvatar>
+			<Arg> INT8 </Arg>
+			<Arg> CARD_LIST </Arg>
+			<Arg> UNICODE </Arg>
+			<Arg> INT8 </Arg>
+			<Exposed/>
+		</reqChangeAvatar>
+		<reqDelAvatar>
+			<Arg> INT8 </Arg>
+			<Exposed/>
+		</reqDelAvatar>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>
