@@ -12,6 +12,8 @@ def onBaseAppReady(isBootstrap):
 	"""
 	INFO_MSG('onBaseAppReady: isBootstrap=%s, appID=%s, bootstrapGroupIndex=%s, bootstrapGlobalIndex=%s' % \
 	 (isBootstrap, os.getenv("KBE_COMPONENTID"), os.getenv("KBE_BOOTIDX_GROUP"), os.getenv("KBE_BOOTIDX_GLOBAL")))
+	if isBootstrap:
+		KBEngine.createBaseLocally("Hall",{})
 
 def onReadyForLogin(isBootstrap):
 	"""

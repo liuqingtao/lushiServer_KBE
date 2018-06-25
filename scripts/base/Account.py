@@ -99,3 +99,9 @@ class Account(KBEngine.Proxy):
 			return
 		del self.AvatarList[index]
 		self.AvatarList=self.AvatarList
+	def reqStartMarch(self,avatarIndex):
+		DEBUG_MSG("Account[%i].reqStartMarch:avatarIndex:[%s]" % (self.id,avatarIndex))
+		KBEngine.globalData["Halls"].reqAddMarcher(self)
+	def reqStopMarch(self):
+		DEBUG_MSG("Account[%i].reqStopMarch" % (self.id))
+		KBEngine.globalData["Halls"].reqDelMarcher(self)
