@@ -202,3 +202,7 @@ D97C9325531048AE310A8CBD084FDD89A7AE92AE7EAA7F4FC783C73B37B3EC072E0FAB3BD65EF9AA
     INFO      dbmgr-1 3548 4000  [2018-06-26 16:04:50 460] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.31.56:15066/0/0/0), keySize=11, valSize=46, isDelete=0
    DEBUG      dbmgr-1 3548 4000  [2018-06-26 16:16:37 396] - Dbmgr::onAccountLogin:loginName=lqt01, accountName=lqt01, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
    DEBUG      dbmgr-1 3548 4000  [2018-06-26 16:16:37 956] - Dbmgr::queryAccount: lqt01, success=1, flags=0, deadline=0.
+ WARNING      dbmgr-1 3548 4000  [2018-06-26 16:21:22 806] - DBTransaction::commit(): took 0.23 seconds
+    INFO      dbmgr-1 3548 4000  [2018-06-26 16:21:22 806] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=2, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 3548 4000  [2018-06-26 16:21:22 821] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 3548 4000  [2018-06-26 16:21:22 981] - Dbmgr::onEntityOffline: 2, entityType=1.

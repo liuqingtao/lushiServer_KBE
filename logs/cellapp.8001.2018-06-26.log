@@ -108,3 +108,25 @@
   INFO root [0x000021f8] [2018-06-26 16:04:39,193] - Components::findComponents: found dbmgr, addr:192.168.31.56:15021
   WARN root [0x000021f8] [2018-06-26 16:04:40,193] - EntityApp::checkTickPeriod: tick took 1283% (1.28 seconds)!
   WARN root [0x000021f8] [2018-06-26 16:04:40,194] - Forwarding logs to logger[192.168.31.56:15024/0/0/0]...
+ ERROR root [0x000021f8] [2018-06-26 16:55:53,379] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x000021f8] [2018-06-26 16:55:53,393] - The following logs sent to logger failed:
+  WARN root [0x000021f8] [2018-06-26 16:55:53,393] - ==> [2018-06-26 16:55:53 375] TCPPacketReceiver::processPendingEvents(192.168.31.56:15024): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000021f8] [2018-06-26 16:55:53,394] - ==> [2018-06-26 16:55:53 379] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x000021f8] [2018-06-26 16:55:53,458] - TCPPacketReceiver::processPendingEvents(192.168.31.56:15021): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000021f8] [2018-06-26 16:55:53,460] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x000021f8] [2018-06-26 16:55:53,466] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000021f8] [2018-06-26 16:55:53,467] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000021f8] [2018-06-26 16:55:53,467] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000021f8] [2018-06-26 16:55:53,467] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000021f8] [2018-06-26 16:55:53,468] - Witness::destroyObjPool(): size 0.
+ DEBUG root [0x000021f8] [2018-06-26 16:55:53,515] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000021f8] [2018-06-26 16:55:53,515] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x000021f8] [2018-06-26 16:55:53,515] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x000021f8] [2018-06-26 16:55:53,516] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000021f8] [2018-06-26 16:55:53,516] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x000021f8] [2018-06-26 16:55:53,516] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000021f8] [2018-06-26 16:55:53,516] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000021f8] [2018-06-26 16:55:53,517] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x000021f8] [2018-06-26 16:55:53,534] - Script::uninstall(): is successfully!
+ DEBUG root [0x000021f8] [2018-06-26 16:55:53,534] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000021f8] [2018-06-26 16:55:53,834] - ThreadPool::destroy(): waiting for thread(2)[0x3d2300,0x3d2298,], try=1
