@@ -548,3 +548,202 @@
     KBEngine.createBaseLocall("Hall",{})
    S_ERR    baseapp01 397 7001  [2018-06-25 23:05:18 722] - AttributeError: 'module' object has no attribute 'createBaseLocall'
    DEBUG    baseapp01 397 7001  [2018-06-25 23:05:18 732] - InitProgressHandler::~InitProgressHandler()
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:39 494] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:39 497] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:39 498] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:39 498] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:39 538] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:20015 )
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:39 538] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.31.56:20015, SOMAXCONN=128.
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:39 551] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:16288 )
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:39 551] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:16288, SOMAXCONN=128.
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:39 551] - server-configs:
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:39 552] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:39 552] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:39 552] - 	internalAddr : 192.168.31.56:16288
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:39 552] - 	externalAddr : 192.168.31.56:20015
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:39 553] - 	componentID : 7001
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:40 592] - Components::findLogger: found logger, addr:192.168.31.56:16283
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:40 592] - Components::addComponent: reset orderLog, uid=733!
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:40 593] - Components::addComponent[logger], uid=733, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:40 605] - ---- baseapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 23:18:04 Jun 15 2018. AppID: 7001. UID: 733. PID: 9968 ----
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:40 606] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:40 606] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:40 607] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 733 7001  [2018-06-25 23:06:40 768] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 733 7001  [2018-06-25 23:06:40 769] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 733 7001  [2018-06-25 23:06:40 770] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 733 7001  [2018-06-25 23:06:40 777] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 733 7001  [2018-06-25 23:06:40 778] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 733 7001  [2018-06-25 23:06:40 778] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 733 7001  [2018-06-25 23:06:40 780] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 733 7001  [2018-06-25 23:06:40 849] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:40 910] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:11) [MSC v.1913 32 bit (Intel)])!
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:40 911] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 733 7001  [2018-06-25 23:06:40 953] - loaded script:Account(1).
+   DEBUG    baseapp-1 733 7001  [2018-06-25 23:06:40 955] - loaded script:Hall(2).
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:40 955] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:40 956] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:42 358] - ---- baseapp is running ----
+   DEBUG    baseapp-1 733 7001  [2018-06-25 23:06:42 358] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 733 7001  [2018-06-25 23:06:48 690] - EntityApp::checkTickPeriod: tick took 6332% (6.33 seconds)!
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:49 757] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:49 793] - Components::findComponents: found dbmgr, addr:192.168.31.56:16286
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:49 793] - Components::addComponent: reset orderLog, uid=733!
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:49 793] - Components::addComponent[dbmgr], uid=733, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:49 794] - Components::findComponents: found dbmgr, addr:192.168.31.56:16286
+ WARNING    baseapp-1 733 7001  [2018-06-25 23:06:50 794] - EntityApp::checkTickPeriod: tick took 1136% (1.14 seconds)!
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:51 804] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:51 821] - Components::findComponents: found baseappmgr, addr:192.168.31.56:16289
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:51 822] - Components::addComponent[baseappmgr], uid=733, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:51 823] - Components::findComponents: found baseappmgr, addr:192.168.31.56:16289
+ WARNING    baseapp-1 733 7001  [2018-06-25 23:06:52 823] - EntityApp::checkTickPeriod: tick took 1066% (1.07 seconds)!
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:53 857] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:53 932] - Components::findComponents: found cellappmgr, addr:192.168.31.56:16290
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:53 932] - Components::addComponent[cellappmgr], uid=733, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:53 935] - Components::findComponents: found cellappmgr, addr:192.168.31.56:16290
+ WARNING    baseapp-1 733 7001  [2018-06-25 23:06:54 935] - EntityApp::checkTickPeriod: tick took 1178% (1.18 seconds)!
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:55 957] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 733 7001  [2018-06-25 23:06:55 958] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:56 003] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:56 057] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:56 103] - Components::process(): Found all the components!
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:57 057] - ServerApp::onRegisterNewApp: uid:733, username:, componentType:cellapp, componentID:8001, globalorderID=5, grouporderID=1, intaddr:192.168.31.56, intport:16285, extaddr:nonsupport, extport:0,  from 192.168.31.56:16286/0/0/0.
+    INFO    baseapp-1 733 7001  [2018-06-25 23:06:57 057] - Components::addComponent[cellapp], uid=733, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 733 7001  [2018-06-25 23:07:00 056] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=98F82AC461515530D2BE72963465F5D5.
+    INFO    baseapp01 733 7001  [2018-06-25 23:07:00 056] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+  S_INFO    baseapp01 733 7001  [2018-06-25 23:07:01 260] - onInit::isReload:0
+ WARNING    baseapp01 733 7001  [2018-06-25 23:07:01 260] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\server\entity_app.h:758: Profile processRecvMessages took 1.20 seconds
+ WARNING    baseapp01 733 7001  [2018-06-25 23:07:01 261] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\server\baseapp\baseapp.cpp:511: Profile gameTick took 1.21 seconds
+ WARNING    baseapp01 733 7001  [2018-06-25 23:07:01 261] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 1.21 seconds
+ WARNING    baseapp01 733 7001  [2018-06-25 23:07:01 261] - EntityApp::checkTickPeriod: tick took 1205% (1.21 seconds)!
+   DEBUG    baseapp01 733 7001  [2018-06-25 23:07:01 603] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 733 7001  [2018-06-25 23:07:01 656] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=4
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:01 656] - Hall init
+    INFO    baseapp01 733 7001  [2018-06-25 23:07:01 685] - EntityApp::createEntity: new Hall 1
+   DEBUG    baseapp01 733 7001  [2018-06-25 23:07:01 702] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:07 557] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:10 556] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:13 556] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:16 556] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:19 555] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:22 555] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:25 556] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:28 555] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:31 555] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:34 555] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:37 554] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:40 556] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:43 555] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:46 554] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:49 554] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:52 554] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:55 554] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:07:58 555] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:01 554] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:04 553] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:07 553] - Hall.march:marchersSum:[0]
+   DEBUG    baseapp01 733 7001  [2018-06-25 23:08:07 753] - PendingLoginMgr::add: lqt01, size=1.
+    INFO    baseapp01 733 7001  [2018-06-25 23:08:08 053] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.56:16339/0/0/0
+ WARNING    baseapp01 733 7001  [2018-06-25 23:08:08 053] - Baseapp::onHello: client is not encrypted, addr=192.168.31.56:16339/0/0/0
+    INFO    baseapp01 733 7001  [2018-06-25 23:08:08 553] - Baseapp::loginBaseapp: new user[lqt01], channel[192.168.31.56:16339/0/0/0].
+   DEBUG    baseapp01 733 7001  [2018-06-25 23:08:08 753] - PendingLoginMgr::remove: lqt01, size=0.
+    INFO    baseapp01 733 7001  [2018-06-25 23:08:08 753] - EntityApp::createEntity: new Account 2
+  S_INFO    baseapp01 733 7001  [2018-06-25 23:08:08 755] - account[2] entities enable. mailbox:Client id:2, utype:1, component=client[0], addr: 192.168.31.56:16339.
+    INFO    baseapp01 733 7001  [2018-06-25 23:08:08 755] - Baseapp::onQueryAccountCBFromDbmgr: user=lqt01, uuid=6571039206825984000, entityID=2, flags=0, deadline=0.
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:10 553] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:12 952] - Account[2].reqStartMarch:avatarIndex:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:12 953] - Account[2].reqAddMarcher:
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:13 552] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:16 553] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:19 553] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:22 552] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:25 552] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:28 552] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:31 552] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:34 552] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:37 552] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:40 552] - Hall.march:marchersSum:[1]
+ WARNING    baseapp01 733 7001  [2018-06-25 23:08:42 274] - TCPPacketReceiver::processPendingEvents(192.168.31.56:16339): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 733 7001  [2018-06-25 23:08:42 274] - Account::onClientDeath: 2.
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:42 274] - Account[2].onClientDeath:
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:43 551] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:46 551] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:49 551] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:52 551] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:55 551] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:08:58 551] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:01 550] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:04 550] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:07 550] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:10 550] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:13 550] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:16 550] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:19 549] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:22 549] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:25 549] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:28 549] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:31 549] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:34 549] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:37 548] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:40 548] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:43 549] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:46 549] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:49 548] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:52 548] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:55 547] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:09:58 547] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:01 548] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:04 548] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:07 547] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:10 547] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:13 547] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:16 557] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:19 553] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:22 548] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:25 559] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:28 554] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:31 549] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:34 560] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:37 556] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:40 551] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:43 558] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:46 550] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:49 546] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:52 556] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:55 552] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:10:58 550] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:01 545] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:04 556] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:07 551] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:10 546] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:13 557] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:16 552] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:19 547] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:22 558] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:25 553] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:28 548] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:31 544] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:34 554] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:37 550] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:40 545] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:43 548] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:46 548] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:49 543] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:52 552] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:55 548] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:11:58 543] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:12:01 554] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:12:04 549] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:12:07 544] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:12:10 555] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:12:13 550] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:12:16 545] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:12:19 541] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:12:22 551] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:12:25 547] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:12:28 542] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:12:31 553] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:12:34 548] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 733 7001  [2018-06-25 23:12:37 543] - Hall.march:marchersSum:[1]

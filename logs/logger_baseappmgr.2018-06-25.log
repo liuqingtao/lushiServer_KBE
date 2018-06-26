@@ -128,3 +128,47 @@
     INFO baseappmgr-1 397 5000  [2018-06-25 23:05:13 941] - Components::addComponent[baseapp], uid=397, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
     INFO baseappmgr-1 397 5000  [2018-06-25 23:05:18 741] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
     INFO baseappmgr-1 397 5000  [2018-06-25 23:05:18 741] - Baseappmgr::onBaseappInitProgress: all completed!
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:39 485] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:39 487] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:39 488] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:39 488] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:39 554] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:16289 )
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:39 555] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:16289, SOMAXCONN=5.
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:39 555] - server-configs:
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:39 555] - 	internalAddr : 192.168.31.56:16289
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:39 556] - 	componentID : 5000
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:41 070] - ---- baseappmgr Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: BD45623450AB79CC04B6C6D196650737. Config: Debug X86. Built: 23:17:13 Jun 15 2018. AppID: 5000. UID: 733. PID: 2752 ----
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:41 070] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:41 070] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:41 071] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:42 160] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 733 5000  [2018-06-25 23:06:42 161] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:49 548] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:49 587] - Components::findComponents: found logger, addr:192.168.31.56:16283
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:49 587] - Components::addComponent: reset orderLog, uid=733!
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:49 587] - Components::addComponent[logger], uid=733, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:49 589] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:49 692] - Components::findComponents: found dbmgr, addr:192.168.31.56:16286
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:49 692] - Components::addComponent: reset orderLog, uid=733!
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:49 692] - Components::addComponent[dbmgr], uid=733, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:49 693] - Components::findComponents: found dbmgr, addr:192.168.31.56:16286
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:51 708] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:51 717] - Components::findComponents: found cellappmgr, addr:192.168.31.56:16290
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:51 717] - Components::addComponent[cellappmgr], uid=733, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:51 719] - Components::findComponents: found cellappmgr, addr:192.168.31.56:16290
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:53 768] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:53 788] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:53 807] - Components::process(): Found all the components!
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:54 068] - ServerApp::onRegisterNewApp: uid:733, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.56, intport:16287, extaddr:192.168.31.56, extport:20013,  from 192.168.31.56:16315/0/0/0.
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:54 068] - Components::addComponent[loginapp], uid=733, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:54 408] - ServerApp::onRegisterNewApp: uid:733, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.56, intport:16290, extaddr:nonsupport, extport:0,  from 192.168.31.56:16317/0/0/0.
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:56 008] - ServerApp::onRegisterNewApp: uid:733, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.56, intport:16288, extaddr:192.168.31.56, extport:20015,  from 192.168.31.56:16319/0/0/0.
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:56 008] - Components::addComponent[baseapp], uid=733, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:57 068] - ServerApp::onRegisterNewApp: uid:733, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.56, intport:16285, extaddr:nonsupport, extport:0,  from 192.168.31.56:16324/0/0/0.
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:06:57 068] - Components::addComponent[cellapp], uid=733, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:07:01 708] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:07:01 708] - Baseappmgr::onBaseappInitProgress: all completed!
+    INFO baseappmgr-1 733 5000  [2018-06-25 23:07:53 791] - ServerApp::onChannelTimeOut: Channel 192.168.31.56:16290/0/0/0 timed out.
+   DEBUG baseappmgr-1 733 5000  [2018-06-25 23:08:07 749] - Baseappmgr::registerPendingAccountToBaseapp:lqt01. allocBaseapp=7001, numEntities=1.

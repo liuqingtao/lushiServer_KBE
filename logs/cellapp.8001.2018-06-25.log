@@ -267,3 +267,47 @@
   INFO root [0x00001998] [2018-06-25 23:06:29,509] - Script::uninstall(): is successfully!
  DEBUG root [0x00001998] [2018-06-25 23:06:29,509] - ThreadPool::destroy(): starting size 2.
   WARN root [0x00001998] [2018-06-25 23:06:29,810] - ThreadPool::destroy(): waiting for thread(2)[0x7937b0,0x793748,], try=1
+  INFO root [0x00001224] [2018-06-25 23:06:39,451] - 
+  INFO root [0x00001224] [2018-06-25 23:06:39,452] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001224] [2018-06-25 23:06:39,454] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [0x00001224] [2018-06-25 23:06:39,455] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [0x00001224] [2018-06-25 23:06:39,456] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [0x00001224] [2018-06-25 23:06:39,496] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:16285 )
+  INFO root [0x00001224] [2018-06-25 23:06:39,496] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:16285, SOMAXCONN=5.
+  INFO root [0x00001224] [2018-06-25 23:06:39,496] - server-configs:
+  INFO root [0x00001224] [2018-06-25 23:06:39,497] - 	gameUpdateHertz : 10
+  INFO root [0x00001224] [2018-06-25 23:06:39,497] - 	defaultAoIRadius : 80
+  INFO root [0x00001224] [2018-06-25 23:06:39,497] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x00001224] [2018-06-25 23:06:39,497] - 	entryScriptFile : kbemain
+  INFO root [0x00001224] [2018-06-25 23:06:39,498] - 	internalAddr : 192.168.31.56:16285
+  INFO root [0x00001224] [2018-06-25 23:06:39,498] - 	componentID : 8001
+  INFO root [0x00001224] [2018-06-25 23:06:41,011] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 8001. UID: 733. PID: 9736 ----
+  INFO root [0x00001224] [2018-06-25 23:06:41,013] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [0x00001224] [2018-06-25 23:06:41,013] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001224] [2018-06-25 23:06:41,014] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00001224] [2018-06-25 23:06:41,226] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001224] [2018-06-25 23:06:41,227] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00001224] [2018-06-25 23:06:41,228] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00001224] [2018-06-25 23:06:41,235] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001224] [2018-06-25 23:06:41,235] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00001224] [2018-06-25 23:06:41,236] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001224] [2018-06-25 23:06:41,237] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001224] [2018-06-25 23:06:41,339] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001224] [2018-06-25 23:06:41,528] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x00001224] [2018-06-25 23:06:41,528] - Script::install(): KBExtra is successfully!
+  INFO root [0x00001224] [2018-06-25 23:06:41,597] - TelnetServer server is running on port 50000
+  INFO root [0x00001224] [2018-06-25 23:06:43,309] - ---- cellapp is running ----
+ DEBUG root [0x00001224] [2018-06-25 23:06:43,310] - Components::process(): Request for the process of identity...
+  WARN root [0x00001224] [2018-06-25 23:06:49,426] - EntityApp::checkTickPeriod: tick took 6116% (6.12 seconds)!
+  INFO root [0x00001224] [2018-06-25 23:06:50,459] - Components::findComponents: find logger(1)...
+  INFO root [0x00001224] [2018-06-25 23:06:50,507] - Components::findComponents: found logger, addr:192.168.31.56:16283
+  INFO root [0x00001224] [2018-06-25 23:06:50,508] - Components::addComponent: reset orderLog, uid=733!
+  INFO root [0x00001224] [2018-06-25 23:06:50,508] - Components::addComponent[logger], uid=733, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001224] [2018-06-25 23:06:50,510] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00001224] [2018-06-25 23:06:50,611] - Components::findComponents: found dbmgr, addr:192.168.31.56:16286
+  INFO root [0x00001224] [2018-06-25 23:06:50,612] - Components::addComponent: reset orderLog, uid=733!
+  INFO root [0x00001224] [2018-06-25 23:06:50,612] - Components::addComponent[dbmgr], uid=733, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001224] [2018-06-25 23:06:50,612] - Components::findComponents: found dbmgr, addr:192.168.31.56:16286
+  WARN root [0x00001224] [2018-06-25 23:06:51,613] - Forwarding logs to logger[192.168.31.56:16283/0/0/0]...

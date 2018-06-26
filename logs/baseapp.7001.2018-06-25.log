@@ -282,3 +282,44 @@ S_INFO root [0x00001568] [2018-06-25 23:06:29,460] - onBaseAppShutDown: state=2
  DEBUG root [0x00001568] [2018-06-25 23:06:29,494] - Script::uninstall_py_dlls(): PyInit_unicodedata
   INFO root [0x00001568] [2018-06-25 23:06:29,514] - Script::uninstall(): is successfully!
  DEBUG root [0x00001568] [2018-06-25 23:06:29,514] - ThreadPool::destroy(): starting size 2.
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,492] - 
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,494] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,497] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,498] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,498] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,538] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:20015 )
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,538] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.31.56:20015, SOMAXCONN=128.
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,550] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:16288 )
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,551] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:16288, SOMAXCONN=128.
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,551] - server-configs:
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,551] - 	gameUpdateHertz : 10
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,552] - 	entryScriptFile : kbemain
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,552] - 	internalAddr : 192.168.31.56:16288
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,552] - 	externalAddr : 192.168.31.56:20015
+  INFO root [0x00001fc8] [2018-06-25 23:06:39,553] - 	componentID : 7001
+  INFO root [0x00001fc8] [2018-06-25 23:06:40,591] - Components::findLogger: found logger, addr:192.168.31.56:16283
+  INFO root [0x00001fc8] [2018-06-25 23:06:40,592] - Components::addComponent: reset orderLog, uid=733!
+  INFO root [0x00001fc8] [2018-06-25 23:06:40,592] - Components::addComponent[logger], uid=733, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001fc8] [2018-06-25 23:06:40,605] - ---- baseapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 23:18:04 Jun 15 2018. AppID: 7001. UID: 733. PID: 9968 ----
+  INFO root [0x00001fc8] [2018-06-25 23:06:40,605] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [0x00001fc8] [2018-06-25 23:06:40,606] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001fc8] [2018-06-25 23:06:40,606] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00001fc8] [2018-06-25 23:06:40,768] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001fc8] [2018-06-25 23:06:40,769] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00001fc8] [2018-06-25 23:06:40,770] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00001fc8] [2018-06-25 23:06:40,777] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001fc8] [2018-06-25 23:06:40,778] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00001fc8] [2018-06-25 23:06:40,778] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001fc8] [2018-06-25 23:06:40,780] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001fc8] [2018-06-25 23:06:40,849] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001fc8] [2018-06-25 23:06:40,910] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:11) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x00001fc8] [2018-06-25 23:06:40,911] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00001fc8] [2018-06-25 23:06:40,952] - loaded script:Account(1).
+ DEBUG root [0x00001fc8] [2018-06-25 23:06:40,955] - loaded script:Hall(2).
+  INFO root [0x00001fc8] [2018-06-25 23:06:40,955] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00001fc8] [2018-06-25 23:06:40,956] - TelnetServer server is running on port 40000
+  INFO root [0x00001fc8] [2018-06-25 23:06:42,357] - ---- baseapp is running ----
+ DEBUG root [0x00001fc8] [2018-06-25 23:06:42,358] - Components::process(): Request for the process of identity...
+  WARN root [0x00001fc8] [2018-06-25 23:06:48,685] - Forwarding logs to logger[192.168.31.56:16283/0/0/0]...
