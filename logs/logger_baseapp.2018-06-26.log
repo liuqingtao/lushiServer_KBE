@@ -1,0 +1,826 @@
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:00 300] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:02 937] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:02 937] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:02 938] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:03 510] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:20015 )
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:03 510] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.31.56:20015, SOMAXCONN=128.
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:03 514] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:13765 )
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:03 514] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:13765, SOMAXCONN=128.
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:03 514] - server-configs:
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:03 514] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:03 514] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:03 557] - 	internalAddr : 192.168.31.56:13765
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:03 557] - 	externalAddr : 192.168.31.56:20015
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:03 598] - 	componentID : 7001
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:04 651] - ---- baseapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 23:18:04 Jun 15 2018. AppID: 7001. UID: 32642. PID: 6936 ----
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:04 652] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:04 770] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:04 828] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 32642 7001  [2018-06-26 15:46:11 344] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 32642 7001  [2018-06-26 15:46:11 555] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 32642 7001  [2018-06-26 15:46:11 777] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 32642 7001  [2018-06-26 15:46:13 025] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 32642 7001  [2018-06-26 15:46:13 169] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 32642 7001  [2018-06-26 15:46:13 277] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 32642 7001  [2018-06-26 15:46:13 382] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 32642 7001  [2018-06-26 15:46:14 412] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:16 223] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:11) [MSC v.1913 32 bit (Intel)])!
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:16 223] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 32642 7001  [2018-06-26 15:46:16 860] - loaded script:Account(1).
+   DEBUG    baseapp-1 32642 7001  [2018-06-26 15:46:16 891] - loaded script:Hall(2).
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:16 892] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:16 919] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:18 140] - ---- baseapp is running ----
+   DEBUG    baseapp-1 32642 7001  [2018-06-26 15:46:18 140] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 32642 7001  [2018-06-26 15:46:24 410] - EntityApp::checkTickPeriod: tick took 6269% (6.27 seconds)!
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:25 514] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:25 545] - Components::findComponents: found logger, addr:192.168.31.56:13756
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:25 545] - Components::addComponent: reset orderLog, uid=32642!
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:25 546] - Components::addComponent[logger], uid=32642, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:25 548] - Components::findComponents: find dbmgr(2)...
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:25 652] - Components::findComponents: found dbmgr, addr:192.168.31.56:13763
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:25 653] - Components::addComponent: reset orderLog, uid=32642!
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:25 653] - Components::addComponent[dbmgr], uid=32642, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:25 653] - Components::findComponents: found dbmgr, addr:192.168.31.56:13763
+ WARNING    baseapp-1 32642 7001  [2018-06-26 15:46:26 654] - EntityApp::checkTickPeriod: tick took 1214% (1.21 seconds)!
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:27 714] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:27 765] - Components::findComponents: found baseappmgr, addr:192.168.31.56:13757
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:27 766] - Components::addComponent[baseappmgr], uid=32642, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:27 766] - Components::findComponents: found baseappmgr, addr:192.168.31.56:13757
+ WARNING    baseapp-1 32642 7001  [2018-06-26 15:46:28 766] - EntityApp::checkTickPeriod: tick took 1126% (1.13 seconds)!
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:29 814] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:29 871] - Components::findComponents: found cellappmgr, addr:192.168.31.56:13762
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:29 871] - Components::addComponent[cellappmgr], uid=32642, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:29 872] - Components::findComponents: found cellappmgr, addr:192.168.31.56:13762
+ WARNING    baseapp-1 32642 7001  [2018-06-26 15:46:30 872] - EntityApp::checkTickPeriod: tick took 1132% (1.13 seconds)!
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:31 939] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 32642 7001  [2018-06-26 15:46:31 947] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:32 014] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:32 039] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:32 113] - Components::process(): Found all the components!
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:33 440] - ServerApp::onRegisterNewApp: uid:32642, username:, componentType:cellapp, componentID:8001, globalorderID=6, grouporderID=1, intaddr:192.168.31.56, intport:13766, extaddr:nonsupport, extport:0,  from 192.168.31.56:13763/0/0/0.
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:33 440] - Components::addComponent[cellapp], uid=32642, componentID=8001, globalorderid=6, grouporderid=1, totalcount=1
+    INFO    baseapp-1 32642 7001  [2018-06-26 15:46:36 552] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=5, startGroupOrder=1, digest=98F82AC461515530D2BE72963465F5D5.
+    INFO    baseapp01 32642 7001  [2018-06-26 15:46:36 552] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    baseapp01 32642 7001  [2018-06-26 15:46:36 863] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20179, errorno=10048
+  S_INFO    baseapp01 32642 7001  [2018-06-26 15:46:38 076] - onInit::isReload:0
+ WARNING    baseapp01 32642 7001  [2018-06-26 15:46:38 076] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\server\entity_app.h:758: Profile processRecvMessages took 1.54 seconds
+ WARNING    baseapp01 32642 7001  [2018-06-26 15:46:38 077] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\server\baseapp\baseapp.cpp:511: Profile gameTick took 1.54 seconds
+ WARNING    baseapp01 32642 7001  [2018-06-26 15:46:38 077] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 1.54 seconds
+ WARNING    baseapp01 32642 7001  [2018-06-26 15:46:38 077] - EntityApp::checkTickPeriod: tick took 1537% (1.54 seconds)!
+   DEBUG    baseapp01 32642 7001  [2018-06-26 15:46:38 543] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 32642 7001  [2018-06-26 15:46:38 614] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=5
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:46:38 627] - Hall init
+    INFO    baseapp01 32642 7001  [2018-06-26 15:46:38 642] - EntityApp::createEntity: new Hall 1
+   DEBUG    baseapp01 32642 7001  [2018-06-26 15:46:38 714] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:46:44 561] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:46:47 539] - Hall.march:marchersSum:[0]
+   DEBUG    baseapp01 32642 7001  [2018-06-26 15:46:49 640] - PendingLoginMgr::add: lqt01, size=1.
+    INFO    baseapp01 32642 7001  [2018-06-26 15:46:49 840] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.56:13819/0/0/0
+ WARNING    baseapp01 32642 7001  [2018-06-26 15:46:49 841] - Baseapp::onHello: client is not encrypted, addr=192.168.31.56:13819/0/0/0
+    INFO    baseapp01 32642 7001  [2018-06-26 15:46:49 940] - Baseapp::loginBaseapp: new user[lqt01], channel[192.168.31.56:13819/0/0/0].
+   DEBUG    baseapp01 32642 7001  [2018-06-26 15:46:50 140] - PendingLoginMgr::remove: lqt01, size=0.
+    INFO    baseapp01 32642 7001  [2018-06-26 15:46:50 150] - EntityApp::createEntity: new Account 2
+  S_INFO    baseapp01 32642 7001  [2018-06-26 15:46:50 158] - account[2] entities enable. mailbox:Client id:2, utype:1, component=client[0], addr: 192.168.31.56:13819.
+    INFO    baseapp01 32642 7001  [2018-06-26 15:46:50 158] - Baseapp::onQueryAccountCBFromDbmgr: user=lqt01, uuid=6571296569856294912, entityID=2, flags=0, deadline=0.
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:46:50 540] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:46:53 540] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:46:56 540] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:46:59 540] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:02 539] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:05 540] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:08 540] - Hall.march:marchersSum:[0]
+   DEBUG    baseapp01 32642 7001  [2018-06-26 15:47:09 040] - PendingLoginMgr::add: lqt02, size=1.
+    INFO    baseapp01 32642 7001  [2018-06-26 15:47:09 240] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.56:13835/0/0/0
+ WARNING    baseapp01 32642 7001  [2018-06-26 15:47:09 240] - Baseapp::onHello: client is not encrypted, addr=192.168.31.56:13835/0/0/0
+    INFO    baseapp01 32642 7001  [2018-06-26 15:47:09 340] - Baseapp::loginBaseapp: new user[lqt02], channel[192.168.31.56:13835/0/0/0].
+   DEBUG    baseapp01 32642 7001  [2018-06-26 15:47:09 540] - PendingLoginMgr::remove: lqt02, size=0.
+    INFO    baseapp01 32642 7001  [2018-06-26 15:47:09 540] - EntityApp::createEntity: new Account 3
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:09 541] - Account[3].reqChangeAvatar:roleType[0]  index[-1] cardlist[[10000049, 10000005, 10000004, 10000047, 10000026, 10000049, 10000035, 10000030, 10000050, 10000026, 10000040, 10000019, 10000040, 10000025, 10000012, 10000046, 10000006, 10000031, 10000010, 10000042, 10000019, 10000050, 10000039, 10000040, 10000012, 10000034, 10000046, 10000008, 10000009, 10000025]] name:[随机生成卡组]
+  S_INFO    baseapp01 32642 7001  [2018-06-26 15:47:09 544] - account[3] entities enable. mailbox:Client id:3, utype:1, component=client[0], addr: 192.168.31.56:13835.
+    INFO    baseapp01 32642 7001  [2018-06-26 15:47:09 544] - Baseapp::onQueryAccountCBFromDbmgr: user=lqt02, uuid=6571296651460673536, entityID=3, flags=0, deadline=0.
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:11 540] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:14 540] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:17 541] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:20 539] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:23 539] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:26 540] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:29 541] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:32 539] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:35 539] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:38 539] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:41 540] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:44 540] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:47 339] - Account[3].reqChangeAvatar:roleType[1]  index[-1] cardlist[[10000031, 10000031, 10000035, 10000035, 10000035, 10000011, 10000011, 10000014, 10000014, 10000009, 10000009, 10000026, 10000026, 10000005, 10000005, 10000044, 10000044, 10000026, 10000026, 10000026, 10000026, 10000026, 10000026, 10000026, 10000009, 10000009, 10000009, 10000009, 10000009, 10000009]] name:[ewq]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:47 539] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:50 539] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:53 539] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:56 539] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:58 040] - Account[3].reqStartMarch:avatarIndex:[1]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:58 040] - Account[3].reqAddMarcher:
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:47:59 541] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:02 540] - Hall.march:marchersSum:[1]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:04 039] - Account[2].reqStartMarch:avatarIndex:[2]
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:04 039] - Account[2].reqAddMarcher:
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:05 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:05 572] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:05 574] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:05 574] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:08 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:08 540] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:08 541] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:08 542] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:11 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:11 540] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:11 541] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:11 542] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:14 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:14 540] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:14 541] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:14 542] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:17 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:17 540] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:17 541] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:17 542] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:20 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:20 540] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:20 541] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:20 542] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:23 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:23 540] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:23 541] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:23 542] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:26 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:26 540] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:26 541] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:26 542] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:29 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:29 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:29 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:29 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:32 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:32 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:32 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:32 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:34 941] - Account[2].reqStopMarch
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:34 968] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Account.py", line 107, in reqStopMarch
+    KBEngine.globalData["Halls"].reqDelMarcher(self)
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:34 970] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 24, in reqDelMarcher
+    DEBUG.DEBUG_MSG("Hall[%s].reqDelMarcher:" % player.id)
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:34 971] - NameError: name 'DEBUG' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:35 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:35 540] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:35 542] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:35 543] - NameError: name 'OnMarchingPlayer' is not defined
+ WARNING    baseapp01 32642 7001  [2018-06-26 15:48:37 196] - TCPPacketReceiver::processPendingEvents(192.168.31.56:13819): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 32642 7001  [2018-06-26 15:48:37 196] - Account::onClientDeath: 2.
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:37 196] - Account[2].onClientDeath:
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:38 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:38 541] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:38 544] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:38 546] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:40 739] - Account[3].reqStopMarch
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:40 740] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Account.py", line 107, in reqStopMarch
+    KBEngine.globalData["Halls"].reqDelMarcher(self)
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:40 741] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 24, in reqDelMarcher
+    DEBUG.DEBUG_MSG("Hall[%s].reqDelMarcher:" % player.id)
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:40 742] - NameError: name 'DEBUG' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:41 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:41 540] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:41 543] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:41 543] - NameError: name 'OnMarchingPlayer' is not defined
+ WARNING    baseapp01 32642 7001  [2018-06-26 15:48:42 034] - TCPPacketReceiver::processPendingEvents(192.168.31.56:13835): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 32642 7001  [2018-06-26 15:48:42 034] - Account::onClientDeath: 3.
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:42 034] - Account[3].onClientDeath:
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:44 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:44 540] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:44 541] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:44 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:47 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:47 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:47 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:47 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:50 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:50 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:50 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:50 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:53 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:53 540] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:53 541] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:53 542] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:56 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:56 540] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:56 541] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:56 542] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:48:59 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:59 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:59 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:48:59 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:02 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:02 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:02 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:02 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:05 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:05 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:05 541] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:05 542] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:08 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:08 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:08 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:08 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:11 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:11 540] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:11 541] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:11 542] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:14 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:14 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:14 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:14 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:17 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:17 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:17 544] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:17 545] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:20 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:20 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:20 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:20 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:23 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:23 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:23 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:23 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:26 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:26 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:26 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:26 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:29 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:29 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:29 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:29 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:32 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:32 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:32 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:32 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:35 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:35 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:35 541] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:35 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:38 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:38 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:38 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:38 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:41 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:41 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:41 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:41 540] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:44 537] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:44 538] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:44 539] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:44 539] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:47 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:47 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:47 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:47 540] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:50 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:50 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:50 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:50 540] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:53 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:53 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:53 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:53 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:56 539] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:56 540] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:56 541] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:56 541] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:49:59 537] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:59 538] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:59 539] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:49:59 539] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:50:02 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:50:02 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:50:02 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:50:02 540] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:50:05 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:50:05 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:50:05 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:50:05 540] - NameError: name 'OnMarchingPlayer' is not defined
+   S_DBG    baseapp01 32642 7001  [2018-06-26 15:50:08 538] - Hall.march:marchersSum:[2]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:50:08 539] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 45, in onTimer
+    self.march()
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:50:08 540] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/base\Hall.py", line 31, in march
+    players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+   S_ERR    baseapp01 32642 7001  [2018-06-26 15:50:08 541] - NameError: name 'OnMarchingPlayer' is not defined
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:27 743] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:27 749] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:27 750] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:27 752] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:27 773] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:20015 )
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:27 774] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.31.56:20015, SOMAXCONN=128.
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:27 779] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:15027 )
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:27 779] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:15027, SOMAXCONN=128.
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:27 779] - server-configs:
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:27 780] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:27 780] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:27 780] - 	internalAddr : 192.168.31.56:15027
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:27 781] - 	externalAddr : 192.168.31.56:20015
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:27 781] - 	componentID : 7001
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:28 982] - Components::findLogger: found logger, addr:192.168.31.56:15024
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:28 982] - Components::addComponent: reset orderLog, uid=3548!
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:28 983] - Components::addComponent[logger], uid=3548, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:29 022] - ---- baseapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 23:18:04 Jun 15 2018. AppID: 7001. UID: 3548. PID: 6092 ----
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:29 023] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:29 024] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:29 025] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 3548 7001  [2018-06-26 16:04:29 229] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 3548 7001  [2018-06-26 16:04:29 230] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 3548 7001  [2018-06-26 16:04:29 231] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 3548 7001  [2018-06-26 16:04:29 239] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 3548 7001  [2018-06-26 16:04:29 240] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 3548 7001  [2018-06-26 16:04:29 241] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 3548 7001  [2018-06-26 16:04:29 242] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 3548 7001  [2018-06-26 16:04:29 338] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:29 436] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:11) [MSC v.1913 32 bit (Intel)])!
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:29 437] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 3548 7001  [2018-06-26 16:04:29 490] - loaded script:Account(1).
+   DEBUG    baseapp-1 3548 7001  [2018-06-26 16:04:29 494] - loaded script:Hall(2).
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:29 494] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:29 496] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:31 618] - ---- baseapp is running ----
+   DEBUG    baseapp-1 3548 7001  [2018-06-26 16:04:31 618] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 3548 7001  [2018-06-26 16:04:37 896] - EntityApp::checkTickPeriod: tick took 6278% (6.28 seconds)!
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:38 918] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:38 961] - Components::findComponents: found dbmgr, addr:192.168.31.56:15021
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:38 961] - Components::addComponent: reset orderLog, uid=3548!
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:38 961] - Components::addComponent[dbmgr], uid=3548, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:38 968] - Components::findComponents: found dbmgr, addr:192.168.31.56:15021
+ WARNING    baseapp-1 3548 7001  [2018-06-26 16:04:39 968] - EntityApp::checkTickPeriod: tick took 1150% (1.15 seconds)!
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:41 018] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:41 125] - Components::findComponents: found baseappmgr, addr:192.168.31.56:15022
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:41 125] - Components::addComponent[baseappmgr], uid=3548, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:41 126] - Components::findComponents: found baseappmgr, addr:192.168.31.56:15022
+ WARNING    baseapp-1 3548 7001  [2018-06-26 16:04:42 126] - EntityApp::checkTickPeriod: tick took 1208% (1.21 seconds)!
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:43 154] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:43 236] - Components::findComponents: found cellappmgr, addr:192.168.31.56:15020
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:43 237] - Components::addComponent[cellappmgr], uid=3548, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:43 238] - Components::findComponents: found cellappmgr, addr:192.168.31.56:15020
+ WARNING    baseapp-1 3548 7001  [2018-06-26 16:04:44 238] - EntityApp::checkTickPeriod: tick took 1120% (1.12 seconds)!
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:45 318] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 3548 7001  [2018-06-26 16:04:45 319] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:45 353] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:45 417] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:45 453] - Components::process(): Found all the components!
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:45 518] - ServerApp::onRegisterNewApp: uid:3548, username:, componentType:cellapp, componentID:8001, globalorderID=5, grouporderID=1, intaddr:192.168.31.56, intport:15026, extaddr:nonsupport, extport:0,  from 192.168.31.56:15021/0/0/0.
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:45 518] - Components::addComponent[cellapp], uid=3548, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3548 7001  [2018-06-26 16:04:48 518] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=98F82AC461515530D2BE72963465F5D5.
+    INFO    baseapp01 3548 7001  [2018-06-26 16:04:48 518] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    baseapp01 3548 7001  [2018-06-26 16:04:48 830] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20117, errorno=10048
+  S_INFO    baseapp01 3548 7001  [2018-06-26 16:04:50 045] - onInit::isReload:0
+ WARNING    baseapp01 3548 7001  [2018-06-26 16:04:50 045] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\server\entity_app.h:758: Profile processRecvMessages took 1.53 seconds
+ WARNING    baseapp01 3548 7001  [2018-06-26 16:04:50 046] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\server\baseapp\baseapp.cpp:511: Profile gameTick took 1.53 seconds
+ WARNING    baseapp01 3548 7001  [2018-06-26 16:04:50 046] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 1.53 seconds
+ WARNING    baseapp01 3548 7001  [2018-06-26 16:04:50 046] - EntityApp::checkTickPeriod: tick took 1528% (1.53 seconds)!
+   DEBUG    baseapp01 3548 7001  [2018-06-26 16:04:50 417] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 3548 7001  [2018-06-26 16:04:50 453] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=4
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:04:50 453] - Hall init
+    INFO    baseapp01 3548 7001  [2018-06-26 16:04:50 455] - EntityApp::createEntity: new Hall 1
+   DEBUG    baseapp01 3548 7001  [2018-06-26 16:04:50 495] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:04:56 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:04:59 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:02 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:05 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:08 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:11 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:14 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:17 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:20 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:23 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:26 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:29 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:32 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:35 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:38 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:41 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:44 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:47 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:50 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:53 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:56 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:05:59 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:02 418] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:05 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:08 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:11 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:14 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:17 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:20 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:23 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:26 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:29 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:32 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:35 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:38 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:41 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:44 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:47 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:50 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:53 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:56 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:06:59 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:02 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:05 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:08 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:11 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:14 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:17 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:20 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:23 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:26 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:29 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:32 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:35 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:38 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:41 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:44 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:47 419] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:50 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:53 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:56 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:07:59 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:02 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:05 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:08 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:11 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:14 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:17 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:20 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:23 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:26 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:29 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:32 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:35 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:38 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:41 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:44 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:47 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:50 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:53 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:56 420] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:08:59 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:02 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:05 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:08 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:11 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:14 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:17 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:20 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:23 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:26 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:29 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:32 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:35 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:38 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:41 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:44 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:47 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:50 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:53 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:56 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:09:59 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:02 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:05 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:08 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:11 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:14 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:17 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:20 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:23 421] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:26 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:29 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:32 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:35 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:38 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:41 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:44 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:47 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:50 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:53 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:56 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:10:59 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:02 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:05 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:08 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:11 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:14 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:17 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:20 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:23 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:26 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:29 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:32 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:35 422] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:38 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:41 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:44 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:47 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:50 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:53 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:56 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:11:59 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:02 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:05 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:08 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:11 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:14 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:17 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:20 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:23 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:26 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:29 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:32 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:35 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:38 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:41 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:44 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:47 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:50 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:53 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:56 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:12:59 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:02 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:05 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:08 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:11 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:14 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:17 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:20 423] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:23 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:26 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:29 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:32 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:35 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:38 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:41 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:44 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:47 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:50 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:53 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:56 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:13:59 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:02 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:05 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:08 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:11 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:14 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:17 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:20 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:23 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:26 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:29 424] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:32 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:35 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:38 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:41 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:44 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:47 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:50 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:53 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:56 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:14:59 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:02 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:05 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:08 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:11 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:14 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:17 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:20 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:23 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:26 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:29 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:32 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:35 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:38 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:41 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:44 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:47 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:50 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:53 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:56 425] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:15:59 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:02 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:05 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:08 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:11 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:14 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:17 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:20 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:23 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:26 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:29 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:32 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:35 428] - Hall.march:marchersSum:[0]
+   DEBUG    baseapp01 3548 7001  [2018-06-26 16:16:37 527] - PendingLoginMgr::add: lqt01, size=1.
+    INFO    baseapp01 3548 7001  [2018-06-26 16:16:37 727] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.56:15530/0/0/0
+ WARNING    baseapp01 3548 7001  [2018-06-26 16:16:37 728] - Baseapp::onHello: client is not encrypted, addr=192.168.31.56:15530/0/0/0
+    INFO    baseapp01 3548 7001  [2018-06-26 16:16:37 827] - Baseapp::loginBaseapp: new user[lqt01], channel[192.168.31.56:15530/0/0/0].
+   DEBUG    baseapp01 3548 7001  [2018-06-26 16:16:38 027] - PendingLoginMgr::remove: lqt01, size=0.
+    INFO    baseapp01 3548 7001  [2018-06-26 16:16:38 029] - EntityApp::createEntity: new Account 2
+  S_INFO    baseapp01 3548 7001  [2018-06-26 16:16:38 046] - account[2] entities enable. mailbox:Client id:2, utype:1, component=client[0], addr: 192.168.31.56:15530.
+    INFO    baseapp01 3548 7001  [2018-06-26 16:16:38 046] - Baseapp::onQueryAccountCBFromDbmgr: user=lqt01, uuid=6571304249257820160, entityID=2, flags=0, deadline=0.
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:38 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:41 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:44 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:47 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:50 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:53 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:56 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:16:59 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:02 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:05 426] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:08 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:11 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:14 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:17 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:20 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:23 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:26 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:29 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:32 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:35 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:38 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:41 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:44 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:47 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:50 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:53 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:56 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:17:59 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:02 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:05 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:08 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:11 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:14 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:17 430] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:20 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:23 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:26 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:29 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:32 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:35 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:38 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:41 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:44 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:47 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:50 427] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:53 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:56 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:18:59 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:02 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:05 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:08 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:11 429] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:14 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:17 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:20 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:23 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:26 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:29 429] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:32 429] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:35 429] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:38 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:41 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:44 428] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:47 429] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:50 429] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:53 429] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:56 429] - Hall.march:marchersSum:[0]
+   S_DBG    baseapp01 3548 7001  [2018-06-26 16:19:59 428] - Hall.march:marchersSum:[0]
