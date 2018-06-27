@@ -105,3 +105,5 @@ class Account(KBEngine.Proxy):
 	def reqStopMarch(self):
 		DEBUG_MSG("Account[%i].reqStopMarch" % (self.id))
 		KBEngine.globalData["Halls"].reqDelMarcher(self)
+	def marchSuccess(self,battleFieldBase):
+		DEBUG_MSG("Account[%i].battleFieldBase[%s]" % (self.id,battlefieldBase.id))

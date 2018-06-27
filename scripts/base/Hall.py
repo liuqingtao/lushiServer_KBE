@@ -33,7 +33,12 @@ class Hall(KBEngine.Base):
             del self.OnMarchingPlayer[0]
             del self.OnMarchingPlayer[1]
     def marchSuccess(self,players):
-        DEBUG.DEBUG_MSG("Hall.marchSuccess:playerIDs[%s]" % players)    
+        DEBUG.DEBUG_MSG("Hall.marchSuccess:playerIDs[%s]" % players)
+        prarm={
+            "player0":players[0]
+            "player1":players[1]
+        }
+        BattleField=KBEngine.createBaseAnywhere("BattleField",prarm)    
     def onTimer(self,id,userArg):
         """
         KBEngine method.
