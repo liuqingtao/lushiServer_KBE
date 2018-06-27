@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <Volatile>
+        <position>0</position>
+        <yaw/>
+        <!--<pitch> 20 </pitch>-->
+        <pitch/>
+        <roll/>
+    </Volatile>
+    <Implements>
+        <Interface>cardBase</Interface>
+    </Implements>
+    <Properties>
+        <battlefield>
+            <Type>ENTITYCALL</Type>
+            <Flags>CELL_PRIVATE</Flags>
+        </battlefield>
+
+        <account>
+            <Type>MAILBOX</Type>
+            <Flags>BASE</Flags>
+        </account>
+
+        <roleType>
+            <Type>UINT8</Type>
+            <Flags>ALL_CLIENTS</Flags>
+        </roleType>
+
+        <situation>
+            <Type>UINT8</Type>
+            <Flags>OWN_CLIENT</Flags>
+        </situation>
+
+        <nameA>
+            <Type>UNICODE</Type>
+            <Flags>ALL_CLIENTS</Flags>
+        </nameA>
+
+        <cardList>
+            <Type>CARD_LIST</Type>
+            <Flags>CELL_PRIVATE</Flags>
+        </cardList>
+
+        <playerIDB>
+            <Type>UINT8</Type>
+            <Flags>BASE</Flags>
+        </playerIDB>
+
+        <CrystalSum>
+            <Type>UINT8</Type>
+            <Flags>ALL_CLIENTS</Flags>
+        </CrystalSum>
+
+        <CrystalAvaliable>
+            <Type>UINT8</Type>
+            <Flags>ALL_CLIENTS</Flags>
+        </CrystalAvaliable>
+
+    </Properties>
+    <BaseMethods>
+       <battleEnd>
+            <Arg>INT8</Arg>
+        </battleEnd>
+    </BaseMethods>
+    <CellMethods>
+    </CellMethods>
+    <ClientMethods>
+    </ClientMethods>
+</root>

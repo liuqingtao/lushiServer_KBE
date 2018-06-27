@@ -19,23 +19,24 @@ class Hall(KBEngine.Base):
         if player in  self.OnMarchingPlayer:
             return
         self.OnMarchingPlayer.append(player)
+        DEBUG_MSG("OnMarchingPlayer.count:[%s]",(self.OnMarchingPlayer.count))
     def reqDelMarcher(self,player):
         #此函数删除匹配玩家从列表
-        DEBUG.DEBUG_MSG("Hall[%s].reqDelMarcher:" % player.id)
+        DEBUG_MSG("Hall[%s].reqDelMarcher:" % player.id)
         if player not in self.OnMarchingPlayer:
             return
         self.OnMarchingPlayer.remove(player)
     def march(self):
         DEBUG_MSG("Hall.march:marchersSum:[%s]" % len(self.OnMarchingPlayer))
         if(len(self.OnMarchingPlayer)>1):
-            players=[self.OnMarchingPlayer[0],self,OnMarchingPlayer[1]]
+            players=[self.OnMarchingPlayer[0],self.OnMarchingPlayer[1]]
             self.marchSuccess(players)
-            del self.OnMarchingPlayer[0]
             del self.OnMarchingPlayer[1]
+            del self.OnMarchingPlayer[0]
     def marchSuccess(self,players):
-        DEBUG.DEBUG_MSG("Hall.marchSuccess:playerIDs[%s]" % players)
+        DEBUG_MSG("Hall.marchSuccess:playerIDs[%s]" % players)
         prarm={
-            "player0":players[0]
+            "player0":players[0],
             "player1":players[1]
         }
         BattleField=KBEngine.createBaseAnywhere("BattleField",prarm)    

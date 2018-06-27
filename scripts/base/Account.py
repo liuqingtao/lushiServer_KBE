@@ -13,6 +13,7 @@ class Account(KBEngine.Proxy):
 		while len(self.CardList)<50:
 			self.CardList.append(random.randint(10000001,10000000+50))
 		self.CardList=self.CardList
+		self.chooseAvatarStore=-1 
 	def randomInitKZ(self):
 		ls = []
 		for i in range(30):
@@ -102,8 +103,18 @@ class Account(KBEngine.Proxy):
 	def reqStartMarch(self,avatarIndex):
 		DEBUG_MSG("Account[%i].reqStartMarch:avatarIndex:[%s]" % (self.id,avatarIndex))
 		KBEngine.globalData["Halls"].reqAddMarcher(self)
+		self.chooseAvatarStore=avatarIndex
 	def reqStopMarch(self):
 		DEBUG_MSG("Account[%i].reqStopMarch" % (self.id))
 		KBEngine.globalData["Halls"].reqDelMarcher(self)
-	def marchSuccess(self,battleFieldBase):
-		DEBUG_MSG("Account[%i].battleFieldBase[%s]" % (self.id,battlefieldBase.id))
+	def marchSuccess(self,battlefieldCell):
+		DEBUG_MSG("Account[%i].battleFieldBase[%s]" % (self.id,battlefieldCell.id))
+
+		dic={
+			'roleType':self.AvatarList[self.chooseAvatarStore]['roleType'],
+			'battlefield':battlefieldCell,
+			'cardList':self.AvatarList[self.chooseAvatarStore]['cardList'],
+			'account':self,
+			'nameA':self.Name,
+		}
+		self.Avatar=KBEngine.createBaseAnywher("Avatar",dic)

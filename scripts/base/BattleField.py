@@ -5,8 +5,7 @@ class BattleField(KBEngine.Base):
     def __init__(self):
         DEBUG_MSG("BattleField[%s] init"% self.id)
         KBEngine.Base.__init__(self)
-        self.player0.marchSuccess(self)
-        self.player1.marchSuccess(self)
+        self.createInNewSpace(None)
 
     def onTimer(self,id,userArg):
         """
@@ -15,3 +14,8 @@ class BattleField(KBEngine.Base):
         @param id : addTimer的返回值ID
         @param userArg ： addTimer最后一个参数所给入的数据
         """
+    
+    def onGetCell(self):
+        DEBUG_MSG("cell has been created")
+        self.player0.marchSuccess(self.cell)
+        self.player1.marchSuccess(self.cell)
