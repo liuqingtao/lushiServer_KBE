@@ -753,3 +753,489 @@
  WARNING    cellapp01 14353 8001  [2018-06-27 18:05:09 162] - EntityApp::checkTickPeriod: tick took 1528% (1.53 seconds)!
    DEBUG    cellapp01 14353 8001  [2018-06-27 18:05:09 233] - InitProgressHandler::~InitProgressHandler()
    S_DBG    cellapp01 14353 8001  [2018-06-27 18:05:09 433] - onGlobalData: Halls
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:10 479] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:10 480] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:10 481] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:10 482] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:10 495] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:53727 )
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:10 495] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:53727, SOMAXCONN=5.
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:10 496] - server-configs:
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:10 496] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:10 496] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:10 496] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:10 497] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:10 497] - 	internalAddr : 192.168.31.56:53727
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:10 497] - 	componentID : 8001
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:12 019] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 8001. UID: 5328. PID: 16184 ----
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:12 020] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:12 021] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:12 022] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 5328 8001  [2018-06-27 22:53:12 248] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 5328 8001  [2018-06-27 22:53:12 249] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 5328 8001  [2018-06-27 22:53:12 250] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 5328 8001  [2018-06-27 22:53:12 261] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 5328 8001  [2018-06-27 22:53:12 261] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 5328 8001  [2018-06-27 22:53:12 262] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 5328 8001  [2018-06-27 22:53:12 263] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 5328 8001  [2018-06-27 22:53:12 399] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:12 496] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:12 496] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 5328 8001  [2018-06-27 22:53:12 592] - loaded script:BattleField(3).
+   DEBUG    cellapp-1 5328 8001  [2018-06-27 22:53:12 639] - loaded script:Avatar(4).
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:12 641] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:14 577] - ---- cellapp is running ----
+   DEBUG    cellapp-1 5328 8001  [2018-06-27 22:53:14 577] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 5328 8001  [2018-06-27 22:53:21 437] - EntityApp::checkTickPeriod: tick took 6860% (6.86 seconds)!
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:22 477] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:22 557] - Components::findComponents: found logger, addr:192.168.31.56:53726
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:22 557] - Components::addComponent: reset orderLog, uid=5328!
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:22 557] - Components::addComponent[logger], uid=5328, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:22 561] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:22 661] - Components::findComponents: found dbmgr, addr:192.168.31.56:53729
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:22 661] - Components::addComponent: reset orderLog, uid=5328!
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:22 661] - Components::addComponent[dbmgr], uid=5328, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:22 662] - Components::findComponents: found dbmgr, addr:192.168.31.56:53729
+ WARNING    cellapp-1 5328 8001  [2018-06-27 22:53:23 663] - EntityApp::checkTickPeriod: tick took 1285% (1.28 seconds)!
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:24 676] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:24 691] - Components::findComponents: found cellappmgr, addr:192.168.31.56:53722
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:24 691] - Components::addComponent[cellappmgr], uid=5328, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 5328 8001  [2018-06-27 22:53:24 691] - Components::findComponents: found cellappmgr, addr:192.168.31.56:53722
+ WARNING    cellapp-1 5328 8001  [2018-06-27 22:53:25 692] - EntityApp::checkTickPeriod: tick took 1115% (1.12 seconds)!
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:31 701] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:31 703] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:31 704] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:31 704] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:31 733] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:53766 )
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:31 733] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:53766, SOMAXCONN=5.
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:31 734] - server-configs:
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:31 734] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:31 734] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:31 735] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:31 735] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:31 735] - 	internalAddr : 192.168.31.56:53766
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:31 736] - 	componentID : 8001
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:33 249] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 8001. UID: 5396. PID: 12824 ----
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:33 250] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:33 250] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:33 252] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 5396 8001  [2018-06-27 22:53:33 461] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 5396 8001  [2018-06-27 22:53:33 462] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 5396 8001  [2018-06-27 22:53:33 464] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 5396 8001  [2018-06-27 22:53:33 472] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 5396 8001  [2018-06-27 22:53:33 473] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 5396 8001  [2018-06-27 22:53:33 473] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 5396 8001  [2018-06-27 22:53:33 475] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 5396 8001  [2018-06-27 22:53:33 589] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:33 685] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:33 686] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 5396 8001  [2018-06-27 22:53:33 780] - loaded script:BattleField(3).
+   DEBUG    cellapp-1 5396 8001  [2018-06-27 22:53:33 783] - loaded script:Avatar(4).
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:33 786] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:35 724] - ---- cellapp is running ----
+   DEBUG    cellapp-1 5396 8001  [2018-06-27 22:53:35 724] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 5396 8001  [2018-06-27 22:53:41 943] - EntityApp::checkTickPeriod: tick took 6219% (6.22 seconds)!
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:43 007] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:43 065] - Components::findComponents: found logger, addr:192.168.31.56:53764
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:43 065] - Components::addComponent: reset orderLog, uid=5396!
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:43 065] - Components::addComponent[logger], uid=5396, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:43 068] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:43 170] - Components::findComponents: found dbmgr, addr:192.168.31.56:53769
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:43 170] - Components::addComponent: reset orderLog, uid=5396!
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:43 170] - Components::addComponent[dbmgr], uid=5396, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:43 171] - Components::findComponents: found dbmgr, addr:192.168.31.56:53769
+ WARNING    cellapp-1 5396 8001  [2018-06-27 22:53:44 172] - EntityApp::checkTickPeriod: tick took 1246% (1.25 seconds)!
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:45 208] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:45 309] - Components::findComponents: found cellappmgr, addr:192.168.31.56:53767
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:45 309] - Components::addComponent[cellappmgr], uid=5396, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:45 311] - Components::findComponents: found cellappmgr, addr:192.168.31.56:53767
+ WARNING    cellapp-1 5396 8001  [2018-06-27 22:53:46 311] - EntityApp::checkTickPeriod: tick took 1186% (1.19 seconds)!
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:47 325] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:47 428] - Components::findComponents: found baseappmgr, addr:192.168.31.56:53762
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:47 428] - Components::addComponent[baseappmgr], uid=5396, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:47 429] - Components::findComponents: found baseappmgr, addr:192.168.31.56:53762
+ WARNING    cellapp-1 5396 8001  [2018-06-27 22:53:48 429] - EntityApp::checkTickPeriod: tick took 1204% (1.20 seconds)!
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:49 608] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:49 624] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:49 707] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:49 724] - Components::process(): Found all the components!
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:50 725] - ServerApp::onRegisterNewApp: uid:5396, username:, componentType:baseapp, componentID:7001, globalorderID=5, grouporderID=1, intaddr:192.168.31.56, intport:53768, extaddr:192.168.31.56, extport:20015,  from 192.168.31.56:53769/0/0/0.
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:50 725] - Components::addComponent[baseapp], uid=5396, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 5396 8001  [2018-06-27 22:53:53 724] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=BD94B2F0675850ADF51E4F43C880B201.
+    INFO    cellapp01 5396 8001  [2018-06-27 22:53:53 724] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+   S_DBG    cellapp01 5396 8001  [2018-06-27 22:53:54 930] - onInit::isReload:0
+ WARNING    cellapp01 5396 8001  [2018-06-27 22:53:54 930] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\server\entity_app.h:758: Profile processRecvMessages took 1.21 seconds
+ WARNING    cellapp01 5396 8001  [2018-06-27 22:53:54 931] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\server\cellapp\cellapp.cpp:259: Profile gameTick took 1.21 seconds
+ WARNING    cellapp01 5396 8001  [2018-06-27 22:53:54 931] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 1.21 seconds
+ WARNING    cellapp01 5396 8001  [2018-06-27 22:53:54 931] - EntityApp::checkTickPeriod: tick took 1207% (1.21 seconds)!
+   DEBUG    cellapp01 5396 8001  [2018-06-27 22:53:55 007] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 5396 8001  [2018-06-27 22:53:56 125] - onGlobalData: Halls
+   DEBUG    cellapp01 5396 8001  [2018-06-27 22:59:20 242] - Spaces::createNewSpace: new space(BattleField) 1.
+    INFO    cellapp01 5396 8001  [2018-06-27 22:59:20 301] - EntityApp::createEntity: new BattleField 2004
+   S_DBG    cellapp01 5396 8001  [2018-06-27 22:59:20 315] - BattleField.cell[2004].init
+ WARNING    cellapp01 5396 8001  [2018-06-27 22:59:20 315] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\server\entity_app.h:758: Profile processRecvMessages took 0.18 seconds
+ WARNING    cellapp01 5396 8001  [2018-06-27 22:59:20 315] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\server\cellapp\cellapp.cpp:259: Profile gameTick took 0.18 seconds
+ WARNING    cellapp01 5396 8001  [2018-06-27 22:59:20 316] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 0.18 seconds
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:27 747] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:27 749] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:27 750] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:27 750] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:27 786] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:54183 )
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:27 787] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:54183, SOMAXCONN=5.
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:27 787] - server-configs:
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:27 787] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:27 788] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:27 788] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:27 788] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:27 789] - 	internalAddr : 192.168.31.56:54183
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:27 789] - 	componentID : 8001
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:29 335] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 8001. UID: 6950. PID: 10832 ----
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:29 337] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:29 338] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:29 340] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 6950 8001  [2018-06-27 23:01:29 601] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 6950 8001  [2018-06-27 23:01:29 602] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 6950 8001  [2018-06-27 23:01:29 603] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 6950 8001  [2018-06-27 23:01:29 611] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 6950 8001  [2018-06-27 23:01:29 612] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 6950 8001  [2018-06-27 23:01:29 612] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 6950 8001  [2018-06-27 23:01:29 614] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 6950 8001  [2018-06-27 23:01:29 836] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:30 027] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:30 028] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 6950 8001  [2018-06-27 23:01:30 202] - loaded script:BattleField(3).
+   DEBUG    cellapp-1 6950 8001  [2018-06-27 23:01:30 206] - loaded script:Avatar(4).
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:30 246] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:32 349] - ---- cellapp is running ----
+   DEBUG    cellapp-1 6950 8001  [2018-06-27 23:01:32 350] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 6950 8001  [2018-06-27 23:01:38 500] - EntityApp::checkTickPeriod: tick took 6150% (6.15 seconds)!
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:39 549] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:39 577] - Components::findComponents: found logger, addr:192.168.31.56:54180
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:39 578] - Components::addComponent: reset orderLog, uid=6950!
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:39 578] - Components::addComponent[logger], uid=6950, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:39 580] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:39 681] - Components::findComponents: found dbmgr, addr:192.168.31.56:54182
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:39 681] - Components::addComponent: reset orderLog, uid=6950!
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:39 681] - Components::addComponent[dbmgr], uid=6950, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:39 682] - Components::findComponents: found dbmgr, addr:192.168.31.56:54182
+ WARNING    cellapp-1 6950 8001  [2018-06-27 23:01:40 683] - EntityApp::checkTickPeriod: tick took 1233% (1.23 seconds)!
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:41 749] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:41 804] - Components::findComponents: found cellappmgr, addr:192.168.31.56:54184
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:41 804] - Components::addComponent[cellappmgr], uid=6950, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:41 805] - Components::findComponents: found cellappmgr, addr:192.168.31.56:54184
+ WARNING    cellapp-1 6950 8001  [2018-06-27 23:01:42 805] - EntityApp::checkTickPeriod: tick took 1156% (1.16 seconds)!
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:43 849] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:43 912] - Components::findComponents: found baseappmgr, addr:192.168.31.56:54185
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:43 912] - Components::addComponent[baseappmgr], uid=6950, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:43 913] - Components::findComponents: found baseappmgr, addr:192.168.31.56:54185
+ WARNING    cellapp-1 6950 8001  [2018-06-27 23:01:44 913] - EntityApp::checkTickPeriod: tick took 1164% (1.16 seconds)!
+   DEBUG    cellapp-1 6950 8001  [2018-06-27 23:01:44 949] - Cellapp::lookApp: 192.168.31.56:54229/0/0/0
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:45 970] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:46 049] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:46 052] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:46 053] - Components::process(): Found all the components!
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:46 149] - ServerApp::onRegisterNewApp: uid:6950, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.56, intport:54186, extaddr:192.168.31.56, extport:20015,  from 192.168.31.56:54239/0/0/0.
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:46 149] - Components::addComponent[baseapp], uid=6950, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:46 149] - ServerApp::onRegisterNewApp: uid:6950, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.56, intport:54186, extaddr:192.168.31.56, extport:20015,  from 192.168.31.56:54239/0/0/0.
+    INFO    cellapp-1 6950 8001  [2018-06-27 23:01:49 049] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=BD94B2F0675850ADF51E4F43C880B201.
+    INFO    cellapp01 6950 8001  [2018-06-27 23:01:49 049] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+   S_DBG    cellapp01 6950 8001  [2018-06-27 23:01:50 255] - onInit::isReload:0
+ WARNING    cellapp01 6950 8001  [2018-06-27 23:01:50 255] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\server\entity_app.h:758: Profile processRecvMessages took 1.21 seconds
+ WARNING    cellapp01 6950 8001  [2018-06-27 23:01:50 256] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\server\cellapp\cellapp.cpp:259: Profile gameTick took 1.21 seconds
+ WARNING    cellapp01 6950 8001  [2018-06-27 23:01:50 256] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 1.21 seconds
+ WARNING    cellapp01 6950 8001  [2018-06-27 23:01:50 257] - EntityApp::checkTickPeriod: tick took 1208% (1.21 seconds)!
+   DEBUG    cellapp01 6950 8001  [2018-06-27 23:01:50 270] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 6950 8001  [2018-06-27 23:01:51 449] - onGlobalData: Halls
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:43 295] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:43 297] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:43 298] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:43 298] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:43 315] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:54721 )
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:43 315] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:54721, SOMAXCONN=5.
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:43 316] - server-configs:
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:43 316] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:43 316] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:43 317] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:43 317] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:43 317] - 	internalAddr : 192.168.31.56:54721
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:43 317] - 	componentID : 8001
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:44 833] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 8001. UID: 9155. PID: 6408 ----
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:44 834] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:44 835] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:44 836] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 9155 8001  [2018-06-27 23:12:45 041] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 9155 8001  [2018-06-27 23:12:45 042] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 9155 8001  [2018-06-27 23:12:45 043] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 9155 8001  [2018-06-27 23:12:45 050] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 9155 8001  [2018-06-27 23:12:45 051] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 9155 8001  [2018-06-27 23:12:45 052] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 9155 8001  [2018-06-27 23:12:45 053] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 9155 8001  [2018-06-27 23:12:45 154] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:45 258] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:45 258] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 9155 8001  [2018-06-27 23:12:45 351] - loaded script:BattleField(3).
+   DEBUG    cellapp-1 9155 8001  [2018-06-27 23:12:45 354] - loaded script:Avatar(4).
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:45 356] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:47 185] - ---- cellapp is running ----
+   DEBUG    cellapp-1 9155 8001  [2018-06-27 23:12:47 186] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 9155 8001  [2018-06-27 23:12:53 335] - EntityApp::checkTickPeriod: tick took 6150% (6.15 seconds)!
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:54 384] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:54 474] - Components::findComponents: found logger, addr:192.168.31.56:54719
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:54 474] - Components::addComponent: reset orderLog, uid=9155!
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:54 474] - Components::addComponent[logger], uid=9155, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:54 477] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:54 578] - Components::findComponents: found dbmgr, addr:192.168.31.56:54717
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:54 578] - Components::addComponent: reset orderLog, uid=9155!
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:54 578] - Components::addComponent[dbmgr], uid=9155, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:54 579] - Components::findComponents: found dbmgr, addr:192.168.31.56:54717
+ WARNING    cellapp-1 9155 8001  [2018-06-27 23:12:55 580] - EntityApp::checkTickPeriod: tick took 1295% (1.29 seconds)!
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:56 584] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:56 602] - Components::findComponents: found cellappmgr, addr:192.168.31.56:54713
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:56 602] - Components::addComponent[cellappmgr], uid=9155, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:56 603] - Components::findComponents: found cellappmgr, addr:192.168.31.56:54713
+ WARNING    cellapp-1 9155 8001  [2018-06-27 23:12:57 604] - EntityApp::checkTickPeriod: tick took 1119% (1.12 seconds)!
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:58 685] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:58 712] - Components::findComponents: found baseappmgr, addr:192.168.31.56:54716
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:58 712] - Components::addComponent[baseappmgr], uid=9155, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:12:58 714] - Components::findComponents: found baseappmgr, addr:192.168.31.56:54716
+ WARNING    cellapp-1 9155 8001  [2018-06-27 23:12:59 714] - EntityApp::checkTickPeriod: tick took 1129% (1.13 seconds)!
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:13:00 885] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:13:00 903] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:13:00 985] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:13:01 003] - Components::process(): Found all the components!
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:13:01 285] - ServerApp::onRegisterNewApp: uid:9155, username:, componentType:baseapp, componentID:7001, globalorderID=5, grouporderID=1, intaddr:192.168.31.56, intport:54720, extaddr:192.168.31.56, extport:20015,  from 192.168.31.56:54717/0/0/0.
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:13:01 285] - Components::addComponent[baseapp], uid=9155, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9155 8001  [2018-06-27 23:13:04 285] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=BD94B2F0675850ADF51E4F43C880B201.
+    INFO    cellapp01 9155 8001  [2018-06-27 23:13:04 285] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+   S_DBG    cellapp01 9155 8001  [2018-06-27 23:13:05 489] - onInit::isReload:0
+ WARNING    cellapp01 9155 8001  [2018-06-27 23:13:05 489] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\server\entity_app.h:758: Profile processRecvMessages took 1.20 seconds
+ WARNING    cellapp01 9155 8001  [2018-06-27 23:13:05 490] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\server\cellapp\cellapp.cpp:259: Profile gameTick took 1.20 seconds
+ WARNING    cellapp01 9155 8001  [2018-06-27 23:13:05 490] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 1.21 seconds
+ WARNING    cellapp01 9155 8001  [2018-06-27 23:13:05 490] - EntityApp::checkTickPeriod: tick took 1205% (1.21 seconds)!
+   DEBUG    cellapp01 9155 8001  [2018-06-27 23:13:05 503] - InitProgressHandler::~InitProgressHandler()
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:08 055] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:08 057] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:08 058] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:08 059] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:08 072] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:54770 )
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:08 073] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:54770, SOMAXCONN=5.
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:08 073] - server-configs:
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:08 074] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:08 074] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:08 074] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:08 075] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:08 075] - 	internalAddr : 192.168.31.56:54770
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:08 075] - 	componentID : 8001
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:09 668] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 8001. UID: 9236. PID: 9576 ----
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:09 670] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:09 672] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:09 673] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 9236 8001  [2018-06-27 23:13:09 932] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 9236 8001  [2018-06-27 23:13:09 933] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 9236 8001  [2018-06-27 23:13:09 934] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 9236 8001  [2018-06-27 23:13:10 016] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 9236 8001  [2018-06-27 23:13:10 017] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 9236 8001  [2018-06-27 23:13:10 017] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 9236 8001  [2018-06-27 23:13:10 019] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 9236 8001  [2018-06-27 23:13:10 347] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:10 707] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:10 708] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 9236 8001  [2018-06-27 23:13:10 903] - loaded script:BattleField(3).
+   DEBUG    cellapp-1 9236 8001  [2018-06-27 23:13:10 908] - loaded script:Avatar(4).
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:10 910] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:12 148] - ---- cellapp is running ----
+   DEBUG    cellapp-1 9236 8001  [2018-06-27 23:13:12 149] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 9236 8001  [2018-06-27 23:13:18 281] - EntityApp::checkTickPeriod: tick took 6131% (6.13 seconds)!
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:19 362] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:19 461] - Components::findComponents: found logger, addr:192.168.31.56:54765
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:19 461] - Components::addComponent: reset orderLog, uid=9236!
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:19 462] - Components::addComponent[logger], uid=9236, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:19 464] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:19 566] - Components::findComponents: found dbmgr, addr:192.168.31.56:54766
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:19 566] - Components::addComponent: reset orderLog, uid=9236!
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:19 567] - Components::addComponent[dbmgr], uid=9236, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:19 568] - Components::findComponents: found dbmgr, addr:192.168.31.56:54766
+ WARNING    cellapp-1 9236 8001  [2018-06-27 23:13:20 569] - EntityApp::checkTickPeriod: tick took 1220% (1.22 seconds)!
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:21 650] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:21 683] - Components::findComponents: found cellappmgr, addr:192.168.31.56:54769
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:21 683] - Components::addComponent[cellappmgr], uid=9236, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:21 684] - Components::findComponents: found cellappmgr, addr:192.168.31.56:54769
+ WARNING    cellapp-1 9236 8001  [2018-06-27 23:13:22 684] - EntityApp::checkTickPeriod: tick took 1135% (1.13 seconds)!
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:23 749] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:23 790] - Components::findComponents: found baseappmgr, addr:192.168.31.56:54772
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:23 790] - Components::addComponent[baseappmgr], uid=9236, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:23 791] - Components::findComponents: found baseappmgr, addr:192.168.31.56:54772
+ WARNING    cellapp-1 9236 8001  [2018-06-27 23:13:24 791] - EntityApp::checkTickPeriod: tick took 1142% (1.14 seconds)!
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:25 949] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:25 961] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:26 010] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:26 012] - Components::process(): Found all the components!
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:26 049] - ServerApp::onRegisterNewApp: uid:9236, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.56, intport:54767, extaddr:192.168.31.56, extport:20015,  from 192.168.31.56:54807/0/0/0.
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:26 049] - Components::addComponent[baseapp], uid=9236, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:26 049] - ServerApp::onRegisterNewApp: uid:9236, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.56, intport:54767, extaddr:192.168.31.56, extport:20015,  from 192.168.31.56:54807/0/0/0.
+    INFO    cellapp-1 9236 8001  [2018-06-27 23:13:29 049] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=BD94B2F0675850ADF51E4F43C880B201.
+    INFO    cellapp01 9236 8001  [2018-06-27 23:13:29 049] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+   S_DBG    cellapp01 9236 8001  [2018-06-27 23:13:30 253] - onInit::isReload:0
+ WARNING    cellapp01 9236 8001  [2018-06-27 23:13:30 253] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\server\entity_app.h:758: Profile processRecvMessages took 1.20 seconds
+ WARNING    cellapp01 9236 8001  [2018-06-27 23:13:30 253] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\server\cellapp\cellapp.cpp:259: Profile gameTick took 1.20 seconds
+ WARNING    cellapp01 9236 8001  [2018-06-27 23:13:30 254] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 1.20 seconds
+ WARNING    cellapp01 9236 8001  [2018-06-27 23:13:30 254] - EntityApp::checkTickPeriod: tick took 1205% (1.21 seconds)!
+   DEBUG    cellapp01 9236 8001  [2018-06-27 23:13:30 261] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 9236 8001  [2018-06-27 23:13:30 949] - onGlobalData: Halls
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:40 592] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:40 594] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:40 594] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:40 595] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:40 623] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:54821 )
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:40 624] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:54821, SOMAXCONN=5.
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:40 624] - server-configs:
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:40 624] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:40 624] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:40 625] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:40 625] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:40 625] - 	internalAddr : 192.168.31.56:54821
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:40 626] - 	componentID : 8001
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:42 143] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 8001. UID: 9344. PID: 3876 ----
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:42 143] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:42 144] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:42 145] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 9344 8001  [2018-06-27 23:13:42 353] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 9344 8001  [2018-06-27 23:13:42 355] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 9344 8001  [2018-06-27 23:13:42 356] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 9344 8001  [2018-06-27 23:13:42 364] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 9344 8001  [2018-06-27 23:13:42 365] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 9344 8001  [2018-06-27 23:13:42 365] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 9344 8001  [2018-06-27 23:13:42 367] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 9344 8001  [2018-06-27 23:13:42 463] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:42 558] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:42 558] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 9344 8001  [2018-06-27 23:13:42 650] - loaded script:BattleField(3).
+   DEBUG    cellapp-1 9344 8001  [2018-06-27 23:13:42 654] - loaded script:Avatar(4).
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:42 655] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:44 365] - ---- cellapp is running ----
+   DEBUG    cellapp-1 9344 8001  [2018-06-27 23:13:44 366] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 9344 8001  [2018-06-27 23:13:50 565] - EntityApp::checkTickPeriod: tick took 6199% (6.20 seconds)!
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:51 597] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:51 654] - Components::findComponents: found logger, addr:192.168.31.56:54820
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:51 655] - Components::addComponent: reset orderLog, uid=9344!
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:51 655] - Components::addComponent[logger], uid=9344, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:51 657] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:51 759] - Components::findComponents: found dbmgr, addr:192.168.31.56:54822
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:51 759] - Components::addComponent: reset orderLog, uid=9344!
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:51 759] - Components::addComponent[dbmgr], uid=9344, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:51 761] - Components::findComponents: found dbmgr, addr:192.168.31.56:54822
+ WARNING    cellapp-1 9344 8001  [2018-06-27 23:13:52 762] - EntityApp::checkTickPeriod: tick took 1196% (1.20 seconds)!
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:53 766] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:53 792] - Components::findComponents: found cellappmgr, addr:192.168.31.56:54824
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:53 792] - Components::addComponent[cellappmgr], uid=9344, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:53 793] - Components::findComponents: found cellappmgr, addr:192.168.31.56:54824
+ WARNING    cellapp-1 9344 8001  [2018-06-27 23:13:54 793] - EntityApp::checkTickPeriod: tick took 1127% (1.13 seconds)!
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:55 797] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:55 804] - Components::findComponents: found baseappmgr, addr:192.168.31.56:54817
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:55 804] - Components::addComponent[baseappmgr], uid=9344, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:55 804] - Components::findComponents: found baseappmgr, addr:192.168.31.56:54817
+ WARNING    cellapp-1 9344 8001  [2018-06-27 23:13:56 804] - EntityApp::checkTickPeriod: tick took 1038% (1.04 seconds)!
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:57 897] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:57 965] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:57 998] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:58 065] - Components::process(): Found all the components!
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:58 766] - ServerApp::onRegisterNewApp: uid:9344, username:, componentType:baseapp, componentID:7001, globalorderID=5, grouporderID=1, intaddr:192.168.31.56, intport:54825, extaddr:192.168.31.56, extport:20015,  from 192.168.31.56:54822/0/0/0.
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:13:58 766] - Components::addComponent[baseapp], uid=9344, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9344 8001  [2018-06-27 23:14:01 766] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=BD94B2F0675850ADF51E4F43C880B201.
+    INFO    cellapp01 9344 8001  [2018-06-27 23:14:01 766] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    cellapp01 9344 8001  [2018-06-27 23:14:02 078] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20514, errorno=10048
+   S_DBG    cellapp01 9344 8001  [2018-06-27 23:14:03 293] - onInit::isReload:0
+ WARNING    cellapp01 9344 8001  [2018-06-27 23:14:03 293] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\server\entity_app.h:758: Profile processRecvMessages took 1.53 seconds
+ WARNING    cellapp01 9344 8001  [2018-06-27 23:14:03 294] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\server\cellapp\cellapp.cpp:259: Profile gameTick took 1.53 seconds
+ WARNING    cellapp01 9344 8001  [2018-06-27 23:14:03 294] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 1.53 seconds
+ WARNING    cellapp01 9344 8001  [2018-06-27 23:14:03 294] - EntityApp::checkTickPeriod: tick took 1528% (1.53 seconds)!
+   DEBUG    cellapp01 9344 8001  [2018-06-27 23:14:03 297] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 9344 8001  [2018-06-27 23:14:03 666] - onGlobalData: Halls
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:14 246] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:14 247] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:14 248] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:14 249] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:14 267] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:54881 )
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:14 268] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:54881, SOMAXCONN=5.
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:14 268] - server-configs:
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:14 269] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:14 269] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:14 269] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:14 270] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:14 270] - 	internalAddr : 192.168.31.56:54881
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:14 270] - 	componentID : 8001
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:15 785] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 8001. UID: 9452. PID: 7548 ----
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:15 787] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:15 787] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:15 787] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 9452 8001  [2018-06-27 23:14:15 963] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 9452 8001  [2018-06-27 23:14:15 964] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 9452 8001  [2018-06-27 23:14:15 965] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 9452 8001  [2018-06-27 23:14:15 972] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 9452 8001  [2018-06-27 23:14:15 973] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 9452 8001  [2018-06-27 23:14:15 973] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 9452 8001  [2018-06-27 23:14:15 975] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 9452 8001  [2018-06-27 23:14:16 058] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:16 141] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:16 142] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 9452 8001  [2018-06-27 23:14:16 216] - loaded script:BattleField(3).
+   DEBUG    cellapp-1 9452 8001  [2018-06-27 23:14:16 222] - loaded script:Avatar(4).
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:16 224] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:17 890] - ---- cellapp is running ----
+   DEBUG    cellapp-1 9452 8001  [2018-06-27 23:14:17 891] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 9452 8001  [2018-06-27 23:14:24 072] - EntityApp::checkTickPeriod: tick took 6182% (6.18 seconds)!
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:25 091] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:25 108] - Components::findComponents: found logger, addr:192.168.31.56:54877
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:25 108] - Components::addComponent: reset orderLog, uid=9452!
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:25 109] - Components::addComponent[logger], uid=9452, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:25 111] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:25 213] - Components::findComponents: found dbmgr, addr:192.168.31.56:54875
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:25 213] - Components::addComponent: reset orderLog, uid=9452!
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:25 213] - Components::addComponent[dbmgr], uid=9452, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:25 213] - Components::findComponents: found dbmgr, addr:192.168.31.56:54875
+ WARNING    cellapp-1 9452 8001  [2018-06-27 23:14:26 214] - EntityApp::checkTickPeriod: tick took 1222% (1.22 seconds)!
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:27 251] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:27 344] - Components::findComponents: found cellappmgr, addr:192.168.31.56:54880
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:27 344] - Components::addComponent[cellappmgr], uid=9452, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:27 345] - Components::findComponents: found cellappmgr, addr:192.168.31.56:54880
+ WARNING    cellapp-1 9452 8001  [2018-06-27 23:14:28 345] - EntityApp::checkTickPeriod: tick took 1154% (1.15 seconds)!
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:29 351] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:29 356] - Components::findComponents: found baseappmgr, addr:192.168.31.56:54874
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:29 356] - Components::addComponent[baseappmgr], uid=9452, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:29 357] - Components::findComponents: found baseappmgr, addr:192.168.31.56:54874
+ WARNING    cellapp-1 9452 8001  [2018-06-27 23:14:30 357] - EntityApp::checkTickPeriod: tick took 1066% (1.07 seconds)!
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:31 491] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:31 550] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:31 590] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:31 651] - Components::process(): Found all the components!
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:32 291] - ServerApp::onRegisterNewApp: uid:9452, username:, componentType:baseapp, componentID:7001, globalorderID=5, grouporderID=1, intaddr:192.168.31.56, intport:54878, extaddr:192.168.31.56, extport:20015,  from 192.168.31.56:54875/0/0/0.
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:32 291] - Components::addComponent[baseapp], uid=9452, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 9452 8001  [2018-06-27 23:14:35 291] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=BD94B2F0675850ADF51E4F43C880B201.
+    INFO    cellapp01 9452 8001  [2018-06-27 23:14:35 291] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+   S_DBG    cellapp01 9452 8001  [2018-06-27 23:14:36 495] - onInit::isReload:0
+ WARNING    cellapp01 9452 8001  [2018-06-27 23:14:36 495] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\server\entity_app.h:758: Profile processRecvMessages took 1.20 seconds
+ WARNING    cellapp01 9452 8001  [2018-06-27 23:14:36 495] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\server\cellapp\cellapp.cpp:259: Profile gameTick took 1.21 seconds
+ WARNING    cellapp01 9452 8001  [2018-06-27 23:14:36 496] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 1.21 seconds
+ WARNING    cellapp01 9452 8001  [2018-06-27 23:14:36 496] - EntityApp::checkTickPeriod: tick took 1205% (1.21 seconds)!
+   DEBUG    cellapp01 9452 8001  [2018-06-27 23:14:36 550] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 9452 8001  [2018-06-27 23:14:37 490] - onGlobalData: Halls
+   DEBUG    cellapp01 9452 8001  [2018-06-27 23:26:28 515] - Spaces::createNewSpace: new space(BattleField) 1.
+    INFO    cellapp01 9452 8001  [2018-06-27 23:26:28 516] - EntityApp::createEntity: new BattleField 2004
+   S_DBG    cellapp01 9452 8001  [2018-06-27 23:26:28 516] - BattleField.cell[2004].init
+    INFO    cellapp01 9452 8001  [2018-06-27 23:26:28 715] - EntityApp::createEntity: new Avatar 2005
+   S_DBG    cellapp01 9452 8001  [2018-06-27 23:26:28 725] - Avatar.cell::__init__: [2005]  roleType:[1]
+    INFO    cellapp01 9452 8001  [2018-06-27 23:26:28 726] - EntityApp::createEntity: new Avatar 2006
+   S_DBG    cellapp01 9452 8001  [2018-06-27 23:26:28 727] - Avatar.cell::__init__: [2006]  roleType:[4]

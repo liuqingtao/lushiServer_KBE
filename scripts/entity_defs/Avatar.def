@@ -8,12 +8,9 @@
         <pitch/>
         <roll/>
     </Volatile>
-    <Implements>
-        <Interface>cardBase</Interface>
-    </Implements>
-    <Properties>
+     <Properties>
         <battlefield>
-            <Type>ENTITYCALL</Type>
+            <Type>MAILBOX</Type>
             <Flags>CELL_PRIVATE</Flags>
         </battlefield>
 
@@ -62,6 +59,8 @@
        <battleEnd>
             <Arg>INT8</Arg>
         </battleEnd>
+        <onGetClient>
+        </onGetClient>
     </BaseMethods>
     <CellMethods>
     </CellMethods>

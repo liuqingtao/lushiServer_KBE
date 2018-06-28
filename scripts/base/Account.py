@@ -117,4 +117,11 @@ class Account(KBEngine.Proxy):
 			'account':self,
 			'nameA':self.Name,
 		}
-		self.Avatar=KBEngine.createBaseAnywher("Avatar",dic)
+		self.client.enterBattlefield()
+		self.Avatar=KBEngine.createBaseAnywhere("Avatar",dic)
+
+	def reqEnterBattlefield():
+		DEBUG_MSG("Account[%i].reqEnterBattlefield" % (self.id))
+		self.giveClientTo(self.Avatar)
+		self.Avatar.onGetClient()
+	

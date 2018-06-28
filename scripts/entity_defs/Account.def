@@ -28,6 +28,8 @@
 	</Properties>
 
 	<ClientMethods>
+		<enterBattlefield>
+		</enterBattlefield>
 		<onOpenPack>
 			<Arg> CARD_LIST </Arg>
 		</onOpenPack>
@@ -37,6 +39,9 @@
 		<marchSuccess>
 			<Arg> MAILBOX </Arg>
 		</marchSuccess>
+		<reqEnterBattlefield>
+			<Exposed/>
+		</reqEnterBattlefield>
 		<reqChangeName>
 			<Arg> UNICODE </Arg>
 			<Exposed/>

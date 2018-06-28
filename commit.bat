@@ -10,5 +10,5 @@ git push origin master
 
 cd  C:\Users\Public\Documents\workspace\kbe\KBEProject2
 git fetch --all
-git reset --hard origin master
+git reset --hard
 git pull origin master

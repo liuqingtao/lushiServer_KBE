@@ -15,17 +15,13 @@ class Avatar(KBEngine.Proxy):
 
 		self.cellData['position'] = [0,0,0]
 		self.bf = self.cellData['battlefield']
-		self.cellData['playerID'] = self.playerIDB
-
 		self.createCellEntity(self.bf)
-
 	def onGetClient(self):
-		DEBUG_MSG('Avatar.base::onGetClient: [%i]' % self.id)
+		DEBUG_MSG('Avatar.base:onGetClient:[%i].'% self.id)
 
 	def battleEnd(self,success):
 		DEBUG_MSG('Avatar.base::battleEnd: [%i]  success:[%s]' % (self.id,success))
 		self.client.battleEnd(success)
-
 		self.giveClientTo(self.account)
 
 		
@@ -74,7 +70,6 @@ class Avatar(KBEngine.Proxy):
 
 	def onDestroyTimer(self):
 		DEBUG_MSG("Avatar(BASE)::onDestroyTimer: %i" % (self.id))
-
 		self.destroy()
 
 
