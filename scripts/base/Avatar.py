@@ -15,6 +15,7 @@ class Avatar(KBEngine.Proxy):
 
 		self.cellData['position'] = [0,0,0]
 		self.bf = self.cellData['battlefield']
+		self.cellData['playerID']=self.playerIDB
 		self.createCellEntity(self.bf)
 	def onGetClient(self):
 		DEBUG_MSG('Avatar.base:onGetClient:[%i].'% self.id)

@@ -17,5 +17,5 @@ class BattleField(KBEngine.Base):
     
     def onGetCell(self):
         DEBUG_MSG("cell has been created")
-        self.player0.marchSuccess(self.cell)
-        self.player1.marchSuccess(self.cell)
+        self.player0.marchSuccess(self.cell,0)
+        self.player1.marchSuccess(self.cell,1)

@@ -107,7 +107,7 @@ class Account(KBEngine.Proxy):
 	def reqStopMarch(self):
 		DEBUG_MSG("Account[%i].reqStopMarch" % (self.id))
 		KBEngine.globalData["Halls"].reqDelMarcher(self)
-	def marchSuccess(self,battlefieldCell):
+	def marchSuccess(self,battlefieldCell,playerID):
 		DEBUG_MSG("Account[%i].battleFieldBase[%s]" % (self.id,battlefieldCell.id))
 
 		dic={
@@ -116,11 +116,12 @@ class Account(KBEngine.Proxy):
 			'cardList':self.AvatarList[self.chooseAvatarStore]['cardList'],
 			'account':self,
 			'nameA':self.Name,
+			'playerIDB':playerID
 		}
 		self.client.enterBattlefield()
-		self.Avatar=KBEngine.createBaseAnywhere("Avatar",dic)
+		self.Avatar=KBEngine.createBaseLocally("Avatar",dic)
 
-	def reqEnterBattlefield():
+	def reqEnterBattlefield(self):
 		DEBUG_MSG("Account[%i].reqEnterBattlefield" % (self.id))
 		self.giveClientTo(self.Avatar)
 		self.Avatar.onGetClient()

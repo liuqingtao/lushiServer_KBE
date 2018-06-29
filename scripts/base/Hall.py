@@ -27,7 +27,7 @@ class Hall(KBEngine.Base):
             return
         self.OnMarchingPlayer.remove(player)
     def march(self):
-        DEBUG_MSG("Hall.march:marchersSum:[%s]" % len(self.OnMarchingPlayer))
+        #DEBUG_MSG("Hall.march:marchersSum:[%s]" % len(self.OnMarchingPlayer))
         if(len(self.OnMarchingPlayer)>1):
             players=[self.OnMarchingPlayer[0],self.OnMarchingPlayer[1]]
             self.marchSuccess(players)

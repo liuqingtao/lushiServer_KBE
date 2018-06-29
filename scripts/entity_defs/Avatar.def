@@ -8,7 +8,10 @@
         <pitch/>
         <roll/>
     </Volatile>
-     <Properties>
+    <Implements>
+        <Interface>cardBase</Interface>
+    </Implements>
+    <Properties>
         <battlefield>
             <Type>MAILBOX</Type>
             <Flags>CELL_PRIVATE</Flags>
@@ -53,10 +56,9 @@
             <Type>UINT8</Type>
             <Flags>ALL_CLIENTS</Flags>
         </CrystalAvaliable>
-
     </Properties>
     <BaseMethods>
-       <battleEnd>
+        <battleEnd>
             <Arg>INT8</Arg>
         </battleEnd>
         <onGetClient>
