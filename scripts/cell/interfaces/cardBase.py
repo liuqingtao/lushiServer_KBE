@@ -60,7 +60,14 @@ class cardBase(KBEngine.Entity):
 			'active': False
 		}
 		DEBUG_MSG('card.cell::__init__: [%i]  cardID:[%s]' % (self.id,self.cardID))
+	def changePos(self,pos):
+		DEBUG_MSG('card.cell::changePos: [%i]  pos:[%s]' % (self.id,pos))
+		self.pos=pos
+	def  reqUse(self,callerID,targetID):
+		DEBUG_MSG('card.cell::reqUse: [%i] targetID[%s]' % (self.id,targetID))
 
+	def reqAtt(self,callerID,targetID)
+		DEBUG_MSG('card.cell::reqAtt: [%i] targetID[%s]' % (self.id,targetID))
 
 
 

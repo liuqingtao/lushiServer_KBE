@@ -18,7 +18,7 @@ class Avatar(cardBase):
         self.battlefield.AvatarRegiste(self,self.playerID)
 
     def createCardEntity(self, cardID, pos='KZ'):
-        DEBUG_MSG('Avatar.cell::createCardEntity__init__: [%i] cardID[%i]  pos:[%s]' % (
+        DEBUG_MSG('Avatar.cell::createCardEntity: [%i] cardID[%i]  pos:[%s]' % (
             self.id, cardID, pos))
         params = {
             'cardID': cardID,
@@ -33,3 +33,31 @@ class Avatar(cardBase):
     def createCardListEntities(self):
         for cardID in self.cardList:
             self.createCardEntity(cardID)
+    def setSituation(self,situation):
+        DEBUG_MSG('Avatar.cell::setSituation: [%i] situation[%s]' % (self.id,situation))
+        self.situation=situation
+        if  situation==1:
+            self.newRound()        
+    def newRound(self):
+        DEBUG_MSG('Avatar.cell::newRound: [%i] ' % (self.id))
+        self.getCardFromKz(1)        
+
+    def reqEndRound(self):
+        DEBUG_MSG('Avatar.cell::reqEndRound: [%i] ' % (self.id))
+        if self.situation==1:
+            self.battlefield.endRound()
+    def getCard(self,cardID):
+        DEBUG_MSG('Avatar.cell::getCard: [%i] cardID[%s]' % (self.id,cardID))
+        self.createCardEntity(cardID,'HAND')
+    def getCardFromKz(slef,cardSum=1):
+        DEBUG_MSG('Avatar.cell::getCardFromKz: [%i] cardSum[%s]' % (self.id,cardSum))
+        kzCards=self.getCardByPos('KZ')
+        chouCards=random.sample(kzCards,cardSum)
+        for card in chouCards:
+            card.changePos('HAND')
+    def getCardByPos(self,pos):
+        cards=[]
+        for card in self.cardEntityList:
+            if card.pos=pos:
+                cards.append(card)
+        return cards
