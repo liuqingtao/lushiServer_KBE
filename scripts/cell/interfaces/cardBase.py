@@ -66,7 +66,7 @@ class cardBase(KBEngine.Entity):
 	def  reqUse(self,callerID,targetID):
 		DEBUG_MSG('card.cell::reqUse: [%i] targetID[%s]' % (self.id,targetID))
 
-	def reqAtt(self,callerID,targetID)
+	def reqAtt(self,callerID,targetID):
 		DEBUG_MSG('card.cell::reqAtt: [%i] targetID[%s]' % (self.id,targetID))
 
 

@@ -21,31 +21,31 @@ class BattleField(KBEngine.Entity):
         else:
             self.player0=avatarEntity
         if(self.player0!=None and self.player1!=None):
-            self.players={
+            self.players=[
                 self.player0,
                 self.player1
-            }
-        self.startBattle()
+            ]
+            self.startBattle()
     def startBattle(self):
         DEBUG_MSG("BattleField.cell[%i].startBattle" %(self.id))
         self.round=0
         self.currentPlayer=0
         self.giveCard(0,20000002)
-        slef.players[0].getCardFromKz(3)
-        slef.players[1].getCardFromKz(3)
+        self.players[0].getCardFromKz(3)
+        self.players[1].getCardFromKz(3)
         self.nextRound()
     def nextRound(self):
         DEBUG_MSG("BattleField.cell[%i].nextRound" %(self.id))
-        self.round+=1
+        self.round+=[]
         self.currentPlayer=(self.round+1)%2
-        slef.players[self.currentPlayer].setSituation(1)
+        self.players[self.currentPlayer].setSituation(1)
         self.players[self.another(self.currentPlayer)].setSituation(0)
     def endRound(self):
         DEBUG_MSG("BattleField.cell[%i].endRound" %(self.id))
         self.nextRound()
     def giveCard(self,playerID,cardID):
         DEBUG_MSG("BattleField.cell[%i].giveCard playerID[%s] cardID:[%s]" %(self.id,playerID,cardID))
-        self.players[playerID].getCard(20000002)
+        self.players[playerID].getCard(cardID)
     def another(self,id):
         if id==0:
             return 1

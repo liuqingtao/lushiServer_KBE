@@ -1,0 +1,65 @@
+  INFO root [0x000011c0] [2018-06-29 19:14:25,247] - 
+  INFO root [0x000011c0] [2018-06-29 19:14:25,248] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000011c0] [2018-06-29 19:14:25,250] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [0x000011c0] [2018-06-29 19:14:25,250] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/
+  INFO root [0x000011c0] [2018-06-29 19:14:25,251] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [0x000011c0] [2018-06-29 19:14:25,292] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:12899 )
+  INFO root [0x000011c0] [2018-06-29 19:14:25,293] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:12899, SOMAXCONN=5.
+  INFO root [0x000011c0] [2018-06-29 19:14:25,293] - server-configs:
+  INFO root [0x000011c0] [2018-06-29 19:14:25,294] - 	gameUpdateHertz : 10
+  INFO root [0x000011c0] [2018-06-29 19:14:25,294] - 	defaultAoIRadius : 80
+  INFO root [0x000011c0] [2018-06-29 19:14:25,294] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x000011c0] [2018-06-29 19:14:25,294] - 	entryScriptFile : kbemain
+  INFO root [0x000011c0] [2018-06-29 19:14:25,295] - 	internalAddr : 192.168.31.56:12899
+  INFO root [0x000011c0] [2018-06-29 19:14:25,295] - 	componentID : 7129652375332859700
+  WARN root [0x000011c0] [2018-06-29 19:14:25,295] - invalid UID(0) <= 0, please check UID for environment!
+  INFO root [0x000011c0] [2018-06-29 19:14:26,813] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 7129652375332859700. UID: 0. PID: 10288 ----
+  INFO root [0x000011c0] [2018-06-29 19:14:26,814] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [0x000011c0] [2018-06-29 19:14:26,815] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000011c0] [2018-06-29 19:14:26,816] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,090] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,092] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,093] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,134] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,135] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,135] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,137] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,295] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x000011c0] [2018-06-29 19:14:27,487] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x000011c0] [2018-06-29 19:14:27,487] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,804] - loaded script:BattleField(3).
+ ERROR root [0x000011c0] [2018-06-29 19:14:27,825] - EntityDef::initialize: Could not load module[Avatar]
+ S_ERR root [0x000011c0] [2018-06-29 19:14:27,828] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/cell\Avatar.py", line 5, in <module>
+    from interfaces.cardBase import cardBase
+ S_ERR root [0x000011c0] [2018-06-29 19:14:27,830] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/cell\interfaces\cardBase.py", line 69
+    def reqAtt(self,callerID,targetID)
+                                     ^
+SyntaxError: invalid syntax
+ ERROR root [0x000011c0] [2018-06-29 19:14:27,830] - app::initialize(): initialization failed!
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,831] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,831] - Witness::destroyObjPool(): size 0.
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,835] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,835] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,835] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,836] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,836] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,836] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,837] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,837] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x000011c0] [2018-06-29 19:14:27,860] - Script::uninstall(): is successfully!
+ DEBUG root [0x000011c0] [2018-06-29 19:14:27,860] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000011c0] [2018-06-29 19:14:28,160] - ThreadPool::destroy(): waiting for thread(2)[0x258de8,0x258d80,], try=1
+ DEBUG root [0x000011c0] [2018-06-29 19:14:28,568] - TPThread::~TPThread(): 0x258de8
+ DEBUG root [0x000011c0] [2018-06-29 19:14:28,569] - TPThread::~TPThread(): 0x258d80
+ DEBUG root [0x000011c0] [2018-06-29 19:14:28,569] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x000011c0] [2018-06-29 19:14:28,570] - Bundle::destroyObjPool(): size 15.
+ DEBUG root [0x000011c0] [2018-06-29 19:14:28,571] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x000011c0] [2018-06-29 19:14:28,571] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x000011c0] [2018-06-29 19:14:28,572] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x000011c0] [2018-06-29 19:14:28,572] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x000011c0] [2018-06-29 19:14:28,572] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x000011c0] [2018-06-29 19:14:28,573] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x000011c0] [2018-06-29 19:14:28,573] - UDPPacketReceiver::destroyObjPool(): size 0.

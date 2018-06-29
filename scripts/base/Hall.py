@@ -19,7 +19,7 @@ class Hall(KBEngine.Base):
         if player in  self.OnMarchingPlayer:
             return
         self.OnMarchingPlayer.append(player)
-        DEBUG_MSG("OnMarchingPlayer.count:[%s]",(self.OnMarchingPlayer.count))
+        DEBUG_MSG("OnMarchingPlayer.count:[%i]",(self.OnMarchingPlayer.count))
     def reqDelMarcher(self,player):
         #此函数删除匹配玩家从列表
         DEBUG_MSG("Hall[%s].reqDelMarcher:" % player.id)

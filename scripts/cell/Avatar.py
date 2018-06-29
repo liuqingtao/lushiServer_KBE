@@ -3,19 +3,19 @@ import KBEngine
 import random
 from KBEDebug import *
 from interfaces.cardBase import cardBase
-#import d_card_dis
+import d_card_dis
 class Avatar(cardBase):
     def __init__(self):
         DEBUG_MSG('Avatar.cell::__init__: [%i]  roleType:[%i]' % (self.id,self.roleType))
         cardBase.__init__(self)
         self.cardID=(20003000+self.roleType)
         cardBase.initProperty(self)
-        self.battlefield.AvatarRegiste(self,self.playerID)
         self.cardEntityList = []
         self.cardEntityList.append(self)
+        self.battlefield.AvatarRegiste(self,self.playerID)
+        
         self.createCardEntity((20001000+self.roleType),'SKILL')
         self.createCardListEntities()
-        self.battlefield.AvatarRegiste(self,self.playerID)
 
     def createCardEntity(self, cardID, pos='KZ'):
         DEBUG_MSG('Avatar.cell::createCardEntity: [%i] cardID[%i]  pos:[%s]' % (
@@ -49,15 +49,16 @@ class Avatar(cardBase):
     def getCard(self,cardID):
         DEBUG_MSG('Avatar.cell::getCard: [%i] cardID[%s]' % (self.id,cardID))
         self.createCardEntity(cardID,'HAND')
-    def getCardFromKz(slef,cardSum=1):
-        DEBUG_MSG('Avatar.cell::getCardFromKz: [%i] cardSum[%s]' % (self.id,cardSum))
+    def getCardFromKz(self,cardSum=1):
         kzCards=self.getCardByPos('KZ')
+        DEBUG_MSG('Avatar.cell::getCardFromKz: [%i] kzCards[%s] cardSum[%s]' % (self.id,kzCards,cardSum))
         chouCards=random.sample(kzCards,cardSum)
         for card in chouCards:
             card.changePos('HAND')
     def getCardByPos(self,pos):
         cards=[]
+        DEBUG_MSG("self.cardEntityList.count:[%i]" % (len(self.cardEntityList)))
         for card in self.cardEntityList:
-            if card.pos=pos:
+            if card.pos==pos:
                 cards.append(card)
         return cards

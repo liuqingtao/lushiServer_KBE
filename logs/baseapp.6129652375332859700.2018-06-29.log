@@ -1,0 +1,43 @@
+  INFO root [0x000020e0] [2018-06-29 19:14:25,267] - 
+  INFO root [0x000020e0] [2018-06-29 19:14:25,268] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000020e0] [2018-06-29 19:14:25,270] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [0x000020e0] [2018-06-29 19:14:25,271] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/
+  INFO root [0x000020e0] [2018-06-29 19:14:25,271] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [0x000020e0] [2018-06-29 19:14:25,294] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:20015 )
+  INFO root [0x000020e0] [2018-06-29 19:14:25,294] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.31.56:20015, SOMAXCONN=128.
+  INFO root [0x000020e0] [2018-06-29 19:14:25,301] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:12900 )
+  INFO root [0x000020e0] [2018-06-29 19:14:25,301] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:12900, SOMAXCONN=128.
+  INFO root [0x000020e0] [2018-06-29 19:14:25,302] - server-configs:
+  INFO root [0x000020e0] [2018-06-29 19:14:25,302] - 	gameUpdateHertz : 10
+  INFO root [0x000020e0] [2018-06-29 19:14:25,302] - 	entryScriptFile : kbemain
+  INFO root [0x000020e0] [2018-06-29 19:14:25,302] - 	internalAddr : 192.168.31.56:12900
+  INFO root [0x000020e0] [2018-06-29 19:14:25,303] - 	externalAddr : 192.168.31.56:20015
+  INFO root [0x000020e0] [2018-06-29 19:14:25,303] - 	componentID : 6129652375332859700
+  WARN root [0x000020e0] [2018-06-29 19:14:26,146] - invalid UID(0) <= 0, please check UID for environment!
+  INFO root [0x000020e0] [2018-06-29 19:14:26,420] - Components::findLogger: found logger, addr:192.168.31.56:12895
+  INFO root [0x000020e0] [2018-06-29 19:14:26,421] - Components::addComponent: reset orderLog, uid=0!
+  INFO root [0x000020e0] [2018-06-29 19:14:26,422] - Components::addComponent[logger], uid=0, componentID=1129653375331859700, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000020e0] [2018-06-29 19:14:26,436] - ---- baseapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 23:18:04 Jun 15 2018. AppID: 6129652375332859700. UID: 0. PID: 5376 ----
+  INFO root [0x000020e0] [2018-06-29 19:14:26,437] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [0x000020e0] [2018-06-29 19:14:26,437] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000020e0] [2018-06-29 19:14:26,439] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x000020e0] [2018-06-29 19:14:26,624] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000020e0] [2018-06-29 19:14:26,625] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x000020e0] [2018-06-29 19:14:26,626] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x000020e0] [2018-06-29 19:14:26,639] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000020e0] [2018-06-29 19:14:26,640] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x000020e0] [2018-06-29 19:14:26,640] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000020e0] [2018-06-29 19:14:26,644] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000020e0] [2018-06-29 19:14:26,748] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x000020e0] [2018-06-29 19:14:26,860] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:11) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x000020e0] [2018-06-29 19:14:26,860] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000020e0] [2018-06-29 19:14:27,231] - loaded script:Account(1).
+ DEBUG root [0x000020e0] [2018-06-29 19:14:27,331] - loaded script:Hall(2).
+ DEBUG root [0x000020e0] [2018-06-29 19:14:27,336] - loaded script:BattleField(3).
+ DEBUG root [0x000020e0] [2018-06-29 19:14:27,341] - loaded script:Avatar(4).
+  INFO root [0x000020e0] [2018-06-29 19:14:27,345] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x000020e0] [2018-06-29 19:14:27,347] - TelnetServer server is running on port 40000
+  INFO root [0x000020e0] [2018-06-29 19:14:28,960] - ---- baseapp is running ----
+ DEBUG root [0x000020e0] [2018-06-29 19:14:28,961] - Components::process(): Request for the process of identity...
