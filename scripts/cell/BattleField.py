@@ -36,7 +36,7 @@ class BattleField(KBEngine.Entity):
         self.nextRound()
     def nextRound(self):
         DEBUG_MSG("BattleField.cell[%i].nextRound" %(self.id))
-        self.round+=[]
+        self.round+=1
         self.currentPlayer=(self.round+1)%2
         self.players[self.currentPlayer].setSituation(1)
         self.players[self.another(self.currentPlayer)].setSituation(0)

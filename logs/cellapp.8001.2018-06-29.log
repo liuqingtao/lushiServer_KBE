@@ -2690,3 +2690,100 @@ SyntaxError: invalid syntax
   INFO root [0x00002f58] [2018-06-29 23:11:56,819] - Components::findComponents: found dbmgr, addr:192.168.31.56:17484
   WARN root [0x00002f58] [2018-06-29 23:11:57,822] - EntityApp::checkTickPeriod: tick took 1249% (1.25 seconds)!
   WARN root [0x00002f58] [2018-06-29 23:11:57,824] - Forwarding logs to logger[192.168.31.56:17481/0/0/0]...
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,447] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00002f58] [2018-06-29 23:50:25,447] - The following logs sent to logger failed:
+  WARN root [0x00002f58] [2018-06-29 23:50:25,447] - ==> [2018-06-29 23:50:25 447] TCPPacketReceiver::processPendingEvents(192.168.31.56:17481): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,447] - ==> [2018-06-29 23:50:25 447] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00002f58] [2018-06-29 23:50:25,525] - TCPPacketReceiver::processPendingEvents(192.168.31.56:17484): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,541] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00002f58] [2018-06-29 23:50:25,541] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00002f58] [2018-06-29 23:50:25,541] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00002f58] [2018-06-29 23:50:25,556] - Spaces::destroySpace: 1.
+  INFO root [0x00002f58] [2018-06-29 23:50:25,556] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,556] - EntityRef::destroyObjPool(): size 80.
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,556] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,572] - EntityGarbages::~EntityGarbages(): leaked, size=35.
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,572] - 	--> leaked: BattleField(2004).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,572] - 	--> leaked: card(1).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,572] - 	--> leaked: card(8).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,572] - 	--> leaked: Avatar(2005).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,572] - 	--> leaked: card(2).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,572] - 	--> leaked: card(3).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,572] - 	--> leaked: card(4).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,572] - 	--> leaked: card(5).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,572] - 	--> leaked: card(6).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,572] - 	--> leaked: card(7).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(9).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(10).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(11).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(12).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(13).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(14).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(15).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(16).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(17).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(18).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(19).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(20).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(21).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(22).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(23).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(24).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(25).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(26).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,588] - 	--> leaked: card(27).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,603] - 	--> leaked: card(28).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,603] - 	--> leaked: card(29).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,603] - 	--> leaked: card(30).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,603] - 	--> leaked: card(31).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,603] - 	--> leaked: Avatar(2006).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,603] - 	--> leaked: card(32).
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,603] - PyGC::debugTracing(): EntityMailbox : leaked(5)
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,603] - PyGC::debugTracing(): Vector3 : leaked(70)
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,603] - PyGC::debugTracing(): FixedArray : leaked(2)
+ ERROR root [0x00002f58] [2018-06-29 23:50:25,603] - PyGC::debugTracing(): Entity : leaked(35)
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,603] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,603] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,603] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,603] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,603] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - Script::uninstall_py_dlls(): PyInit_unicodedata
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 32
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 31
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 30
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 29
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 28
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 27
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 26
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 25
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 24
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 23
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 22
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 21
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 20
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 19
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 18
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 17
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 16
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 15
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 14
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 13
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 12
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 11
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 10
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 9
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 8
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 7
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 6
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 5
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 4
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 3
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 2
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - card::~card(): 1
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - Avatar::~Avatar(): 2005
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - BattleField::~BattleField(): 2004
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,619] - Avatar::~Avatar(): 2006
+  INFO root [0x00002f58] [2018-06-29 23:50:25,650] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002f58] [2018-06-29 23:50:25,650] - ThreadPool::destroy(): starting size 2.

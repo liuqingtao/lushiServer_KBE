@@ -10,13 +10,14 @@ class Avatar(cardBase):
         cardBase.__init__(self)
         self.cardID=(20003000+self.roleType)
         cardBase.initProperty(self)
+        self.pos="HERO"
+        self.avatar=self
         self.cardEntityList = []
         self.cardEntityList.append(self)
-        self.battlefield.AvatarRegiste(self,self.playerID)
-        
         self.createCardEntity((20001000+self.roleType),'SKILL')
         self.createCardListEntities()
-
+        self.battlefield.AvatarRegiste(self,self.playerID)
+ 
     def createCardEntity(self, cardID, pos='KZ'):
         DEBUG_MSG('Avatar.cell::createCardEntity: [%i] cardID[%i]  pos:[%s]' % (
             self.id, cardID, pos))
@@ -57,7 +58,7 @@ class Avatar(cardBase):
             card.changePos('HAND')
     def getCardByPos(self,pos):
         cards=[]
-        DEBUG_MSG("self.cardEntityList.count:[%i]" % (len(self.cardEntityList)))
+        DEBUG_MSG("self.cardEntityList[%i].count:[%i]" % (self.id,len(self.cardEntityList)))
         for card in self.cardEntityList:
             if card.pos==pos:
                 cards.append(card)

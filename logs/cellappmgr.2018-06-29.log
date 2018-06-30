@@ -1071,3 +1071,13 @@
   INFO root [2018-06-29 23:11:56,929] - Components::addComponent[dbmgr], uid=16205, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
   INFO root [2018-06-29 23:11:56,930] - Components::findComponents: found dbmgr, addr:192.168.31.56:17484
   WARN root [2018-06-29 23:11:57,931] - Forwarding logs to logger[192.168.31.56:17481/0/0/0]...
+ ERROR root [2018-06-29 23:50:25,447] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-06-29 23:50:25,447] - The following logs sent to logger failed:
+  WARN root [2018-06-29 23:50:25,447] - ==> [2018-06-29 23:50:25 447] TCPPacketReceiver::processPendingEvents(192.168.31.56:17481): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-06-29 23:50:25,447] - ==> [2018-06-29 23:50:25 447] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-06-29 23:50:25,525] - TCPPacketReceiver::processPendingEvents(192.168.31.56:17484): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-06-29 23:50:25,525] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-06-29 23:50:25,541] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2018-06-29 23:50:25,541] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-06-29 23:50:25,541] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-06-29 23:50:25,541] - ThreadPool::destroy(): starting size 2.

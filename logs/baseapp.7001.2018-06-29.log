@@ -2135,3 +2135,44 @@ S_INFO root [0x00002eb8] [2018-06-29 23:11:40,032] - onBaseAppShutDown: state=2
   INFO root [0x00002780] [2018-06-29 23:11:49,929] - ---- baseapp is running ----
  DEBUG root [0x00002780] [2018-06-29 23:11:49,930] - Components::process(): Request for the process of identity...
   WARN root [0x00002780] [2018-06-29 23:11:56,071] - Forwarding logs to logger[192.168.31.56:17481/0/0/0]...
+ ERROR root [0x00002780] [2018-06-29 23:50:25,463] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00002780] [2018-06-29 23:50:25,463] - The following logs sent to logger failed:
+  WARN root [0x00002780] [2018-06-29 23:50:25,463] - ==> [2018-06-29 23:50:25 447] TCPPacketReceiver::processPendingEvents(192.168.31.56:17481): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002780] [2018-06-29 23:50:25,463] - ==> [2018-06-29 23:50:25 463] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00002780] [2018-06-29 23:50:25,525] - TCPPacketReceiver::processPendingEvents(192.168.31.56:17484): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002780] [2018-06-29 23:50:25,541] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00002780] [2018-06-29 23:50:25,541] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x00002780] [2018-06-29 23:50:25,541] - onBaseAppShutDown: state=0
+  INFO root [0x00002780] [2018-06-29 23:50:25,541] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00002780] [2018-06-29 23:50:25,541] - onBaseAppShutDown: state=1
+  INFO root [0x00002780] [2018-06-29 23:50:25,541] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x00002780] [2018-06-29 23:50:25,541] - onBaseAppShutDown: state=2
+ ERROR root [0x00002780] [2018-06-29 23:50:25,572] - Account::onCellWriteToDBCompleted(2002): not found dbmgr!
+ ERROR root [0x00002780] [2018-06-29 23:50:25,572] - Base::onDestroy: not found dbmgr!
+ ERROR root [0x00002780] [2018-06-29 23:50:25,572] - Account::onCellWriteToDBCompleted(2003): not found dbmgr!
+ ERROR root [0x00002780] [2018-06-29 23:50:25,588] - Base::onDestroy: not found dbmgr!
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,588] - BattleField::~BattleField(): 2004
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,588] - Hall::~Hall(): 2001
+ ERROR root [0x00002780] [2018-06-29 23:50:25,588] - EntityGarbages::~EntityGarbages(): leaked, size=4.
+ ERROR root [0x00002780] [2018-06-29 23:50:25,588] - 	--> leaked: Account(2002).
+ ERROR root [0x00002780] [2018-06-29 23:50:25,588] - 	--> leaked: Account(2003).
+ ERROR root [0x00002780] [2018-06-29 23:50:25,588] - 	--> leaked: Avatar(2005).
+ ERROR root [0x00002780] [2018-06-29 23:50:25,588] - 	--> leaked: Avatar(2006).
+ ERROR root [0x00002780] [2018-06-29 23:50:25,588] - PyGC::debugTracing(): FixedArray : leaked(14)
+ ERROR root [0x00002780] [2018-06-29 23:50:25,588] - PyGC::debugTracing(): Base : leaked(4)
+ ERROR root [0x00002780] [2018-06-29 23:50:25,588] - PyGC::debugTracing(): FixedDict : leaked(8)
+ ERROR root [0x00002780] [2018-06-29 23:50:25,588] - PyGC::debugTracing(): EntityMailbox : leaked(5)
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,588] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,588] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,588] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,603] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,603] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,603] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,603] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,603] - Script::uninstall_py_dlls(): PyInit_unicodedata
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,603] - Avatar::~Avatar(): 2006
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,603] - Account::~Account(): 2002
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,603] - Avatar::~Avatar(): 2005
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,603] - Account::~Account(): 2003
+  INFO root [0x00002780] [2018-06-29 23:50:25,619] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002780] [2018-06-29 23:50:25,619] - ThreadPool::destroy(): starting size 2.

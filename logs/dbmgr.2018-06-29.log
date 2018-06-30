@@ -2370,3 +2370,7 @@ E46386509F72F73A3A6EBB02FF79E6198884A6867AB9FA8B47807D328120F4F135700C4E54BE4962
   INFO root [2018-06-29 23:11:57,538] - Components::addComponent: reset orderLog, uid=16205!
   INFO root [2018-06-29 23:11:57,538] - Components::addComponent[logger], uid=16205, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
   WARN root [2018-06-29 23:11:57,542] - Forwarding logs to logger[192.168.31.56:17481/0/0/0]...
+ ERROR root [2018-06-29 23:50:25,447] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-06-29 23:50:25,463] - The following logs sent to logger failed:
+  WARN root [2018-06-29 23:50:25,463] - ==> [2018-06-29 23:50:25 447] TCPPacketReceiver::processPendingEvents(192.168.31.56:17481): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-06-29 23:50:25,463] - ==> [2018-06-29 23:50:25 447] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
