@@ -65,6 +65,25 @@ class cardBase(KBEngine.Entity):
 		self.pos=pos
 	def  reqUse(self,callerID,targetID):
 		DEBUG_MSG('card.cell::reqUse: [%i] targetID[%s]' % (self.id,targetID))
+		if not self.avatar.useCrystal(int (self.cost)):
+			return
+		if self.pos == 'HAND':
+			if self.type == 3:#法术1奥秘2怪兽3武器4
+				self.avatar.followerPosAssigned(self)
+				self.isAbled = self.isRush
+				self.onUse(targetID,self.pos)
+				#self.battlefiled.onSummonFollower(self.id)
+			elif self.type == 4:
+				self.changePos('WEAPON')
+				self.onUse(targetID,'WEAPON')
+			elif self.type == 2:
+				self.changePos('SECRET')
+				self.onUse(targetID,'SECRET')
+			elif self.type == 1:
+				self.changePos('USED')
+				self.onUse(targetID,'SPELL')
+		elif self.pos == 'SKILL':
+			self.onUse(targetID,'SKILL')
 
 	def reqAtt(self,callerID,targetID):
 		DEBUG_MSG('card.cell::reqAtt: [%i] targetID[%s]' % (self.id,targetID))

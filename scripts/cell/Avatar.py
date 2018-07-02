@@ -13,6 +13,7 @@ class Avatar(cardBase):
         self.pos="HERO"
         self.avatar=self
         self.cardEntityList = []
+        self.followerList=[]
         self.cardEntityList.append(self)
         self.createCardEntity((20001000+self.roleType),'SKILL')
         self.createCardListEntities()
@@ -48,10 +49,10 @@ class Avatar(cardBase):
         if self.situation==1:
             self.battlefield.endRound()
 
-    def reqGiveUp(self,cellerID):
+    def reqGiveUp(self,callerID):
         DEBUG_MSG('Avatar.cell::reqGiveUp: [%i] ' % (self.id))
         self.battlefield.reqGiveUp(self.playerID)
-    def bttleEnd(self,success):
+    def battleEnd(self,success):
         DEBUG_MSG('Avatar.cell::battleEnd: [%i]  success:[%s]' % (self.id,success))
         self.base.battleEnd(success)
     def getCard(self,cardID):
@@ -63,6 +64,24 @@ class Avatar(cardBase):
         chouCards=random.sample(kzCards,cardSum)
         for card in chouCards:
             card.changePos('HAND')
+    
+    def useCrystal(self.crystalSum):
+        DEBUG_MSG('Avatar.cell::useCrystal: [%i] crystalSum[%s] ' % (self.id,crystalSum))
+        if  self.CrystalAvaliable<crystalSum:
+            return False
+        self.CrystalAvaliable-=crystalSum
+        return True
+
+    def followerPosAssigned(self,entity):
+        DEBUG_MSG('Avatar.cell::followerPosAssigned: [%i] entityID[%i] ' % (self.id,entity.id))
+        if len(self.followerList)>6:
+            return
+        self.followerList.append(entity)
+        self.followerPosUpdate()
+
+    def followerPosUpdate(self):
+        for i in range(len(self.followerList)):
+            self.followerList[i].changePos(str(i))
     def getCardByPos(self,pos):
         cards=[]
         DEBUG_MSG("self.cardEntityList[%i].count:[%i]" % (self.id,len(self.cardEntityList)))
