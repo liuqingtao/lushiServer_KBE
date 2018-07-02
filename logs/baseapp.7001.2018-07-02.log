@@ -1,0 +1,50 @@
+  INFO root [0x00001520] [2018-07-02 15:14:29,897] - 
+  INFO root [0x00001520] [2018-07-02 15:14:29,946] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001520] [2018-07-02 15:14:31,567] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [0x00001520] [2018-07-02 15:14:31,568] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [0x00001520] [2018-07-02 15:14:31,568] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [0x00001520] [2018-07-02 15:14:32,175] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:20015 )
+  INFO root [0x00001520] [2018-07-02 15:14:32,176] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.31.56:20015, SOMAXCONN=128.
+  INFO root [0x00001520] [2018-07-02 15:14:32,179] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:10998 )
+  INFO root [0x00001520] [2018-07-02 15:14:32,179] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:10998, SOMAXCONN=128.
+  INFO root [0x00001520] [2018-07-02 15:14:32,179] - server-configs:
+  INFO root [0x00001520] [2018-07-02 15:14:32,179] - 	gameUpdateHertz : 10
+  INFO root [0x00001520] [2018-07-02 15:14:32,179] - 	entryScriptFile : kbemain
+  INFO root [0x00001520] [2018-07-02 15:14:32,179] - 	internalAddr : 192.168.31.56:10998
+  INFO root [0x00001520] [2018-07-02 15:14:32,180] - 	externalAddr : 192.168.31.56:20015
+  INFO root [0x00001520] [2018-07-02 15:14:32,252] - 	componentID : 7001
+  INFO root [0x00001520] [2018-07-02 15:14:33,449] - ---- baseapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 23:18:04 Jun 15 2018. AppID: 7001. UID: 15410. PID: 7500 ----
+  INFO root [0x00001520] [2018-07-02 15:14:33,450] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [0x00001520] [2018-07-02 15:14:33,579] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001520] [2018-07-02 15:14:33,626] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00001520] [2018-07-02 15:14:39,476] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001520] [2018-07-02 15:14:39,630] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00001520] [2018-07-02 15:14:39,776] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00001520] [2018-07-02 15:14:41,245] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001520] [2018-07-02 15:14:41,546] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00001520] [2018-07-02 15:14:41,641] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001520] [2018-07-02 15:14:41,769] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001520] [2018-07-02 15:14:42,406] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001520] [2018-07-02 15:14:43,075] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:11) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x00001520] [2018-07-02 15:14:43,076] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00001520] [2018-07-02 15:14:43,846] - loaded script:Account(1).
+ DEBUG root [0x00001520] [2018-07-02 15:14:43,986] - loaded script:Hall(2).
+ DEBUG root [0x00001520] [2018-07-02 15:14:44,026] - loaded script:BattleField(3).
+ DEBUG root [0x00001520] [2018-07-02 15:14:44,059] - loaded script:Avatar(4).
+  INFO root [0x00001520] [2018-07-02 15:14:44,061] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00001520] [2018-07-02 15:14:44,127] - TelnetServer server is running on port 40000
+  INFO root [0x00001520] [2018-07-02 15:14:45,005] - ---- baseapp is running ----
+ DEBUG root [0x00001520] [2018-07-02 15:14:45,149] - Components::process(): Request for the process of identity...
+  WARN root [0x00001520] [2018-07-02 15:14:51,510] - EntityApp::checkTickPeriod: tick took 6495% (6.49 seconds)!
+  INFO root [0x00001520] [2018-07-02 15:14:52,568] - Components::findComponents: find logger(1)...
+  INFO root [0x00001520] [2018-07-02 15:14:52,631] - Components::findComponents: found logger, addr:192.168.31.56:10989
+  INFO root [0x00001520] [2018-07-02 15:14:52,632] - Components::addComponent: reset orderLog, uid=15410!
+  INFO root [0x00001520] [2018-07-02 15:14:52,632] - Components::addComponent[logger], uid=15410, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001520] [2018-07-02 15:14:52,634] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00001520] [2018-07-02 15:14:52,736] - Components::findComponents: found dbmgr, addr:192.168.31.56:10993
+  INFO root [0x00001520] [2018-07-02 15:14:52,736] - Components::addComponent: reset orderLog, uid=15410!
+  INFO root [0x00001520] [2018-07-02 15:14:52,736] - Components::addComponent[dbmgr], uid=15410, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001520] [2018-07-02 15:14:52,737] - Components::findComponents: found dbmgr, addr:192.168.31.56:10993
+  WARN root [0x00001520] [2018-07-02 15:14:53,737] - Forwarding logs to logger[192.168.31.56:10989/0/0/0]...

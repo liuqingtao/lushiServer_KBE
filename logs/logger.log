@@ -60,3 +60,56 @@ S_INFO [0x00002d3c] [2018-06-30 23:19:25,512] - onLoggerAppReady: bootstrapGroup
   INFO [0x00002d3c] [2018-06-30 23:19:38,874] - Components::addComponent[dbmgr], uid=4938, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
   INFO [0x00002d3c] [2018-06-30 23:19:42,093] - Logger::registerLogWatcher: addr=192.168.31.56:25070 is successfully!
   WARN [0x00002d3c] [2018-06-30 23:20:22,078] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 0.17 seconds
+  WARN [0x00002d3c] [2018-06-30 23:39:23,859] - TCPPacketReceiver::processPendingEvents(192.168.31.56:25051): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00002d3c] [2018-06-30 23:39:23,859] - Components::removeComponentByChannel: loginapp : 9000, Normal exit!
+  WARN [0x00002d3c] [2018-06-30 23:39:23,875] - TCPPacketReceiver::processPendingEvents(192.168.31.56:25047): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00002d3c] [2018-06-30 23:39:23,875] - Components::removeComponentByChannel: cellapp : 8001, Normal exit!
+  WARN [0x00002d3c] [2018-06-30 23:39:23,891] - TCPPacketReceiver::processPendingEvents(192.168.31.56:25052): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00002d3c] [2018-06-30 23:39:23,891] - Components::removeComponentByChannel: baseapp : 7001, Normal exit!
+  WARN [0x00002d3c] [2018-06-30 23:39:23,906] - TCPPacketReceiver::processPendingEvents(192.168.31.56:25048): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00002d3c] [2018-06-30 23:39:23,906] - Components::removeComponentByChannel: cellappmgr : 6000, Normal exit!
+  WARN [0x00002d3c] [2018-06-30 23:39:23,906] - TCPPacketReceiver::processPendingEvents(192.168.31.56:25046): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00002d3c] [2018-06-30 23:39:23,906] - Components::removeComponentByChannel: baseappmgr : 5000, Normal exit!
+  WARN [0x00002d3c] [2018-06-30 23:39:23,906] - TCPPacketReceiver::processPendingEvents(192.168.31.56:25055): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00002d3c] [2018-06-30 23:39:23,906] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO [0x00000e6c] [2018-07-02 15:14:23,704] - 
+  INFO [0x00000e6c] [2018-07-02 15:14:23,894] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00000e6c] [2018-07-02 15:14:26,789] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO [0x00000e6c] [2018-07-02 15:14:26,789] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO [0x00000e6c] [2018-07-02 15:14:26,789] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO [0x00000e6c] [2018-07-02 15:14:27,211] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:10988 )
+  INFO [0x00000e6c] [2018-07-02 15:14:27,212] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.31.56:10988, SOMAXCONN=5.
+  INFO [0x00000e6c] [2018-07-02 15:14:27,215] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:10989 )
+  INFO [0x00000e6c] [2018-07-02 15:14:27,215] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:10989, SOMAXCONN=5.
+  INFO [0x00000e6c] [2018-07-02 15:14:27,740] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 23:15:47 Jun 15 2018. AppID: 2000. UID: 15410. PID: 6232 ----
+  INFO [0x00000e6c] [2018-07-02 15:14:27,740] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO [0x00000e6c] [2018-07-02 15:14:27,852] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00000e6c] [2018-07-02 15:14:27,852] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00000e6c] [2018-07-02 15:14:33,953] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00000e6c] [2018-07-02 15:14:34,058] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00000e6c] [2018-07-02 15:14:34,080] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG [0x00000e6c] [2018-07-02 15:14:35,244] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00000e6c] [2018-07-02 15:14:35,416] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00000e6c] [2018-07-02 15:14:35,454] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00000e6c] [2018-07-02 15:14:35,480] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00000e6c] [2018-07-02 15:14:37,938] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00000e6c] [2018-07-02 15:14:40,869] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:15:27) [MSC v.1913 32 bit (Intel)])!
+  INFO [0x00000e6c] [2018-07-02 15:14:40,869] - Script::install(): KBExtra is successfully!
+S_INFO [0x00000e6c] [2018-07-02 15:14:41,075] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00000e6c] [2018-07-02 15:14:41,076] - TelnetServer server is running on port 34000
+  INFO [0x00000e6c] [2018-07-02 15:14:41,225] - ---- logger is running ----
+ DEBUG [0x00000e6c] [2018-07-02 15:14:41,407] - Components::process(): Request for the process of identity...
+  WARN [0x00000e6c] [2018-07-02 15:14:44,937] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20867, errorno=10048
+  INFO [0x00000e6c] [2018-07-02 15:14:49,009] - Components::process(): Found all the components!
+  INFO [0x00000e6c] [2018-07-02 15:14:49,573] - ServerApp::onRegisterNewApp: uid:15410, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.56, intport:10995, extaddr:192.168.31.56, extport:20013,  from 192.168.31.56:11024/0/0/0.
+  INFO [0x00000e6c] [2018-07-02 15:14:49,573] - Components::addComponent: reset orderLog, uid=15410!
+  INFO [0x00000e6c] [2018-07-02 15:14:49,574] - Components::addComponent[loginapp], uid=15410, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00000e6c] [2018-07-02 15:14:52,190] - Logger::registerLogWatcher: addr=192.168.31.56:11029 is successfully!
+  INFO [0x00000e6c] [2018-07-02 15:14:52,350] - ServerApp::onRegisterNewApp: uid:15410, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.56, intport:10999, extaddr:nonsupport, extport:0,  from 192.168.31.56:11030/0/0/0.
+  INFO [0x00000e6c] [2018-07-02 15:14:52,350] - Components::addComponent[cellapp], uid=15410, componentID=8001, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00000e6c] [2018-07-02 15:14:52,650] - ServerApp::onRegisterNewApp: uid:15410, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.56, intport:10998, extaddr:192.168.31.56, extport:20015,  from 192.168.31.56:11031/0/0/0.
+  INFO [0x00000e6c] [2018-07-02 15:14:52,650] - Components::addComponent[baseapp], uid=15410, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00000e6c] [2018-07-02 15:14:53,370] - ServerApp::onRegisterNewApp: uid:15410, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.56, intport:10993, extaddr:nonsupport, extport:0,  from 192.168.31.56:11032/0/0/0.
+  INFO [0x00000e6c] [2018-07-02 15:14:53,370] - Components::addComponent[dbmgr], uid=15410, componentID=4000, globalorderid=4, grouporderid=1, totalcount=1

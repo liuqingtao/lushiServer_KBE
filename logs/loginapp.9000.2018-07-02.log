@@ -1,0 +1,43 @@
+  INFO root [2018-07-02 15:14:26,105] - 
+  INFO root [2018-07-02 15:14:26,106] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-07-02 15:14:28,710] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [2018-07-02 15:14:28,711] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [2018-07-02 15:14:28,711] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [2018-07-02 15:14:28,993] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:20013 )
+  INFO root [2018-07-02 15:14:28,994] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.31.56:20013, SOMAXCONN=128.
+  INFO root [2018-07-02 15:14:28,996] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:10995 )
+  INFO root [2018-07-02 15:14:28,997] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:10995, SOMAXCONN=128.
+  INFO root [2018-07-02 15:14:28,997] - server-configs:
+  INFO root [2018-07-02 15:14:28,997] - 	internalAddr : 192.168.31.56:10995
+  INFO root [2018-07-02 15:14:28,997] - 	externalAddr : 192.168.31.56:20013
+  INFO root [2018-07-02 15:14:28,997] - 	componentID : 9000
+  INFO root [2018-07-02 15:14:31,427] - ---- loginapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: A16A7477E55D6AEDCD48345D2B50A665. Config: Debug X86. Built: 23:20:06 Jun 15 2018. AppID: 9000. UID: 15410. PID: 1996 ----
+  INFO root [2018-07-02 15:14:31,428] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [2018-07-02 15:14:31,487] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-07-02 15:14:31,487] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-07-02 15:14:35,773] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-07-02 15:14:35,921] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-07-02 15:14:36,231] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-07-02 15:14:37,751] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-07-02 15:14:37,821] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-07-02 15:14:37,877] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-07-02 15:14:38,092] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-07-02 15:14:38,771] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-07-02 15:14:40,855] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:20:02) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-07-02 15:14:40,856] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-07-02 15:14:41,104] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-07-02 15:14:41,155] - TelnetServer server is running on port 31000
+  INFO root [2018-07-02 15:14:42,142] - ---- loginapp is running ----
+ DEBUG root [2018-07-02 15:14:42,182] - Components::process(): Request for the process of identity...
+  INFO root [2018-07-02 15:14:49,505] - Components::findComponents: find logger(1)...
+  INFO root [2018-07-02 15:14:49,510] - Components::findComponents: found logger, addr:192.168.31.56:10989
+  INFO root [2018-07-02 15:14:49,511] - Components::addComponent: reset orderLog, uid=15410!
+  INFO root [2018-07-02 15:14:49,511] - Components::addComponent[logger], uid=15410, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-07-02 15:14:49,512] - Components::findComponents: find dbmgr(2)...
+  INFO root [2018-07-02 15:14:49,614] - Components::findComponents: found dbmgr, addr:192.168.31.56:10993
+  INFO root [2018-07-02 15:14:49,615] - Components::addComponent: reset orderLog, uid=15410!
+  INFO root [2018-07-02 15:14:49,615] - Components::addComponent[dbmgr], uid=15410, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-07-02 15:14:49,616] - Components::findComponents: found dbmgr, addr:192.168.31.56:10993
+  WARN root [2018-07-02 15:14:50,616] - Forwarding logs to logger[192.168.31.56:10989/0/0/0]...
