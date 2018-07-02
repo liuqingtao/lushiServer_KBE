@@ -48,7 +48,7 @@ class Avatar(cardBase):
         if self.situation==1:
             self.battlefield.endRound()
 
-    def reqGiveUp(self):
+    def reqGiveUp(self,cellerID):
         DEBUG_MSG('Avatar.cell::reqGiveUp: [%i] ' % (self.id))
         self.battlefield.reqGiveUp(self.playerID)
     def bttleEnd(self,success):

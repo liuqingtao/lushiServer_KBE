@@ -30,3 +30,262 @@ S_INFO root [2018-07-02 15:14:41,513] - onInterfaceAppReady: bootstrapGroupIndex
 S_INFO root [2018-07-02 15:15:37,931] - onRequestAccountLogin: registerName=lqt01
 S_INFO root [2018-07-02 15:42:09,248] - onRequestAccountLogin: registerName=lqt01
 S_INFO root [2018-07-02 15:46:30,453] - onRequestAccountLogin: registerName=lqt02
+  INFO root [2018-07-02 16:30:54,061] - 
+  INFO root [2018-07-02 16:30:54,063] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-07-02 16:30:54,064] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [2018-07-02 16:30:54,065] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [2018-07-02 16:30:54,066] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [2018-07-02 16:30:54,102] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:30099 )
+  INFO root [2018-07-02 16:30:54,102] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:30099, SOMAXCONN=5.
+  INFO root [2018-07-02 16:30:54,145] - ---- interfaces Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 1ABB6125D8365C3720079E1D4CCC25C7. Config: Debug X86. Built: 23:15:38 Jun 15 2018. AppID: 3000. UID: 30435. PID: 3984 ----
+  INFO root [2018-07-02 16:30:54,147] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [2018-07-02 16:30:54,147] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-07-02 16:30:54,148] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-07-02 16:30:54,365] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-07-02 16:30:54,366] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-07-02 16:30:54,367] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-07-02 16:30:54,374] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-07-02 16:30:54,375] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-07-02 16:30:54,376] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-07-02 16:30:54,377] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-07-02 16:30:54,529] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-07-02 16:30:54,686] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:15:28) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-07-02 16:30:54,686] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-07-02 16:30:54,737] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+ S_ERR root [2018-07-02 16:30:54,807] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/interface\kbemain.py", line 45, in onInterfaceAppReady
+    g_poller.start("localhost", 30040)
+ S_ERR root [2018-07-02 16:30:54,819] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/interface\Poller.py", line 30, in start
+    self._socket.bind((addr, port))
+ S_ERR root [2018-07-02 16:30:54,820] - OSError: [WinError 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+  INFO root [2018-07-02 16:30:54,827] - TelnetServer server is running on port 33001
+  INFO root [2018-07-02 16:30:55,303] - ---- interfaces is running ----
+ DEBUG root [2018-07-02 16:30:55,304] - Components::process(): Request for the process of identity...
+ ERROR root [2018-07-02 16:30:55,428] - Components::process: found interfaces, addr:192.168.31.56:30099
+ ERROR root [2018-07-02 16:30:55,475] - ServerApp::onIdentityillegal: The current process and interfaces(componentID=3000 ->conflicted???, pid=2860, addr=192.168.31.56) conflict, the process will exit!
+Can modify the components-CID and UID to avoid conflict.
+  INFO root [2018-07-02 16:30:55,476] - Shutdowner::onShutdownBegin: shutting down(period=1, tickPeriod=1)
+S_INFO root [2018-07-02 16:30:55,476] - onInterfaceAppShutDown()
+  INFO root [2018-07-02 16:30:56,601] - Shutdowner::onShutdown: shutting down
+  WARN root [2018-07-02 16:30:56,706] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 0.23 seconds
+  INFO root [2018-07-02 16:30:57,707] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-07-02 16:30:57,742] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-07-02 16:30:57,742] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-07-02 16:30:57,743] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-07-02 16:30:57,743] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-07-02 16:30:57,743] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-07-02 16:30:57,743] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-07-02 16:30:57,744] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-07-02 16:30:57,744] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-07-02 16:30:57,772] - Script::uninstall(): is successfully!
+ DEBUG root [2018-07-02 16:30:57,783] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-07-02 16:30:58,083] - ThreadPool::destroy(): waiting for thread(2)[0x921410,0x9213a8,], try=1
+ DEBUG root [2018-07-02 16:30:58,483] - TPThread::~TPThread(): 0x921410
+ DEBUG root [2018-07-02 16:30:58,483] - TPThread::~TPThread(): 0x9213a8
+ DEBUG root [2018-07-02 16:30:58,483] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-07-02 16:30:58,628] - Bundle::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:30:58,629] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:30:58,629] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:30:58,629] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [2018-07-02 16:30:58,629] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:30:58,666] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:30:58,667] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:30:58,667] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-07-02 16:30:58,667] - interfaces(3000) has shut down.
+  INFO root [2018-07-02 16:30:59,667] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  WARN root [2018-07-02 16:31:01,792] - TCPPacketReceiver::processPendingEvents(127.0.0.1:12256): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2018-07-02 16:31:07,339] - 
+  INFO root [2018-07-02 16:31:07,350] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-07-02 16:31:07,352] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [2018-07-02 16:31:07,353] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [2018-07-02 16:31:07,353] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [2018-07-02 16:31:07,417] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:30099 )
+  INFO root [2018-07-02 16:31:07,417] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:30099, SOMAXCONN=5.
+  INFO root [2018-07-02 16:31:07,428] - ---- interfaces Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 1ABB6125D8365C3720079E1D4CCC25C7. Config: Debug X86. Built: 23:15:38 Jun 15 2018. AppID: 3000. UID: 30481. PID: 6624 ----
+  INFO root [2018-07-02 16:31:07,428] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [2018-07-02 16:31:07,433] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-07-02 16:31:07,435] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-07-02 16:31:07,612] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-07-02 16:31:07,613] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-07-02 16:31:07,614] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-07-02 16:31:07,619] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-07-02 16:31:07,620] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-07-02 16:31:07,620] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-07-02 16:31:07,622] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-07-02 16:31:07,688] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-07-02 16:31:07,757] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:15:28) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-07-02 16:31:07,758] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-07-02 16:31:07,777] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+ S_ERR root [2018-07-02 16:31:07,791] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/interface\kbemain.py", line 45, in onInterfaceAppReady
+    g_poller.start("localhost", 30040)
+ S_ERR root [2018-07-02 16:31:07,793] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/interface\Poller.py", line 30, in start
+    self._socket.bind((addr, port))
+ S_ERR root [2018-07-02 16:31:07,795] - OSError: [WinError 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+  INFO root [2018-07-02 16:31:07,799] - TelnetServer server is running on port 33001
+  INFO root [2018-07-02 16:31:08,355] - ---- interfaces is running ----
+ DEBUG root [2018-07-02 16:31:08,356] - Components::process(): Request for the process of identity...
+ ERROR root [2018-07-02 16:31:08,492] - Components::process: found interfaces, addr:192.168.31.56:30099
+ ERROR root [2018-07-02 16:31:08,494] - ServerApp::onIdentityillegal: The current process and interfaces(componentID=3000 ->conflicted???, pid=2860, addr=192.168.31.56) conflict, the process will exit!
+Can modify the components-CID and UID to avoid conflict.
+  INFO root [2018-07-02 16:31:08,496] - Shutdowner::onShutdownBegin: shutting down(period=1, tickPeriod=1)
+S_INFO root [2018-07-02 16:31:08,496] - onInterfaceAppShutDown()
+  INFO root [2018-07-02 16:31:09,497] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-07-02 16:31:10,499] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-07-02 16:31:10,500] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-07-02 16:31:10,501] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-07-02 16:31:10,501] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-07-02 16:31:10,501] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-07-02 16:31:10,501] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-07-02 16:31:10,502] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-07-02 16:31:10,502] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-07-02 16:31:10,502] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-07-02 16:31:10,523] - Script::uninstall(): is successfully!
+ DEBUG root [2018-07-02 16:31:10,523] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-07-02 16:31:10,823] - ThreadPool::destroy(): waiting for thread(2)[0x5a11f0,0x5a1188,], try=1
+ DEBUG root [2018-07-02 16:31:11,224] - TPThread::~TPThread(): 0x5a11f0
+ DEBUG root [2018-07-02 16:31:11,225] - TPThread::~TPThread(): 0x5a1188
+ DEBUG root [2018-07-02 16:31:11,225] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-07-02 16:31:11,253] - Bundle::destroyObjPool(): size 1.
+ DEBUG root [2018-07-02 16:31:11,253] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:31:11,253] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:31:11,254] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [2018-07-02 16:31:11,254] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:31:11,254] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:31:11,255] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:31:11,255] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-07-02 16:31:11,255] - interfaces(3000) has shut down.
+  INFO root [2018-07-02 16:31:12,255] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-07-02 16:32:44,100] - 
+  INFO root [2018-07-02 16:32:44,101] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-07-02 16:32:44,103] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [2018-07-02 16:32:44,104] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [2018-07-02 16:32:44,104] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [2018-07-02 16:32:44,155] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:30099 )
+  INFO root [2018-07-02 16:32:44,155] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:30099, SOMAXCONN=5.
+  INFO root [2018-07-02 16:32:44,187] - ---- interfaces Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 1ABB6125D8365C3720079E1D4CCC25C7. Config: Debug X86. Built: 23:15:38 Jun 15 2018. AppID: 3000. UID: 30794. PID: 9492 ----
+  INFO root [2018-07-02 16:32:44,190] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [2018-07-02 16:32:44,191] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-07-02 16:32:44,191] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-07-02 16:32:44,372] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-07-02 16:32:44,373] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-07-02 16:32:44,374] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-07-02 16:32:44,381] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-07-02 16:32:44,382] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-07-02 16:32:44,382] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-07-02 16:32:44,384] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-07-02 16:32:44,465] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-07-02 16:32:44,547] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:15:28) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-07-02 16:32:44,548] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-07-02 16:32:44,574] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+ S_ERR root [2018-07-02 16:32:44,601] - Traceback (most recent call last):
+  File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/interface\kbemain.py", line 45, in onInterfaceAppReady
+    g_poller.start("localhost", 30040)
+ S_ERR root [2018-07-02 16:32:44,603] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/interface\Poller.py", line 30, in start
+    self._socket.bind((addr, port))
+ S_ERR root [2018-07-02 16:32:44,605] - OSError: [WinError 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+  INFO root [2018-07-02 16:32:44,610] - TelnetServer server is running on port 33001
+  INFO root [2018-07-02 16:32:45,161] - ---- interfaces is running ----
+ DEBUG root [2018-07-02 16:32:45,161] - Components::process(): Request for the process of identity...
+ ERROR root [2018-07-02 16:32:45,260] - Components::process: found interfaces, addr:192.168.31.56:30099
+ ERROR root [2018-07-02 16:32:45,261] - ServerApp::onIdentityillegal: The current process and interfaces(componentID=3000 ->conflicted???, pid=2860, addr=192.168.31.56) conflict, the process will exit!
+Can modify the components-CID and UID to avoid conflict.
+  INFO root [2018-07-02 16:32:45,263] - Shutdowner::onShutdownBegin: shutting down(period=1, tickPeriod=1)
+S_INFO root [2018-07-02 16:32:45,263] - onInterfaceAppShutDown()
+  INFO root [2018-07-02 16:32:46,264] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-07-02 16:32:47,265] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-07-02 16:32:47,266] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-07-02 16:32:47,266] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-07-02 16:32:47,267] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-07-02 16:32:47,267] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-07-02 16:32:47,267] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-07-02 16:32:47,267] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-07-02 16:32:47,268] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-07-02 16:32:47,268] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-07-02 16:32:47,286] - Script::uninstall(): is successfully!
+ DEBUG root [2018-07-02 16:32:47,287] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-07-02 16:32:47,587] - ThreadPool::destroy(): waiting for thread(2)[0x1e11f0,0x1e1188,], try=1
+ DEBUG root [2018-07-02 16:32:47,987] - TPThread::~TPThread(): 0x1e11f0
+ DEBUG root [2018-07-02 16:32:47,987] - TPThread::~TPThread(): 0x1e1188
+ DEBUG root [2018-07-02 16:32:47,987] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-07-02 16:32:48,019] - Bundle::destroyObjPool(): size 1.
+ DEBUG root [2018-07-02 16:32:48,020] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:32:48,021] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:32:48,021] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [2018-07-02 16:32:48,021] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:32:48,021] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:32:48,022] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-07-02 16:32:48,022] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-07-02 16:32:48,022] - interfaces(3000) has shut down.
+  INFO root [2018-07-02 16:32:49,022] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  WARN root [2018-07-02 16:34:40,527] - TCPPacketReceiver::processPendingEvents(127.0.0.1:11005): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2018-07-02 18:03:14,722] - 
+  INFO root [2018-07-02 18:03:14,722] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-07-02 18:03:14,738] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [2018-07-02 18:03:14,738] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [2018-07-02 18:03:14,738] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [2018-07-02 18:03:14,753] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:30099 )
+  INFO root [2018-07-02 18:03:14,753] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:30099, SOMAXCONN=5.
+  INFO root [2018-07-02 18:03:14,753] - ---- interfaces Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 1ABB6125D8365C3720079E1D4CCC25C7. Config: Debug X86. Built: 23:15:38 Jun 15 2018. AppID: 3000. UID: 15762. PID: 4680 ----
+  INFO root [2018-07-02 18:03:14,753] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [2018-07-02 18:03:14,753] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-07-02 18:03:14,753] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-07-02 18:03:14,940] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-07-02 18:03:14,940] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-07-02 18:03:14,940] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-07-02 18:03:14,956] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-07-02 18:03:14,956] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-07-02 18:03:14,956] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-07-02 18:03:14,956] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-07-02 18:03:15,050] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-07-02 18:03:15,128] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:15:28) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-07-02 18:03:15,128] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-07-02 18:03:15,159] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-07-02 18:03:15,174] - TelnetServer server is running on port 33000
+  INFO root [2018-07-02 18:03:16,048] - ---- interfaces is running ----
+ DEBUG root [2018-07-02 18:03:16,048] - Components::process(): Request for the process of identity...
+  INFO root [2018-07-02 18:03:23,365] - Components::process(): Found all the components!
+S_INFO root [2018-07-02 18:14:39,585] - onRequestAccountLogin: registerName=lqt01
+S_INFO root [2018-07-02 18:15:04,586] - onRequestAccountLogin: registerName=lqt02
+  WARN root [2018-07-02 18:27:30,982] - TCPPacketReceiver::processPendingEvents(127.0.0.1:1346): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2018-07-02 18:27:36,801] - 
+  INFO root [2018-07-02 18:27:36,814] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-07-02 18:27:36,816] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [2018-07-02 18:27:36,817] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [2018-07-02 18:27:36,817] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [2018-07-02 18:27:36,859] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:30099 )
+  INFO root [2018-07-02 18:27:36,860] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:30099, SOMAXCONN=5.
+  INFO root [2018-07-02 18:27:36,871] - ---- interfaces Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 1ABB6125D8365C3720079E1D4CCC25C7. Config: Debug X86. Built: 23:15:38 Jun 15 2018. AppID: 3000. UID: 20536. PID: 6928 ----
+  INFO root [2018-07-02 18:27:36,873] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [2018-07-02 18:27:36,877] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-07-02 18:27:36,877] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-07-02 18:27:37,073] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-07-02 18:27:37,075] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-07-02 18:27:37,076] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-07-02 18:27:37,084] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-07-02 18:27:37,085] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-07-02 18:27:37,085] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-07-02 18:27:37,087] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-07-02 18:27:37,176] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-07-02 18:27:37,266] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:15:28) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-07-02 18:27:37,267] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-07-02 18:27:37,293] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-07-02 18:27:37,315] - TelnetServer server is running on port 33000
+  INFO root [2018-07-02 18:27:38,272] - ---- interfaces is running ----
+ DEBUG root [2018-07-02 18:27:38,273] - Components::process(): Request for the process of identity...
+  INFO root [2018-07-02 18:27:45,494] - Components::process(): Found all the components!
+S_INFO root [2018-07-02 18:28:15,395] - onRequestAccountLogin: registerName=lqt01
+S_INFO root [2018-07-02 18:28:28,895] - onRequestAccountLogin: registerName=lqt02
+S_INFO root [2018-07-02 18:37:27,914] - onRequestAccountLogin: registerName=lqt02
+S_INFO root [2018-07-02 18:37:41,014] - onRequestAccountLogin: registerName=lqt01
+  WARN root [2018-07-02 18:39:17,262] - TCPPacketReceiver::processPendingEvents(127.0.0.1:1978): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
