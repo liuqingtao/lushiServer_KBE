@@ -59,3 +59,21 @@
    DEBUG   loginapp01 15410 9000  [2018-07-02 15:15:38 125] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=lqt01, addr=192.168.31.56:20015.
    DEBUG   loginapp01 15410 9000  [2018-07-02 15:15:38 125] - PendingLoginMgr::remove: lqt01, size=0.
  WARNING   loginapp01 15410 9000  [2018-07-02 15:15:38 143] - TCPPacketReceiver::processPendingEvents(127.0.0.1:11091): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp01 15410 9000  [2018-07-02 15:42:09 122] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:11614/0/0/0
+ WARNING   loginapp01 15410 9000  [2018-07-02 15:42:09 122] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:11614/0/0/0
+  S_INFO   loginapp01 15410 9000  [2018-07-02 15:42:09 222] - onRequestLogin() loginName=lqt01, clientType=7
+   DEBUG   loginapp01 15410 9000  [2018-07-02 15:42:09 223] - PendingLoginMgr::add: lqt01, size=1.
+    INFO   loginapp01 15410 9000  [2018-07-02 15:42:09 223] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=lqt01, datas=PC.
+  S_INFO   loginapp01 15410 9000  [2018-07-02 15:42:10 162] - onLoginCallbackFromDB() loginName=lqt01, accountName=lqt01, errorno=0
+   DEBUG   loginapp01 15410 9000  [2018-07-02 15:42:10 302] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=lqt01, addr=192.168.31.56:20015.
+   DEBUG   loginapp01 15410 9000  [2018-07-02 15:42:10 302] - PendingLoginMgr::remove: lqt01, size=0.
+ WARNING   loginapp01 15410 9000  [2018-07-02 15:42:10 416] - TCPPacketReceiver::processPendingEvents(127.0.0.1:11614): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp01 15410 9000  [2018-07-02 15:46:30 242] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:11691/0/0/0
+ WARNING   loginapp01 15410 9000  [2018-07-02 15:46:30 242] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:11691/0/0/0
+  S_INFO   loginapp01 15410 9000  [2018-07-02 15:46:30 342] - onRequestLogin() loginName=lqt02, clientType=7
+   DEBUG   loginapp01 15410 9000  [2018-07-02 15:46:30 342] - PendingLoginMgr::add: lqt02, size=1.
+    INFO   loginapp01 15410 9000  [2018-07-02 15:46:30 342] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=lqt02, datas=PC.
+  S_INFO   loginapp01 15410 9000  [2018-07-02 15:46:30 582] - onLoginCallbackFromDB() loginName=lqt02, accountName=lqt02, errorno=0
+   DEBUG   loginapp01 15410 9000  [2018-07-02 15:46:30 682] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=lqt02, addr=192.168.31.56:20015.
+   DEBUG   loginapp01 15410 9000  [2018-07-02 15:46:30 682] - PendingLoginMgr::remove: lqt02, size=0.
+ WARNING   loginapp01 15410 9000  [2018-07-02 15:46:30 730] - TCPPacketReceiver::processPendingEvents(127.0.0.1:11691): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET

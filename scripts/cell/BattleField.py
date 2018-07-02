@@ -13,6 +13,7 @@ class BattleField(KBEngine.Entity):
         DEBUG_MSG("BattleField.cell[%i].init" %(self.id))
         self.player0=None
         self.player1=None
+        self.successPlayer=-1
 
     def AvatarRegiste(self,avatarEntity,playerID):
         DEBUG_MSG("BattleField.cell[%i].AvatarRegiste entityID:[%s]" %(self.id,avatarEntity.id))
@@ -53,3 +54,15 @@ class BattleField(KBEngine.Entity):
             return 0
     def getAllEntity(self):
         return self.player0.cardEntityList+self.player1.cardEntityList
+    def reqGiveUp(self,playerID):
+        DEBUG_MSG("BattleField.cell[%i].reqGiveUp playerID[%s] " %(self.id,playerID))
+        if  self.successPlayer!=-1:
+            return
+        self.successPlayer=self.another(playerID)
+        for i in range(2):
+            success=0
+            if i==self.successPlayer:
+                success=1
+            self.players[i].battleEnd(success)
+        self.destroySpace()
+        

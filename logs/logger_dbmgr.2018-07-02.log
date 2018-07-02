@@ -112,3 +112,13 @@ sql:(update tbl_Account_CardList set sm_value=10000033 where id=50)
  WARNING      dbmgr-1 15410 4000  [2018-07-02 15:19:46 222] - DBTask::process(): delay 1.65 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
 sql:(delete from kbe_entitylog where entityDBID=2 and entityType=1)
    DEBUG      dbmgr-1 15410 4000  [2018-07-02 15:19:46 344] - Dbmgr::onEntityOffline: 2, entityType=1.
+ WARNING      dbmgr-1 15410 4000  [2018-07-02 15:42:09 493] - DBTask::process(): took 0.23 seconds
+sql:(select entityID, ip, port, componentID, logger from kbe_entitylog where entityDBID=2 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 15410 4000  [2018-07-02 15:42:10 142] - Dbmgr::onAccountLogin:loginName=lqt01, accountName=lqt01, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+ WARNING      dbmgr-1 15410 4000  [2018-07-02 15:42:10 125] - DBTransaction::commit(): took 0.63 seconds
+   DEBUG      dbmgr-1 15410 4000  [2018-07-02 15:42:10 802] - Dbmgr::queryAccount: lqt01, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 15410 4000  [2018-07-02 15:46:30 562] - Dbmgr::onAccountLogin:loginName=lqt02, accountName=lqt02, success=0, componentID=0, entityID=0, dbid=3, flags=0, deadline=0.
+   DEBUG      dbmgr-1 15410 4000  [2018-07-02 15:46:31 122] - Dbmgr::queryAccount: lqt02, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 15410 4000  [2018-07-02 15:49:45 101] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 15410 4000  [2018-07-02 15:52:15 121] - Dbmgr::writeEntity: Account(3).
+   DEBUG      dbmgr-1 15410 4000  [2018-07-02 16:14:45 639] - Dbmgr::DBTaskServerLog()

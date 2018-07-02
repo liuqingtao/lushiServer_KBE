@@ -47,6 +47,13 @@ class Avatar(cardBase):
         DEBUG_MSG('Avatar.cell::reqEndRound: [%i] ' % (self.id))
         if self.situation==1:
             self.battlefield.endRound()
+
+    def reqGiveUp(self):
+        DEBUG_MSG('Avatar.cell::reqGiveUp: [%i] ' % (self.id))
+        self.battlefield.reqGiveUp(self.playerID)
+    def bttleEnd(self,success):
+        DEBUG_MSG('Avatar.cell::battleEnd: [%i]  success:[%s]' % (self.id,success))
+        self.base.battleEnd(success)
     def getCard(self,cardID):
         DEBUG_MSG('Avatar.cell::getCard: [%i] cardID[%s]' % (self.id,cardID))
         self.createCardEntity(cardID,'HAND')

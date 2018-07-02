@@ -90,3 +90,63 @@
    S_DBG    baseapp01 15410 7001  [2018-07-02 15:19:44 503] - Account[2002].onClientDeath:
    DEBUG    baseapp01 15410 7001  [2018-07-02 15:19:44 683] - Account::~Account(): 2002
  WARNING    baseapp01 15410 7001  [2018-07-02 15:19:44 684] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\server\baseapp\proxy.cpp:222: Profile scriptCall took 0.18 seconds
+   DEBUG    baseapp01 15410 7001  [2018-07-02 15:42:10 275] - PendingLoginMgr::add: lqt01, size=1.
+    INFO    baseapp01 15410 7001  [2018-07-02 15:42:10 574] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.56:11615/0/0/0
+ WARNING    baseapp01 15410 7001  [2018-07-02 15:42:10 575] - Baseapp::onHello: client is not encrypted, addr=192.168.31.56:11615/0/0/0
+    INFO    baseapp01 15410 7001  [2018-07-02 15:42:10 674] - Baseapp::loginBaseapp: new user[lqt01], channel[192.168.31.56:11615/0/0/0].
+   DEBUG    baseapp01 15410 7001  [2018-07-02 15:42:10 874] - PendingLoginMgr::remove: lqt01, size=0.
+    INFO    baseapp01 15410 7001  [2018-07-02 15:42:10 876] - EntityApp::createEntity: new Account 2003
+  S_INFO    baseapp01 15410 7001  [2018-07-02 15:42:10 885] - account[2003] entities enable. mailbox:Client id:2003, utype:1, component=client[0], addr: 192.168.31.56:11615.
+    INFO    baseapp01 15410 7001  [2018-07-02 15:42:10 885] - Baseapp::onQueryAccountCBFromDbmgr: user=lqt01, uuid=6573521878311698432, entityID=2003, flags=0, deadline=0.
+ WARNING    baseapp01 15410 7001  [2018-07-02 15:42:34 105] - EntityApp::checkTickPeriod: tick took 230% (0.23 seconds)!
+ WARNING    baseapp01 15410 7001  [2018-07-02 15:42:42 328] - EntityApp::checkTickPeriod: tick took 254% (0.25 seconds)!
+   DEBUG    baseapp01 15410 7001  [2018-07-02 15:46:30 670] - PendingLoginMgr::add: lqt02, size=1.
+    INFO    baseapp01 15410 7001  [2018-07-02 15:46:30 870] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.31.56:11692/0/0/0
+ WARNING    baseapp01 15410 7001  [2018-07-02 15:46:30 870] - Baseapp::onHello: client is not encrypted, addr=192.168.31.56:11692/0/0/0
+    INFO    baseapp01 15410 7001  [2018-07-02 15:46:30 969] - Baseapp::loginBaseapp: new user[lqt02], channel[192.168.31.56:11692/0/0/0].
+   DEBUG    baseapp01 15410 7001  [2018-07-02 15:46:31 169] - PendingLoginMgr::remove: lqt02, size=0.
+    INFO    baseapp01 15410 7001  [2018-07-02 15:46:31 169] - EntityApp::createEntity: new Account 2004
+  S_INFO    baseapp01 15410 7001  [2018-07-02 15:46:31 171] - account[2004] entities enable. mailbox:Client id:2004, utype:1, component=client[0], addr: 192.168.31.56:11692.
+    INFO    baseapp01 15410 7001  [2018-07-02 15:46:31 171] - Baseapp::onQueryAccountCBFromDbmgr: user=lqt02, uuid=6573522999298162688, entityID=2004, flags=0, deadline=0.
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:46:36 682] - Account[2004].reqStartMarch:avatarIndex:[1]
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:46:36 682] - Account[2004].reqAddMarcher:
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:46:36 683] - OnMarchingPlayer.count:[%i]
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:46:36 683] - <built-in method count of list object at 0x03E778F8>
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:32 268] - Account[2003].reqStartMarch:avatarIndex:[4]
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:32 268] - Account[2003].reqAddMarcher:
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:32 268] - OnMarchingPlayer.count:[%i]
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:32 268] - <built-in method count of list object at 0x03E778F8>
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:34 009] - Hall.marchSuccess:playerIDs[[Account object at 0x00620DF8., Account object at 0x00620CB8.]]
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:34 135] - BattleField[2005] init
+    INFO    baseapp01 15410 7001  [2018-07-02 15:47:34 143] - EntityApp::createEntity: new BattleField 2005
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:34 469] - cell has been created
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:34 483] - Account[2004].battleFieldBase[2005]
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:34 507] - Avatar.base::__init__: [2006]
+    INFO    baseapp01 15410 7001  [2018-07-02 15:47:34 507] - EntityApp::createEntity: new Avatar 2006
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:34 507] - Account[2003].battleFieldBase[2005]
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:34 510] - Avatar.base::__init__: [2007]
+    INFO    baseapp01 15410 7001  [2018-07-02 15:47:34 511] - EntityApp::createEntity: new Avatar 2007
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:34 669] - Avatar::onGetCell: Cell id:2006, utype:4, component=cellapp[8001], addr: 192.168.31.56:11043.
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:34 768] - Avatar::onGetCell: Cell id:2007, utype:4, component=cellapp[8001], addr: 192.168.31.56:11043.
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:35 269] - Account[2003].reqEnterBattlefield
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:47:35 281] - Avatar.base:onGetClient:[2007].
+    INFO    baseapp01 15410 7001  [2018-07-02 15:50:07 266] - Baseapp::onBackupEntityCellData: Avatar(2006), 425 bytes.
+ WARNING    baseapp01 15410 7001  [2018-07-02 15:50:20 368] - TCPPacketReceiver::processPendingEvents(192.168.31.56:11615): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 15410 7001  [2018-07-02 15:50:20 369] - Avatar::onClientDeath: 2007.
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:50:20 369] - Avatar[2007].onClientDeath:
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:50:23 665] - Account[2004].reqEnterBattlefield
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:50:23 666] - Avatar.base:onGetClient:[2006].
+ WARNING    baseapp01 15410 7001  [2018-07-02 15:51:04 692] - TCPPacketReceiver::processPendingEvents(192.168.31.56:11692): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 15410 7001  [2018-07-02 15:51:04 693] - Avatar::onClientDeath: 2006.
+   S_DBG    baseapp01 15410 7001  [2018-07-02 15:51:04 693] - Avatar[2006].onClientDeath:
+    INFO    baseapp01 15410 7001  [2018-07-02 15:51:30 563] - Baseapp::onBackupEntityCellData: BattleField(2005), 29 bytes.
+    INFO    baseapp01 15410 7001  [2018-07-02 15:55:40 559] - Baseapp::onBackupEntityCellData: Avatar(2007), 425 bytes.
+    INFO    baseapp01 15410 7001  [2018-07-02 16:01:13 853] - Baseapp::onBackupEntityCellData: BattleField(2005), 1 bytes.
+    INFO    baseapp01 15410 7001  [2018-07-02 16:02:37 251] - Baseapp::onBackupEntityCellData: Avatar(2007), 1 bytes.
+    INFO    baseapp01 15410 7001  [2018-07-02 16:04:00 549] - Baseapp::onBackupEntityCellData: Avatar(2006), 1 bytes.
+    INFO    baseapp01 15410 7001  [2018-07-02 16:09:33 842] - Baseapp::onBackupEntityCellData: Avatar(2007), 1 bytes.
+    INFO    baseapp01 15410 7001  [2018-07-02 16:12:20 540] - Baseapp::onBackupEntityCellData: BattleField(2005), 1 bytes.
+    INFO    baseapp01 15410 7001  [2018-07-02 16:13:43 838] - Baseapp::onBackupEntityCellData: Avatar(2006), 1 bytes.
+    INFO    baseapp01 15410 7001  [2018-07-02 16:15:07 236] - Baseapp::onBackupEntityCellData: Avatar(2006), 1 bytes.
+    INFO    baseapp01 15410 7001  [2018-07-02 16:17:53 833] - Baseapp::onBackupEntityCellData: BattleField(2005), 1 bytes.
+    INFO    baseapp01 15410 7001  [2018-07-02 16:22:03 828] - Baseapp::onBackupEntityCellData: Avatar(2007), 1 bytes.
