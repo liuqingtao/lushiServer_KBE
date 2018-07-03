@@ -1,0 +1,90 @@
+  INFO root [0x000013f8] [2018-07-03 14:15:25,640] - 
+  INFO root [0x000013f8] [2018-07-03 14:15:25,650] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000013f8] [2018-07-03 14:15:25,650] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [0x000013f8] [2018-07-03 14:15:25,650] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [0x000013f8] [2018-07-03 14:15:25,650] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [0x000013f8] [2018-07-03 14:15:25,660] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:20015 )
+  INFO root [0x000013f8] [2018-07-03 14:15:25,660] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.31.56:20015, SOMAXCONN=128.
+  INFO root [0x000013f8] [2018-07-03 14:15:25,670] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:5926 )
+  INFO root [0x000013f8] [2018-07-03 14:15:25,670] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:5926, SOMAXCONN=128.
+  INFO root [0x000013f8] [2018-07-03 14:15:25,670] - server-configs:
+  INFO root [0x000013f8] [2018-07-03 14:15:25,670] - 	gameUpdateHertz : 10
+  INFO root [0x000013f8] [2018-07-03 14:15:25,670] - 	entryScriptFile : kbemain
+  INFO root [0x000013f8] [2018-07-03 14:15:25,670] - 	internalAddr : 192.168.31.56:5926
+  INFO root [0x000013f8] [2018-07-03 14:15:25,670] - 	externalAddr : 192.168.31.56:20015
+  INFO root [0x000013f8] [2018-07-03 14:15:25,670] - 	componentID : 7001
+  INFO root [0x000013f8] [2018-07-03 14:15:27,694] - ---- baseapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 23:18:04 Jun 15 2018. AppID: 7001. UID: 23895. PID: 2000 ----
+  INFO root [0x000013f8] [2018-07-03 14:15:27,695] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [0x000013f8] [2018-07-03 14:15:27,696] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000013f8] [2018-07-03 14:15:27,697] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x000013f8] [2018-07-03 14:15:27,917] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000013f8] [2018-07-03 14:15:27,918] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x000013f8] [2018-07-03 14:15:27,920] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x000013f8] [2018-07-03 14:15:27,927] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000013f8] [2018-07-03 14:15:27,928] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x000013f8] [2018-07-03 14:15:27,928] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000013f8] [2018-07-03 14:15:27,930] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000013f8] [2018-07-03 14:15:28,110] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x000013f8] [2018-07-03 14:15:28,258] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:11) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x000013f8] [2018-07-03 14:15:28,259] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000013f8] [2018-07-03 14:15:28,444] - loaded script:Account(1).
+ DEBUG root [0x000013f8] [2018-07-03 14:15:28,447] - loaded script:Hall(2).
+ DEBUG root [0x000013f8] [2018-07-03 14:15:28,450] - loaded script:BattleField(3).
+ DEBUG root [0x000013f8] [2018-07-03 14:15:28,497] - loaded script:Avatar(4).
+  INFO root [0x000013f8] [2018-07-03 14:15:28,500] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x000013f8] [2018-07-03 14:15:28,502] - TelnetServer server is running on port 40000
+  INFO root [0x000013f8] [2018-07-03 14:15:29,358] - ---- baseapp is running ----
+ DEBUG root [0x000013f8] [2018-07-03 14:15:29,358] - Components::process(): Request for the process of identity...
+  WARN root [0x000013f8] [2018-07-03 14:15:35,458] - EntityApp::checkTickPeriod: tick took 6100% (6.10 seconds)!
+  INFO root [0x000013f8] [2018-07-03 14:15:36,510] - Components::findComponents: find logger(1)...
+  INFO root [0x000013f8] [2018-07-03 14:15:36,600] - Components::findComponents: found logger, addr:192.168.31.56:5930
+  INFO root [0x000013f8] [2018-07-03 14:15:36,600] - Components::addComponent: reset orderLog, uid=23895!
+  INFO root [0x000013f8] [2018-07-03 14:15:36,600] - Components::addComponent[logger], uid=23895, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000013f8] [2018-07-03 14:15:36,600] - Components::findComponents: find dbmgr(2)...
+  WARN root [0x000013f8] [2018-07-03 14:15:37,700] - Forwarding logs to logger[192.168.31.56:5930/0/0/0]...
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,580] - 
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,581] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,583] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,584] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,585] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,596] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:20015 )
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,597] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.31.56:20015, SOMAXCONN=128.
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,601] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:6005 )
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,601] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:6005, SOMAXCONN=128.
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,601] - server-configs:
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,602] - 	gameUpdateHertz : 10
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,602] - 	entryScriptFile : kbemain
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,602] - 	internalAddr : 192.168.31.56:6005
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,603] - 	externalAddr : 192.168.31.56:20015
+  INFO root [0x00000ee4] [2018-07-03 14:17:18,603] - 	componentID : 7001
+  INFO root [0x00000ee4] [2018-07-03 14:17:19,723] - Components::findLogger: found logger, addr:192.168.31.56:5999
+  INFO root [0x00000ee4] [2018-07-03 14:17:19,724] - Components::addComponent: reset orderLog, uid=24264!
+  INFO root [0x00000ee4] [2018-07-03 14:17:19,724] - Components::addComponent[logger], uid=24264, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000ee4] [2018-07-03 14:17:19,736] - ---- baseapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 23:18:04 Jun 15 2018. AppID: 7001. UID: 24264. PID: 9188 ----
+  INFO root [0x00000ee4] [2018-07-03 14:17:19,737] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [0x00000ee4] [2018-07-03 14:17:19,738] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000ee4] [2018-07-03 14:17:19,738] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00000ee4] [2018-07-03 14:17:19,921] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00000ee4] [2018-07-03 14:17:19,923] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00000ee4] [2018-07-03 14:17:19,924] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00000ee4] [2018-07-03 14:17:19,933] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00000ee4] [2018-07-03 14:17:19,934] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00000ee4] [2018-07-03 14:17:19,935] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00000ee4] [2018-07-03 14:17:19,936] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00000ee4] [2018-07-03 14:17:20,099] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00000ee4] [2018-07-03 14:17:20,368] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:11) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x00000ee4] [2018-07-03 14:17:20,420] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00000ee4] [2018-07-03 14:17:20,680] - loaded script:Account(1).
+ DEBUG root [0x00000ee4] [2018-07-03 14:17:20,683] - loaded script:Hall(2).
+ DEBUG root [0x00000ee4] [2018-07-03 14:17:20,687] - loaded script:BattleField(3).
+ DEBUG root [0x00000ee4] [2018-07-03 14:17:20,690] - loaded script:Avatar(4).
+  INFO root [0x00000ee4] [2018-07-03 14:17:20,693] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00000ee4] [2018-07-03 14:17:20,694] - TelnetServer server is running on port 40000
+  INFO root [0x00000ee4] [2018-07-03 14:17:22,497] - ---- baseapp is running ----
+ DEBUG root [0x00000ee4] [2018-07-03 14:17:22,498] - Components::process(): Request for the process of identity...
+  WARN root [0x00000ee4] [2018-07-03 14:17:25,940] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20776, errorno=10048
+  WARN root [0x00000ee4] [2018-07-03 14:17:28,978] - Forwarding logs to logger[192.168.31.56:5999/0/0/0]...

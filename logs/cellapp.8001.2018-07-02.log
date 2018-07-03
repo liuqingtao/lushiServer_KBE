@@ -1905,3 +1905,382 @@ Can modify the components-CID and UID to avoid conflict.
  DEBUG root [0x00001a0c] [2018-07-02 22:40:17,767] - Avatar::~Avatar(): 2006
   INFO root [0x00001a0c] [2018-07-02 22:40:17,793] - Script::uninstall(): is successfully!
  DEBUG root [0x00001a0c] [2018-07-02 22:40:17,793] - ThreadPool::destroy(): starting size 2.
+  INFO root [0x00000f60] [2018-07-02 22:48:37,368] - 
+  INFO root [0x00000f60] [2018-07-02 22:48:37,375] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000f60] [2018-07-02 22:48:37,380] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [0x00000f60] [2018-07-02 22:48:37,381] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [0x00000f60] [2018-07-02 22:48:37,381] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [0x00000f60] [2018-07-02 22:48:37,396] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:4461 )
+  INFO root [0x00000f60] [2018-07-02 22:48:37,397] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:4461, SOMAXCONN=5.
+  INFO root [0x00000f60] [2018-07-02 22:48:37,397] - server-configs:
+  INFO root [0x00000f60] [2018-07-02 22:48:37,397] - 	gameUpdateHertz : 10
+  INFO root [0x00000f60] [2018-07-02 22:48:37,397] - 	defaultAoIRadius : 80
+  INFO root [0x00000f60] [2018-07-02 22:48:37,398] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x00000f60] [2018-07-02 22:48:37,398] - 	entryScriptFile : kbemain
+  INFO root [0x00000f60] [2018-07-02 22:48:37,398] - 	internalAddr : 192.168.31.56:4461
+  INFO root [0x00000f60] [2018-07-02 22:48:37,398] - 	componentID : 8001
+  INFO root [0x00000f60] [2018-07-02 22:48:38,914] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 8001. UID: 6142. PID: 6000 ----
+  INFO root [0x00000f60] [2018-07-02 22:48:38,916] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [0x00000f60] [2018-07-02 22:48:38,917] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000f60] [2018-07-02 22:48:38,917] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,117] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,119] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,120] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,129] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,130] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,131] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,133] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,233] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00000f60] [2018-07-02 22:48:39,306] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x00000f60] [2018-07-02 22:48:39,306] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,451] - loaded script:BattleField(3).
+ ERROR root [0x00000f60] [2018-07-02 22:48:39,467] - EntityDef::initialize: Could not load module[Avatar]
+ S_ERR root [0x00000f60] [2018-07-02 22:48:39,474] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/cell\Avatar.py", line 68
+    def useCrystal(self.crystalSum):
+                       ^
+SyntaxError: invalid syntax
+ ERROR root [0x00000f60] [2018-07-02 22:48:39,475] - app::initialize(): initialization failed!
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,477] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,477] - Witness::destroyObjPool(): size 0.
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,481] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,481] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,482] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,482] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,482] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,483] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,483] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,483] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00000f60] [2018-07-02 22:48:39,507] - Script::uninstall(): is successfully!
+ DEBUG root [0x00000f60] [2018-07-02 22:48:39,508] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00000f60] [2018-07-02 22:48:39,811] - ThreadPool::destroy(): waiting for thread(2)[0x7937b0,0x793748,], try=1
+ DEBUG root [0x00000f60] [2018-07-02 22:48:40,281] - TPThread::~TPThread(): 0x7937b0
+ DEBUG root [0x00000f60] [2018-07-02 22:48:40,282] - TPThread::~TPThread(): 0x793748
+ DEBUG root [0x00000f60] [2018-07-02 22:48:40,282] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00000f60] [2018-07-02 22:48:40,283] - Bundle::destroyObjPool(): size 1.
+ DEBUG root [0x00000f60] [2018-07-02 22:48:40,283] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x00000f60] [2018-07-02 22:48:40,284] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00000f60] [2018-07-02 22:48:40,284] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x00000f60] [2018-07-02 22:48:40,285] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x00000f60] [2018-07-02 22:48:40,285] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00000f60] [2018-07-02 22:48:40,286] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00000f60] [2018-07-02 22:48:40,286] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00000f60] [2018-07-02 22:48:46,788] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x000023cc] [2018-07-02 23:08:05,425] - 
+  INFO root [0x000023cc] [2018-07-02 23:08:05,426] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000023cc] [2018-07-02 23:08:05,428] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [0x000023cc] [2018-07-02 23:08:05,429] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [0x000023cc] [2018-07-02 23:08:05,430] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [0x000023cc] [2018-07-02 23:08:05,446] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:5166 )
+  INFO root [0x000023cc] [2018-07-02 23:08:05,446] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:5166, SOMAXCONN=5.
+  INFO root [0x000023cc] [2018-07-02 23:08:05,447] - server-configs:
+  INFO root [0x000023cc] [2018-07-02 23:08:05,447] - 	gameUpdateHertz : 10
+  INFO root [0x000023cc] [2018-07-02 23:08:05,448] - 	defaultAoIRadius : 80
+  INFO root [0x000023cc] [2018-07-02 23:08:05,448] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x000023cc] [2018-07-02 23:08:05,448] - 	entryScriptFile : kbemain
+  INFO root [0x000023cc] [2018-07-02 23:08:05,448] - 	internalAddr : 192.168.31.56:5166
+  INFO root [0x000023cc] [2018-07-02 23:08:05,449] - 	componentID : 8001
+  INFO root [0x000023cc] [2018-07-02 23:08:07,003] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 8001. UID: 9956. PID: 7652 ----
+  INFO root [0x000023cc] [2018-07-02 23:08:07,004] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [0x000023cc] [2018-07-02 23:08:07,005] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000023cc] [2018-07-02 23:08:07,006] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,204] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,205] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,206] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,214] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,215] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,216] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,220] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,374] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x000023cc] [2018-07-02 23:08:07,529] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x000023cc] [2018-07-02 23:08:07,529] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,789] - loaded script:BattleField(3).
+ ERROR root [0x000023cc] [2018-07-02 23:08:07,803] - EntityDef::initialize: Could not load module[Avatar]
+ S_ERR root [0x000023cc] [2018-07-02 23:08:07,806] -   File "C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/cell\Avatar.py", line 68
+    def useCrystal(self.crystalSum):
+                       ^
+SyntaxError: invalid syntax
+ ERROR root [0x000023cc] [2018-07-02 23:08:07,808] - app::initialize(): initialization failed!
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,816] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,817] - Witness::destroyObjPool(): size 0.
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,821] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,822] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,822] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,822] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,823] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,823] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,824] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,824] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x000023cc] [2018-07-02 23:08:07,868] - Script::uninstall(): is successfully!
+ DEBUG root [0x000023cc] [2018-07-02 23:08:07,869] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000023cc] [2018-07-02 23:08:08,175] - ThreadPool::destroy(): waiting for thread(2)[0x1d422e0,0x1d42278,], try=1
+ DEBUG root [0x000023cc] [2018-07-02 23:08:08,576] - TPThread::~TPThread(): 0x1d422e0
+ DEBUG root [0x000023cc] [2018-07-02 23:08:08,576] - TPThread::~TPThread(): 0x1d42278
+ DEBUG root [0x000023cc] [2018-07-02 23:08:08,577] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x000023cc] [2018-07-02 23:08:08,578] - Bundle::destroyObjPool(): size 1.
+ DEBUG root [0x000023cc] [2018-07-02 23:08:08,578] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x000023cc] [2018-07-02 23:08:08,579] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x000023cc] [2018-07-02 23:08:08,579] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x000023cc] [2018-07-02 23:08:08,580] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x000023cc] [2018-07-02 23:08:08,580] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x000023cc] [2018-07-02 23:08:08,580] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x000023cc] [2018-07-02 23:08:08,581] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x000023cc] [2018-07-02 23:08:15,081] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x00000478] [2018-07-02 23:10:25,042] - 
+  INFO root [0x00000478] [2018-07-02 23:10:25,044] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000478] [2018-07-02 23:10:25,046] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [0x00000478] [2018-07-02 23:10:25,047] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [0x00000478] [2018-07-02 23:10:25,047] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [0x00000478] [2018-07-02 23:10:25,073] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:5200 )
+  INFO root [0x00000478] [2018-07-02 23:10:25,074] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:5200, SOMAXCONN=5.
+  INFO root [0x00000478] [2018-07-02 23:10:25,074] - server-configs:
+  INFO root [0x00000478] [2018-07-02 23:10:25,074] - 	gameUpdateHertz : 10
+  INFO root [0x00000478] [2018-07-02 23:10:25,075] - 	defaultAoIRadius : 80
+  INFO root [0x00000478] [2018-07-02 23:10:25,075] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x00000478] [2018-07-02 23:10:25,075] - 	entryScriptFile : kbemain
+  INFO root [0x00000478] [2018-07-02 23:10:25,076] - 	internalAddr : 192.168.31.56:5200
+  INFO root [0x00000478] [2018-07-02 23:10:25,076] - 	componentID : 8001
+  INFO root [0x00000478] [2018-07-02 23:10:26,593] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 8001. UID: 10410. PID: 10704 ----
+  INFO root [0x00000478] [2018-07-02 23:10:26,594] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [0x00000478] [2018-07-02 23:10:26,595] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000478] [2018-07-02 23:10:26,596] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00000478] [2018-07-02 23:10:26,901] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00000478] [2018-07-02 23:10:26,902] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00000478] [2018-07-02 23:10:26,903] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00000478] [2018-07-02 23:10:26,911] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00000478] [2018-07-02 23:10:26,912] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00000478] [2018-07-02 23:10:26,912] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00000478] [2018-07-02 23:10:26,914] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00000478] [2018-07-02 23:10:27,059] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00000478] [2018-07-02 23:10:27,160] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x00000478] [2018-07-02 23:10:27,161] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00000478] [2018-07-02 23:10:27,308] - loaded script:BattleField(3).
+ DEBUG root [0x00000478] [2018-07-02 23:10:27,390] - loaded script:Avatar(4).
+ DEBUG root [0x00000478] [2018-07-02 23:10:27,394] - loaded script:card(5).
+  INFO root [0x00000478] [2018-07-02 23:10:27,398] - TelnetServer server is running on port 50000
+  INFO root [0x00000478] [2018-07-02 23:10:29,317] - ---- cellapp is running ----
+ DEBUG root [0x00000478] [2018-07-02 23:10:29,319] - Components::process(): Request for the process of identity...
+  WARN root [0x00000478] [2018-07-02 23:10:35,448] - EntityApp::checkTickPeriod: tick took 6130% (6.13 seconds)!
+  INFO root [0x00000478] [2018-07-02 23:10:36,519] - Components::findComponents: find logger(1)...
+  INFO root [0x00000478] [2018-07-02 23:10:36,622] - Components::findComponents: found logger, addr:192.168.31.56:5198
+  INFO root [0x00000478] [2018-07-02 23:10:36,623] - Components::addComponent: reset orderLog, uid=10410!
+  INFO root [0x00000478] [2018-07-02 23:10:36,623] - Components::addComponent[logger], uid=10410, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000478] [2018-07-02 23:10:36,625] - Components::findComponents: find dbmgr(2)...
+  WARN root [0x00000478] [2018-07-02 23:10:37,726] - EntityApp::checkTickPeriod: tick took 1307% (1.31 seconds)!
+  WARN root [0x00000478] [2018-07-02 23:10:37,727] - Forwarding logs to logger[192.168.31.56:5198/0/0/0]...
+ ERROR root [0x00000478] [2018-07-02 23:10:46,393] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00000478] [2018-07-02 23:10:46,398] - The following logs sent to logger failed:
+  WARN root [0x00000478] [2018-07-02 23:10:46,399] - ==> [2018-07-02 23:10:46 392] TCPPacketReceiver::processPendingEvents(192.168.31.56:5198): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000478] [2018-07-02 23:10:46,399] - ==> [2018-07-02 23:10:46 394] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00001ce4] [2018-07-02 23:13:40,183] - 
+  INFO root [0x00001ce4] [2018-07-02 23:13:40,191] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001ce4] [2018-07-02 23:13:40,194] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+  INFO root [0x00001ce4] [2018-07-02 23:13:40,195] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+  INFO root [0x00001ce4] [2018-07-02 23:13:40,195] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+  INFO root [0x00001ce4] [2018-07-02 23:13:40,245] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:5241 )
+  INFO root [0x00001ce4] [2018-07-02 23:13:40,245] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:5241, SOMAXCONN=5.
+  INFO root [0x00001ce4] [2018-07-02 23:13:40,246] - server-configs:
+  INFO root [0x00001ce4] [2018-07-02 23:13:40,246] - 	gameUpdateHertz : 10
+  INFO root [0x00001ce4] [2018-07-02 23:13:40,246] - 	defaultAoIRadius : 80
+  INFO root [0x00001ce4] [2018-07-02 23:13:40,247] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x00001ce4] [2018-07-02 23:13:40,247] - 	entryScriptFile : kbemain
+  INFO root [0x00001ce4] [2018-07-02 23:13:40,247] - 	internalAddr : 192.168.31.56:5241
+  INFO root [0x00001ce4] [2018-07-02 23:13:40,248] - 	componentID : 8001
+  INFO root [0x00001ce4] [2018-07-02 23:13:41,762] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 8001. UID: 11050. PID: 10852 ----
+  INFO root [0x00001ce4] [2018-07-02 23:13:41,764] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+  INFO root [0x00001ce4] [2018-07-02 23:13:41,766] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001ce4] [2018-07-02 23:13:41,766] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00001ce4] [2018-07-02 23:13:42,043] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001ce4] [2018-07-02 23:13:42,045] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00001ce4] [2018-07-02 23:13:42,046] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00001ce4] [2018-07-02 23:13:42,053] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001ce4] [2018-07-02 23:13:42,054] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00001ce4] [2018-07-02 23:13:42,055] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001ce4] [2018-07-02 23:13:42,056] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001ce4] [2018-07-02 23:13:42,237] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001ce4] [2018-07-02 23:13:42,386] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x00001ce4] [2018-07-02 23:13:42,419] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00001ce4] [2018-07-02 23:13:42,617] - loaded script:BattleField(3).
+ DEBUG root [0x00001ce4] [2018-07-02 23:13:42,626] - loaded script:Avatar(4).
+ DEBUG root [0x00001ce4] [2018-07-02 23:13:42,629] - loaded script:card(5).
+  INFO root [0x00001ce4] [2018-07-02 23:13:42,630] - TelnetServer server is running on port 50000
+  INFO root [0x00001ce4] [2018-07-02 23:13:44,120] - ---- cellapp is running ----
+ DEBUG root [0x00001ce4] [2018-07-02 23:13:44,121] - Components::process(): Request for the process of identity...
+  WARN root [0x00001ce4] [2018-07-02 23:13:50,236] - EntityApp::checkTickPeriod: tick took 6115% (6.11 seconds)!
+  INFO root [0x00001ce4] [2018-07-02 23:13:51,300] - Components::findComponents: find logger(1)...
+  INFO root [0x00001ce4] [2018-07-02 23:13:51,392] - Components::findComponents: found logger, addr:192.168.31.56:5243
+  INFO root [0x00001ce4] [2018-07-02 23:13:51,392] - Components::addComponent: reset orderLog, uid=11050!
+  INFO root [0x00001ce4] [2018-07-02 23:13:51,392] - Components::addComponent[logger], uid=11050, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001ce4] [2018-07-02 23:13:51,395] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00001ce4] [2018-07-02 23:13:51,495] - Components::findComponents: found dbmgr, addr:192.168.31.56:5236
+  INFO root [0x00001ce4] [2018-07-02 23:13:51,496] - Components::addComponent: reset orderLog, uid=11050!
+  INFO root [0x00001ce4] [2018-07-02 23:13:51,496] - Components::addComponent[dbmgr], uid=11050, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001ce4] [2018-07-02 23:13:51,497] - Components::findComponents: found dbmgr, addr:192.168.31.56:5236
+  WARN root [0x00001ce4] [2018-07-02 23:13:52,497] - Forwarding logs to logger[192.168.31.56:5243/0/0/0]...
+ ERROR root [0x00001ce4] [2018-07-02 23:15:07,724] - onLoseWitnesshandler::handle: not found entityID:5.
+ ERROR root [0x00001ce4] [2018-07-02 23:15:07,726] - onLoseWitnesshandler::handle: not found entityID:6.
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,612] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00001ce4] [2018-07-02 23:15:43,647] - The following logs sent to logger failed:
+  WARN root [0x00001ce4] [2018-07-02 23:15:43,648] - ==> [2018-07-02 23:15:43 606] TCPPacketReceiver::processPendingEvents(192.168.31.56:5243): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,648] - ==> [2018-07-02 23:15:43 614] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00001ce4] [2018-07-02 23:15:43,722] - TCPPacketReceiver::processPendingEvents(192.168.31.56:5236): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,730] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00001ce4] [2018-07-02 23:15:43,746] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00001ce4] [2018-07-02 23:15:43,747] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00001ce4] [2018-07-02 23:15:43,748] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,748] - EntityRef::destroyObjPool(): size 128.
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,749] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,789] - EntityGarbages::~EntityGarbages(): leaked, size=66.
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,791] - 	--> leaked: card(2001).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,794] - 	--> leaked: card(2009).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,796] - 	--> leaked: BattleField(4).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,801] - 	--> leaked: card(2040).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,805] - 	--> leaked: Avatar(5).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,811] - 	--> leaked: card(2002).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,813] - 	--> leaked: card(2003).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,816] - 	--> leaked: card(2049).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,817] - 	--> leaked: card(2004).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,819] - 	--> leaked: card(2005).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,821] - 	--> leaked: card(2055).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,822] - 	--> leaked: card(2006).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,828] - 	--> leaked: card(2007).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,830] - 	--> leaked: card(2008).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,832] - 	--> leaked: card(2010).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,833] - 	--> leaked: card(2011).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,835] - 	--> leaked: card(2012).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,836] - 	--> leaked: card(2013).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,838] - 	--> leaked: card(2014).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,840] - 	--> leaked: card(2015).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,842] - 	--> leaked: card(2016).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,844] - 	--> leaked: card(2017).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,846] - 	--> leaked: card(2018).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,848] - 	--> leaked: card(2019).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,849] - 	--> leaked: card(2058).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,851] - 	--> leaked: card(2020).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,852] - 	--> leaked: card(2021).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,854] - 	--> leaked: card(2022).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,855] - 	--> leaked: card(2023).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,857] - 	--> leaked: card(2024).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,859] - 	--> leaked: card(2061).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,860] - 	--> leaked: card(2025).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,862] - 	--> leaked: card(2051).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,865] - 	--> leaked: card(2026).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,866] - 	--> leaked: card(2027).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,868] - 	--> leaked: card(2028).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,869] - 	--> leaked: card(2056).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,871] - 	--> leaked: card(2029).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,872] - 	--> leaked: card(2030).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,876] - 	--> leaked: card(2062).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,880] - 	--> leaked: card(2031).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,883] - 	--> leaked: Avatar(6).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,888] - 	--> leaked: card(2032).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,891] - 	--> leaked: card(2033).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,894] - 	--> leaked: card(2052).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,896] - 	--> leaked: card(2034).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,897] - 	--> leaked: card(2035).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,899] - 	--> leaked: card(2036).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,901] - 	--> leaked: card(2048).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,902] - 	--> leaked: card(2037).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,904] - 	--> leaked: card(2038).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,905] - 	--> leaked: card(2054).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,908] - 	--> leaked: card(2039).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,910] - 	--> leaked: card(2041).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,911] - 	--> leaked: card(2042).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,913] - 	--> leaked: card(2043).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,915] - 	--> leaked: card(2044).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,916] - 	--> leaked: card(2045).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,917] - 	--> leaked: card(2046).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,919] - 	--> leaked: card(2047).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,920] - 	--> leaked: card(2050).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,922] - 	--> leaked: card(2053).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,923] - 	--> leaked: card(2057).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,925] - 	--> leaked: card(2059).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,927] - 	--> leaked: card(2060).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,929] - 	--> leaked: card(2063).
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,933] - PyGC::debugTracing(): EntityMailbox : leaked(5)
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,935] - PyGC::debugTracing(): Vector3 : leaked(132)
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,937] - PyGC::debugTracing(): FixedArray : leaked(2)
+ ERROR root [0x00001ce4] [2018-07-02 23:15:43,938] - PyGC::debugTracing(): Entity : leaked(66)
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,940] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,940] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,940] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,941] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,941] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,941] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,942] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,942] - Script::uninstall_py_dlls(): PyInit_unicodedata
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,948] - card::~card(): 2063
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,948] - card::~card(): 2031
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,948] - card::~card(): 2030
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,948] - card::~card(): 2029
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,949] - card::~card(): 2028
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,949] - card::~card(): 2027
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,949] - card::~card(): 2026
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,949] - card::~card(): 2025
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,949] - card::~card(): 2024
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,950] - card::~card(): 2023
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,950] - card::~card(): 2022
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,950] - card::~card(): 2021
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,950] - card::~card(): 2020
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,950] - card::~card(): 2019
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,951] - card::~card(): 2018
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,951] - card::~card(): 2017
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,951] - card::~card(): 2016
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,952] - card::~card(): 2015
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,952] - card::~card(): 2014
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,952] - card::~card(): 2013
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,952] - card::~card(): 2012
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,953] - card::~card(): 2011
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,953] - card::~card(): 2010
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,954] - card::~card(): 2009
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,954] - card::~card(): 2008
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,954] - card::~card(): 2007
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,955] - card::~card(): 2006
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,955] - card::~card(): 2005
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,956] - card::~card(): 2004
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,956] - card::~card(): 2003
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,956] - card::~card(): 2002
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,957] - card::~card(): 2001
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,957] - Avatar::~Avatar(): 5
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,958] - BattleField::~BattleField(): 4
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,958] - card::~card(): 2062
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,959] - card::~card(): 2061
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,959] - card::~card(): 2060
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,959] - card::~card(): 2059
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,960] - card::~card(): 2058
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,960] - card::~card(): 2057
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,960] - card::~card(): 2056
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,961] - card::~card(): 2055
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,961] - card::~card(): 2054
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,962] - card::~card(): 2053
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,962] - card::~card(): 2052
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,962] - card::~card(): 2051
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,962] - card::~card(): 2050
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,963] - card::~card(): 2049
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,963] - card::~card(): 2048
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,963] - card::~card(): 2047
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,963] - card::~card(): 2046
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,963] - card::~card(): 2045
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,964] - card::~card(): 2044
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,964] - card::~card(): 2043
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,964] - card::~card(): 2042
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,964] - card::~card(): 2041
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,964] - card::~card(): 2040
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,965] - card::~card(): 2039
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,965] - card::~card(): 2038
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,965] - card::~card(): 2037
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,965] - card::~card(): 2036
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,966] - card::~card(): 2035
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,966] - card::~card(): 2034
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,966] - card::~card(): 2033
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,966] - card::~card(): 2032
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,966] - Avatar::~Avatar(): 6
+  INFO root [0x00001ce4] [2018-07-02 23:15:43,983] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001ce4] [2018-07-02 23:15:43,984] - ThreadPool::destroy(): starting size 2.

@@ -19,6 +19,7 @@ class Avatar(KBEngine.Proxy):
 		self.createCellEntity(self.bf)
 	def onGetClient(self):
 		DEBUG_MSG('Avatar.base:onGetClient:[%i].'% self.id)
+	
 
 	def battleEnd(self,success):
 		DEBUG_MSG('Avatar.base::battleEnd: [%i]  success:[%s]' % (self.id,success))

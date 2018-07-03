@@ -66,7 +66,7 @@ class cardBase(KBEngine.Entity):
 	def  reqUse(self,callerID,targetID):
 		DEBUG_MSG('card.cell::reqUse: [%i] targetID[%s]' % (self.id,targetID))
 		if not self.avatar.useCrystal(int (self.cost)):
-			return
+			pass
 		if self.pos == 'HAND':
 			if self.type == 3:#法术1奥秘2怪兽3武器4
 				self.avatar.followerPosAssigned(self)

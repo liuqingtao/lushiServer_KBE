@@ -65,7 +65,7 @@ class Avatar(cardBase):
         for card in chouCards:
             card.changePos('HAND')
     
-    def useCrystal(self.crystalSum):
+    def useCrystal(self,crystalSum):
         DEBUG_MSG('Avatar.cell::useCrystal: [%i] crystalSum[%s] ' % (self.id,crystalSum))
         if  self.CrystalAvaliable<crystalSum:
             return False

@@ -3273,3 +3273,422 @@ def func(msg): => def func(callerEntityID, msg):
     INFO    cellapp01 23004 8001  [2018-07-02 21:29:38 249] - Spaces::destroySpace: 1.
    ERROR    cellapp01 23004 8001  [2018-07-02 21:29:38 355] - onLoseWitnesshandler::handle: not found entityID:2006.
    DEBUG    cellapp01 23004 8001  [2018-07-02 21:29:53 253] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:25 045] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:25 046] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:25 047] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:25 048] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:25 073] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:5200 )
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:25 074] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:5200, SOMAXCONN=5.
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:25 074] - server-configs:
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:25 074] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:25 075] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:25 075] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:25 075] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:25 076] - 	internalAddr : 192.168.31.56:5200
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:25 076] - 	componentID : 8001
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:26 594] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 8001. UID: 10410. PID: 10704 ----
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:26 595] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:26 595] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:26 596] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 10410 8001  [2018-07-02 23:10:26 901] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 10410 8001  [2018-07-02 23:10:26 902] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 10410 8001  [2018-07-02 23:10:26 903] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 10410 8001  [2018-07-02 23:10:26 911] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 10410 8001  [2018-07-02 23:10:26 912] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 10410 8001  [2018-07-02 23:10:26 912] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 10410 8001  [2018-07-02 23:10:26 914] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 10410 8001  [2018-07-02 23:10:27 060] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:27 160] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:27 161] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 10410 8001  [2018-07-02 23:10:27 309] - loaded script:BattleField(3).
+   DEBUG    cellapp-1 10410 8001  [2018-07-02 23:10:27 391] - loaded script:Avatar(4).
+   DEBUG    cellapp-1 10410 8001  [2018-07-02 23:10:27 394] - loaded script:card(5).
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:27 399] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:29 318] - ---- cellapp is running ----
+   DEBUG    cellapp-1 10410 8001  [2018-07-02 23:10:29 319] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 10410 8001  [2018-07-02 23:10:35 449] - EntityApp::checkTickPeriod: tick took 6130% (6.13 seconds)!
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:36 519] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:36 622] - Components::findComponents: found logger, addr:192.168.31.56:5198
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:36 623] - Components::addComponent: reset orderLog, uid=10410!
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:36 623] - Components::addComponent[logger], uid=10410, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:36 625] - Components::findComponents: find dbmgr(2)...
+ WARNING    cellapp-1 10410 8001  [2018-07-02 23:10:37 727] - EntityApp::checkTickPeriod: tick took 1307% (1.31 seconds)!
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:38 751] - Components::findComponents: find dbmgr(3)...
+ WARNING    cellapp-1 10410 8001  [2018-07-02 23:10:39 829] - EntityApp::checkTickPeriod: tick took 1110% (1.11 seconds)!
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:40 850] - Components::findComponents: find dbmgr(4)...
+ WARNING    cellapp-1 10410 8001  [2018-07-02 23:10:41 932] - EntityApp::checkTickPeriod: tick took 1113% (1.11 seconds)!
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:42 950] - Components::findComponents: find dbmgr(5)...
+ WARNING    cellapp-1 10410 8001  [2018-07-02 23:10:44 035] - EntityApp::checkTickPeriod: tick took 1116% (1.12 seconds)!
+    INFO    cellapp-1 10410 8001  [2018-07-02 23:10:45 050] - Components::findComponents: find dbmgr(6)...
+ WARNING    cellapp-1 10410 8001  [2018-07-02 23:10:46 138] - EntityApp::checkTickPeriod: tick took 1119% (1.12 seconds)!
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:40 192] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:40 194] - Resmgr::initialize: KBE_ROOT=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:40 195] - Resmgr::initialize: KBE_RES_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/res/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/scripts/;C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/assets/res/
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:40 196] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/Public/Documents/workspace/kbe/kbengine-kbengine-v1.0.0/kbengine/kbe/bin/server/
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:40 245] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.31.56 ( 192.168.31.56:5241 )
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:40 246] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.31.56:5241, SOMAXCONN=5.
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:40 246] - server-configs:
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:40 246] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:40 246] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:40 247] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:40 247] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:40 248] - 	internalAddr : 192.168.31.56:5241
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:40 248] - 	componentID : 8001
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:41 763] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 23:20:13 Jun 15 2018. AppID: 8001. UID: 11050. PID: 10852 ----
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:41 764] - Server :        Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz with 4194303kB RAM
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:41 766] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:41 767] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 11050 8001  [2018-07-02 23:13:42 044] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 11050 8001  [2018-07-02 23:13:42 045] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 11050 8001  [2018-07-02 23:13:42 046] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 11050 8001  [2018-07-02 23:13:42 054] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 11050 8001  [2018-07-02 23:13:42 055] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 11050 8001  [2018-07-02 23:13:42 055] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 11050 8001  [2018-07-02 23:13:42 056] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 11050 8001  [2018-07-02 23:13:42 237] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:42 386] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 15 2018, 23:17:57) [MSC v.1913 32 bit (Intel)])!
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:42 419] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 11050 8001  [2018-07-02 23:13:42 617] - loaded script:BattleField(3).
+   DEBUG    cellapp-1 11050 8001  [2018-07-02 23:13:42 626] - loaded script:Avatar(4).
+   DEBUG    cellapp-1 11050 8001  [2018-07-02 23:13:42 629] - loaded script:card(5).
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:42 631] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:44 120] - ---- cellapp is running ----
+   DEBUG    cellapp-1 11050 8001  [2018-07-02 23:13:44 121] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 11050 8001  [2018-07-02 23:13:50 237] - EntityApp::checkTickPeriod: tick took 6115% (6.11 seconds)!
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:51 300] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:51 392] - Components::findComponents: found logger, addr:192.168.31.56:5243
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:51 392] - Components::addComponent: reset orderLog, uid=11050!
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:51 393] - Components::addComponent[logger], uid=11050, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:51 396] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:51 496] - Components::findComponents: found dbmgr, addr:192.168.31.56:5236
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:51 496] - Components::addComponent: reset orderLog, uid=11050!
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:51 496] - Components::addComponent[dbmgr], uid=11050, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:51 497] - Components::findComponents: found dbmgr, addr:192.168.31.56:5236
+ WARNING    cellapp-1 11050 8001  [2018-07-02 23:13:52 498] - EntityApp::checkTickPeriod: tick took 1277% (1.28 seconds)!
+   DEBUG    cellapp-1 11050 8001  [2018-07-02 23:13:52 821] - Cellapp::lookApp: 192.168.31.56:5259/0/0/0
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:53 500] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:53 543] - Components::findComponents: found cellappmgr, addr:192.168.31.56:5239
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:53 543] - Components::addComponent[cellappmgr], uid=11050, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:53 545] - Components::findComponents: found cellappmgr, addr:192.168.31.56:5239
+ WARNING    cellapp-1 11050 8001  [2018-07-02 23:13:54 545] - EntityApp::checkTickPeriod: tick took 1124% (1.12 seconds)!
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:55 600] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:55 659] - Components::findComponents: found baseappmgr, addr:192.168.31.56:5237
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:55 659] - Components::addComponent[baseappmgr], uid=11050, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:55 660] - Components::findComponents: found baseappmgr, addr:192.168.31.56:5237
+ WARNING    cellapp-1 11050 8001  [2018-07-02 23:13:56 660] - EntityApp::checkTickPeriod: tick took 1139% (1.14 seconds)!
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:57 800] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:57 821] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:57 829] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:57 830] - Components::process(): Found all the components!
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:57 921] - ServerApp::onRegisterNewApp: uid:11050, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.56, intport:5240, extaddr:192.168.31.56, extport:20015,  from 192.168.31.56:5276/0/0/0.
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:57 921] - Components::addComponent[baseapp], uid=11050, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:13:57 921] - ServerApp::onRegisterNewApp: uid:11050, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.31.56, intport:5240, extaddr:192.168.31.56, extport:20015,  from 192.168.31.56:5276/0/0/0.
+    INFO    cellapp-1 11050 8001  [2018-07-02 23:14:00 921] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=B89278380005EAEE812DE29DE433EBA0.
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:00 921] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:02 125] - onInit::isReload:0
+ WARNING    cellapp01 11050 8001  [2018-07-02 23:14:02 125] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\server\entity_app.h:758: Profile processRecvMessages took 1.20 seconds
+ WARNING    cellapp01 11050 8001  [2018-07-02 23:14:02 125] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\server\cellapp\cellapp.cpp:259: Profile gameTick took 1.20 seconds
+ WARNING    cellapp01 11050 8001  [2018-07-02 23:14:02 125] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 1.20 seconds
+ WARNING    cellapp01 11050 8001  [2018-07-02 23:14:02 125] - EntityApp::checkTickPeriod: tick took 1204% (1.20 seconds)!
+   DEBUG    cellapp01 11050 8001  [2018-07-02 23:14:02 200] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:03 721] - onGlobalData: Halls
+   DEBUG    cellapp01 11050 8001  [2018-07-02 23:14:33 723] - Spaces::createNewSpace: new space(BattleField) 1.
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 723] - EntityApp::createEntity: new BattleField 4
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 724] - BattleField.cell[4].init
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 822] - EntityApp::createEntity: new Avatar 5
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 824] - Avatar.cell::__init__: [5]  roleType:[6]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 824] - card.cell::__init__: [5]  cardID:[20003006]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 824] - Avatar.cell::createCardEntity: [5] cardID[20001006]  pos:[SKILL]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 825] - EntityApp::createEntity: new card 2001
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 825] - Avatar.cell::card__init__: [2001]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 826] - card.cell::__init__: [2001]  cardID:[20001006]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 826] - Avatar.cell::createCardEntity: [5] cardID[10000035]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 827] - EntityApp::createEntity: new card 2002
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 827] - Avatar.cell::card__init__: [2002]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 827] - card.cell::__init__: [2002]  cardID:[10000035]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 827] - Avatar.cell::createCardEntity: [5] cardID[10000003]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 828] - EntityApp::createEntity: new card 2003
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 828] - Avatar.cell::card__init__: [2003]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 829] - card.cell::__init__: [2003]  cardID:[10000003]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 829] - Avatar.cell::createCardEntity: [5] cardID[10000011]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 830] - EntityApp::createEntity: new card 2004
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 830] - Avatar.cell::card__init__: [2004]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 830] - card.cell::__init__: [2004]  cardID:[10000011]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 832] - Avatar.cell::createCardEntity: [5] cardID[10000011]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 833] - EntityApp::createEntity: new card 2005
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 833] - Avatar.cell::card__init__: [2005]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 833] - card.cell::__init__: [2005]  cardID:[10000011]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 833] - Avatar.cell::createCardEntity: [5] cardID[10000030]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 834] - EntityApp::createEntity: new card 2006
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 834] - Avatar.cell::card__init__: [2006]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 835] - card.cell::__init__: [2006]  cardID:[10000030]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 835] - Avatar.cell::createCardEntity: [5] cardID[10000024]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 835] - EntityApp::createEntity: new card 2007
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 836] - Avatar.cell::card__init__: [2007]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 836] - card.cell::__init__: [2007]  cardID:[10000024]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 836] - Avatar.cell::createCardEntity: [5] cardID[10000044]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 837] - EntityApp::createEntity: new card 2008
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 837] - Avatar.cell::card__init__: [2008]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 837] - card.cell::__init__: [2008]  cardID:[10000044]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 837] - Avatar.cell::createCardEntity: [5] cardID[10000042]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 838] - EntityApp::createEntity: new card 2009
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 838] - Avatar.cell::card__init__: [2009]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 839] - card.cell::__init__: [2009]  cardID:[10000042]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 839] - Avatar.cell::createCardEntity: [5] cardID[10000009]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 839] - EntityApp::createEntity: new card 2010
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 840] - Avatar.cell::card__init__: [2010]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 840] - card.cell::__init__: [2010]  cardID:[10000009]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 840] - Avatar.cell::createCardEntity: [5] cardID[10000032]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 841] - EntityApp::createEntity: new card 2011
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 841] - Avatar.cell::card__init__: [2011]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 842] - card.cell::__init__: [2011]  cardID:[10000032]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 842] - Avatar.cell::createCardEntity: [5] cardID[10000040]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 843] - EntityApp::createEntity: new card 2012
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 843] - Avatar.cell::card__init__: [2012]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 843] - card.cell::__init__: [2012]  cardID:[10000040]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 845] - Avatar.cell::createCardEntity: [5] cardID[10000023]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 846] - EntityApp::createEntity: new card 2013
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 846] - Avatar.cell::card__init__: [2013]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 847] - card.cell::__init__: [2013]  cardID:[10000023]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 847] - Avatar.cell::createCardEntity: [5] cardID[10000001]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 848] - EntityApp::createEntity: new card 2014
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 848] - Avatar.cell::card__init__: [2014]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 849] - card.cell::__init__: [2014]  cardID:[10000001]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 849] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 849] - EntityApp::createEntity: new card 2015
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 850] - Avatar.cell::card__init__: [2015]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 850] - card.cell::__init__: [2015]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 850] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 851] - EntityApp::createEntity: new card 2016
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 851] - Avatar.cell::card__init__: [2016]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 852] - card.cell::__init__: [2016]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 852] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 852] - EntityApp::createEntity: new card 2017
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 853] - Avatar.cell::card__init__: [2017]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 853] - card.cell::__init__: [2017]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 853] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 855] - EntityApp::createEntity: new card 2018
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 855] - Avatar.cell::card__init__: [2018]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 855] - card.cell::__init__: [2018]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 855] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 856] - EntityApp::createEntity: new card 2019
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 856] - Avatar.cell::card__init__: [2019]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 857] - card.cell::__init__: [2019]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 857] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 858] - EntityApp::createEntity: new card 2020
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 858] - Avatar.cell::card__init__: [2020]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 858] - card.cell::__init__: [2020]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 859] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 859] - EntityApp::createEntity: new card 2021
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 859] - Avatar.cell::card__init__: [2021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 860] - card.cell::__init__: [2021]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 860] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 861] - EntityApp::createEntity: new card 2022
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 861] - Avatar.cell::card__init__: [2022]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 861] - card.cell::__init__: [2022]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 861] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 862] - EntityApp::createEntity: new card 2023
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 862] - Avatar.cell::card__init__: [2023]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 863] - card.cell::__init__: [2023]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 863] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 864] - EntityApp::createEntity: new card 2024
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 864] - Avatar.cell::card__init__: [2024]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 865] - card.cell::__init__: [2024]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 865] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 866] - EntityApp::createEntity: new card 2025
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 866] - Avatar.cell::card__init__: [2025]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 866] - card.cell::__init__: [2025]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 867] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 867] - EntityApp::createEntity: new card 2026
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 867] - Avatar.cell::card__init__: [2026]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 868] - card.cell::__init__: [2026]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 868] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 869] - EntityApp::createEntity: new card 2027
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 869] - Avatar.cell::card__init__: [2027]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 870] - card.cell::__init__: [2027]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 870] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 871] - EntityApp::createEntity: new card 2028
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 871] - Avatar.cell::card__init__: [2028]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 871] - card.cell::__init__: [2028]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 871] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 872] - EntityApp::createEntity: new card 2029
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 872] - Avatar.cell::card__init__: [2029]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 873] - card.cell::__init__: [2029]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 873] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 874] - EntityApp::createEntity: new card 2030
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 874] - Avatar.cell::card__init__: [2030]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 874] - card.cell::__init__: [2030]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 874] - Avatar.cell::createCardEntity: [5] cardID[10000021]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 875] - EntityApp::createEntity: new card 2031
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 875] - Avatar.cell::card__init__: [2031]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 876] - card.cell::__init__: [2031]  cardID:[10000021]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 876] - BattleField.cell[4].AvatarRegiste entityID:[5]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 876] - EntityApp::createEntity: new Avatar 6
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 877] - Avatar.cell::__init__: [6]  roleType:[5]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 878] - card.cell::__init__: [6]  cardID:[20003005]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 878] - Avatar.cell::createCardEntity: [6] cardID[20001005]  pos:[SKILL]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 879] - EntityApp::createEntity: new card 2032
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 879] - Avatar.cell::card__init__: [2032]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 879] - card.cell::__init__: [2032]  cardID:[20001005]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 879] - Avatar.cell::createCardEntity: [6] cardID[10000035]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 880] - EntityApp::createEntity: new card 2033
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 881] - Avatar.cell::card__init__: [2033]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 881] - card.cell::__init__: [2033]  cardID:[10000035]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 881] - Avatar.cell::createCardEntity: [6] cardID[10000035]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 882] - EntityApp::createEntity: new card 2034
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 882] - Avatar.cell::card__init__: [2034]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 883] - card.cell::__init__: [2034]  cardID:[10000035]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 883] - Avatar.cell::createCardEntity: [6] cardID[10000011]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 884] - EntityApp::createEntity: new card 2035
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 884] - Avatar.cell::card__init__: [2035]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 884] - card.cell::__init__: [2035]  cardID:[10000011]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 884] - Avatar.cell::createCardEntity: [6] cardID[10000011]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 885] - EntityApp::createEntity: new card 2036
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 885] - Avatar.cell::card__init__: [2036]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 886] - card.cell::__init__: [2036]  cardID:[10000011]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 886] - Avatar.cell::createCardEntity: [6] cardID[10000014]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 887] - EntityApp::createEntity: new card 2037
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 887] - Avatar.cell::card__init__: [2037]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 887] - card.cell::__init__: [2037]  cardID:[10000014]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 887] - Avatar.cell::createCardEntity: [6] cardID[10000014]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 888] - EntityApp::createEntity: new card 2038
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 888] - Avatar.cell::card__init__: [2038]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 889] - card.cell::__init__: [2038]  cardID:[10000014]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 889] - Avatar.cell::createCardEntity: [6] cardID[10000009]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 890] - EntityApp::createEntity: new card 2039
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 890] - Avatar.cell::card__init__: [2039]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 890] - card.cell::__init__: [2039]  cardID:[10000009]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 891] - Avatar.cell::createCardEntity: [6] cardID[10000009]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 891] - EntityApp::createEntity: new card 2040
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 891] - Avatar.cell::card__init__: [2040]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 892] - card.cell::__init__: [2040]  cardID:[10000009]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 892] - Avatar.cell::createCardEntity: [6] cardID[10000026]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 893] - EntityApp::createEntity: new card 2041
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 893] - Avatar.cell::card__init__: [2041]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 894] - card.cell::__init__: [2041]  cardID:[10000026]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 894] - Avatar.cell::createCardEntity: [6] cardID[10000026]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 895] - EntityApp::createEntity: new card 2042
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 895] - Avatar.cell::card__init__: [2042]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 895] - card.cell::__init__: [2042]  cardID:[10000026]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 895] - Avatar.cell::createCardEntity: [6] cardID[10000044]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 896] - EntityApp::createEntity: new card 2043
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 896] - Avatar.cell::card__init__: [2043]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 897] - card.cell::__init__: [2043]  cardID:[10000044]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 897] - Avatar.cell::createCardEntity: [6] cardID[10000044]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 898] - EntityApp::createEntity: new card 2044
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 898] - Avatar.cell::card__init__: [2044]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 899] - card.cell::__init__: [2044]  cardID:[10000044]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 899] - Avatar.cell::createCardEntity: [6] cardID[10000031]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 900] - EntityApp::createEntity: new card 2045
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 900] - Avatar.cell::card__init__: [2045]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 900] - card.cell::__init__: [2045]  cardID:[10000031]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 900] - Avatar.cell::createCardEntity: [6] cardID[10000031]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 901] - EntityApp::createEntity: new card 2046
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 901] - Avatar.cell::card__init__: [2046]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 902] - card.cell::__init__: [2046]  cardID:[10000031]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 902] - Avatar.cell::createCardEntity: [6] cardID[10000005]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 902] - EntityApp::createEntity: new card 2047
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 903] - Avatar.cell::card__init__: [2047]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 903] - card.cell::__init__: [2047]  cardID:[10000005]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 903] - Avatar.cell::createCardEntity: [6] cardID[10000005]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 904] - EntityApp::createEntity: new card 2048
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 904] - Avatar.cell::card__init__: [2048]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 905] - card.cell::__init__: [2048]  cardID:[10000005]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 905] - Avatar.cell::createCardEntity: [6] cardID[10000026]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 906] - EntityApp::createEntity: new card 2049
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 906] - Avatar.cell::card__init__: [2049]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 906] - card.cell::__init__: [2049]  cardID:[10000026]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 906] - Avatar.cell::createCardEntity: [6] cardID[10000026]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 907] - EntityApp::createEntity: new card 2050
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 907] - Avatar.cell::card__init__: [2050]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 908] - card.cell::__init__: [2050]  cardID:[10000026]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 908] - Avatar.cell::createCardEntity: [6] cardID[10000009]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 909] - EntityApp::createEntity: new card 2051
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 909] - Avatar.cell::card__init__: [2051]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 910] - card.cell::__init__: [2051]  cardID:[10000009]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 910] - Avatar.cell::createCardEntity: [6] cardID[10000009]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 911] - EntityApp::createEntity: new card 2052
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 911] - Avatar.cell::card__init__: [2052]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 912] - card.cell::__init__: [2052]  cardID:[10000009]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 912] - Avatar.cell::createCardEntity: [6] cardID[10000014]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 914] - EntityApp::createEntity: new card 2053
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 914] - Avatar.cell::card__init__: [2053]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 914] - card.cell::__init__: [2053]  cardID:[10000014]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 915] - Avatar.cell::createCardEntity: [6] cardID[10000014]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 915] - EntityApp::createEntity: new card 2054
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 916] - Avatar.cell::card__init__: [2054]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 916] - card.cell::__init__: [2054]  cardID:[10000014]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 916] - Avatar.cell::createCardEntity: [6] cardID[10000011]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 917] - EntityApp::createEntity: new card 2055
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 917] - Avatar.cell::card__init__: [2055]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 918] - card.cell::__init__: [2055]  cardID:[10000011]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 919] - Avatar.cell::createCardEntity: [6] cardID[10000011]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 920] - EntityApp::createEntity: new card 2056
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 920] - Avatar.cell::card__init__: [2056]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 921] - card.cell::__init__: [2056]  cardID:[10000011]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 921] - Avatar.cell::createCardEntity: [6] cardID[10000035]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 923] - EntityApp::createEntity: new card 2057
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 923] - Avatar.cell::card__init__: [2057]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 924] - card.cell::__init__: [2057]  cardID:[10000035]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 924] - Avatar.cell::createCardEntity: [6] cardID[10000035]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 926] - EntityApp::createEntity: new card 2058
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 926] - Avatar.cell::card__init__: [2058]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 927] - card.cell::__init__: [2058]  cardID:[10000035]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 928] - Avatar.cell::createCardEntity: [6] cardID[10000005]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 929] - EntityApp::createEntity: new card 2059
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 929] - Avatar.cell::card__init__: [2059]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 929] - card.cell::__init__: [2059]  cardID:[10000005]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 930] - Avatar.cell::createCardEntity: [6] cardID[10000005]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 931] - EntityApp::createEntity: new card 2060
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 931] - Avatar.cell::card__init__: [2060]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 932] - card.cell::__init__: [2060]  cardID:[10000005]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 932] - Avatar.cell::createCardEntity: [6] cardID[10000026]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 933] - EntityApp::createEntity: new card 2061
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 933] - Avatar.cell::card__init__: [2061]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 934] - card.cell::__init__: [2061]  cardID:[10000026]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 934] - Avatar.cell::createCardEntity: [6] cardID[10000026]  pos:[KZ]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 936] - EntityApp::createEntity: new card 2062
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 936] - Avatar.cell::card__init__: [2062]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 937] - card.cell::__init__: [2062]  cardID:[10000026]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 937] - BattleField.cell[4].AvatarRegiste entityID:[6]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 937] - BattleField.cell[4].startBattle
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 937] - BattleField.cell[4].giveCard playerID[0] cardID:[20000002]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 937] - Avatar.cell::getCard: [5] cardID[20000002]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 937] - Avatar.cell::createCardEntity: [5] cardID[20000002]  pos:[HAND]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:14:33 939] - EntityApp::createEntity: new card 2063
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 939] - Avatar.cell::card__init__: [2063]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 940] - card.cell::__init__: [2063]  cardID:[20000002]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 940] - self.cardEntityList[5].count:[33]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 941] - Avatar.cell::getCardFromKz: [5] kzCards[[card object at 0x011D0488., card object at 0x011D05F8., card object at 0x011D0768., card object at 0x011D08D8., card object at 0x011D0A48., card object at 0x011D0BB8., card object at 0x011D0D28., card object at 0x011D0E98., card object at 0x04297038., card object at 0x042971A8., card object at 0x04297318., card object at 0x04297488., card object at 0x042975F8., card object at 0x04297768., card object at 0x042978D8., card object at 0x04297A48., card object at 0x04297BB8., card object at 0x04297D28., card object at 0x04297E98., card object at 0x04299038., card object at 0x042991A8., card object at 0x04299318., card object at 0x04299488., card object at 0x042995F8., card object at 0x04299768., card object at 0x042998D8., card object at 0x04299A48., card object at 0x04299BB8., card object at 0x04299D28., card object at 0x04299E98.]] cardSum[3]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 941] - card.cell::changePos: [2028]  pos:[HAND]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 941] - card.cell::changePos: [2030]  pos:[HAND]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 941] - card.cell::changePos: [2006]  pos:[HAND]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 941] - self.cardEntityList[6].count:[32]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 942] - Avatar.cell::getCardFromKz: [6] kzCards[[card object at 0x0429B318., card object at 0x0429B488., card object at 0x0429B5F8., card object at 0x0429B768., card object at 0x0429B8D8., card object at 0x0429BA48., card object at 0x0429BBB8., card object at 0x0429BD28., card object at 0x0429BE98., card object at 0x0429C038., card object at 0x0429C1A8., card object at 0x0429C318., card object at 0x0429C488., card object at 0x0429C5F8., card object at 0x0429C768., card object at 0x0429C8D8., card object at 0x0429CA48., card object at 0x0429CBB8., card object at 0x0429CD28., card object at 0x0429CE98., card object at 0x0429E038., card object at 0x0429E1A8., card object at 0x0429E318., card object at 0x0429E488., card object at 0x0429E5F8., card object at 0x0429E768., card object at 0x0429E8D8., card object at 0x0429EA48., card object at 0x0429EBB8., card object at 0x0429ED28.]] cardSum[3]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 942] - card.cell::changePos: [2041]  pos:[HAND]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 942] - card.cell::changePos: [2043]  pos:[HAND]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 942] - card.cell::changePos: [2056]  pos:[HAND]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 942] - BattleField.cell[4].nextRound
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 942] - Avatar.cell::setSituation: [5] situation[1]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 942] - Avatar.cell::newRound: [5] 
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 943] - self.cardEntityList[5].count:[33]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 943] - Avatar.cell::getCardFromKz: [5] kzCards[[card object at 0x011D0488., card object at 0x011D05F8., card object at 0x011D0768., card object at 0x011D08D8., card object at 0x011D0BB8., card object at 0x011D0D28., card object at 0x011D0E98., card object at 0x04297038., card object at 0x042971A8., card object at 0x04297318., card object at 0x04297488., card object at 0x042975F8., card object at 0x04297768., card object at 0x042978D8., card object at 0x04297A48., card object at 0x04297BB8., card object at 0x04297D28., card object at 0x04297E98., card object at 0x04299038., card object at 0x042991A8., card object at 0x04299318., card object at 0x04299488., card object at 0x042995F8., card object at 0x04299768., card object at 0x042998D8., card object at 0x04299BB8., card object at 0x04299E98.]] cardSum[1]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 943] - card.cell::changePos: [2018]  pos:[HAND]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:14:33 943] - Avatar.cell::setSituation: [6] situation[0]
+ WARNING    cellapp01 11050 8001  [2018-07-02 23:14:33 943] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\server\entity_app.h:758: Profile processRecvMessages took 0.12 seconds
+ WARNING    cellapp01 11050 8001  [2018-07-02 23:14:33 944] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\server\cellapp\cellapp.cpp:259: Profile gameTick took 0.12 seconds
+ WARNING    cellapp01 11050 8001  [2018-07-02 23:14:33 944] - c:\users\public\documents\workspace\kbe\kbengine-kbengine-v1.0.0\kbengine\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 0.12 seconds
+ WARNING    cellapp01 11050 8001  [2018-07-02 23:14:40 238] - Witness::update(6): sendToClient 6202 Bytes.
+ WARNING    cellapp01 11050 8001  [2018-07-02 23:14:54 442] - Witness::update(5): sendToClient 6202 Bytes.
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:15:07 525] - Avatar.cell::reqGiveUp: [5] 
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:15:07 525] - BattleField.cell[4].reqGiveUp playerID[0] 
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:15:07 525] - Avatar.cell::battleEnd: [5]  success:[0]
+   S_DBG    cellapp01 11050 8001  [2018-07-02 23:15:07 526] - Avatar.cell::battleEnd: [6]  success:[1]
+    INFO    cellapp01 11050 8001  [2018-07-02 23:15:07 526] - Spaces::destroySpace: 1.
+   ERROR    cellapp01 11050 8001  [2018-07-02 23:15:07 725] - onLoseWitnesshandler::handle: not found entityID:5.
+   ERROR    cellapp01 11050 8001  [2018-07-02 23:15:07 726] - onLoseWitnesshandler::handle: not found entityID:6.
+   DEBUG    cellapp01 11050 8001  [2018-07-02 23:15:22 530] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
